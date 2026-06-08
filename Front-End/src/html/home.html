@@ -9,9 +9,19 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+      .orbitron {
+        font-family: "Orbitron", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
   </head>
-  <body class="bg-gray-800 text-white">
-    <header class="w-full absolute top-0 left-0 shadow-lg z-50 px-5">
+  <body class="bg-slate-950 text-white orbitron">
+    <header class="w-full absolute top-0 left-0 z-20 px-5">
       <div
         class="w-full xl:w-7xl py-4 mx-auto flex items-center justify-between"
       >
@@ -34,7 +44,11 @@
           </div>
         </div>
         <nav class="w-full flex justify-end gap-x-30 pr-10">
-          <a href="" class="text-2xl hover:text-gray-300 hover:">Build</a>
+          <a
+            href=""
+            class="text-2xl border-b-4 border-cyan-300 hover:text-sky-300 transform duration-300"
+            >Build</a
+          >
           <a href="" class="text-2xl hover:text-gray-300">Testes</a>
           <a href="" class="text-2xl hover:text-gray-300">Combos</a>
         </nav>
@@ -43,10 +57,10 @@
 
     <main class="w-full mt-6">
       <section class="">
-        <div id="hero" class=" w-full h-screen overflow-hidden">
+        <div id="hero" class="w-full h-screen overflow-hidden">
           <!-- Vídeo de fundo -->
           <video
-            class="absolute inset-0 w-full h-full  pt-15 object-cover"
+            class="absolute inset-0 w-full h-full object-cover"
             src="/Front-End/media/videos/Background-Corezen-Home.mp4"
             autoplay
             loop
@@ -92,144 +106,206 @@
         </div>
       </section>
 
-      <div id="conteudo" class="pt-15">
-        <!-- Quem somos -->
-        <section class="w-full py-16">
-          <div
-            class="lg:w-7xl 2xl:w-7xl mx-auto flex flex-col lg:flex-row gap-10 xl:p-0 px-10"
-          >
-            <div class="w-full xl:w-1/2">
-              <img
-                class="rounded-lg shadow-lg"
-                src="https://preview.redd.it/with-victor-gideon-while-we-cannot-yet-confirm-if-he-is-v0-t5hsxbmi6a9g1.png?auto=webp&s=0a4c2dd0699faf4dcf4fc54e8036b9a9d43cc713"
-                alt=""
-              />
-            </div>
-            <div class="w-full xl:w-1/2 gap-4">
-              <div>
-                <h2 class="text-3xl font-bold mb-2">Nossa Equipe</h2>
-              </div>
-              <div class="pb-3">
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Quis, sapiente quaerat. Atque quia quae eum veritatis deleniti
-                  explicabo illum nobis perferendis aspernatur nulla soluta eos,
-                  ipsum nemo quas vel ex.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo
-                  eveniet ea quam odit provident veritatis, sint aut blanditiis
-                  neque exercitationem similique adipisci officia possimus in
-                  dolor sed vero quo quia!
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                  non assumenda quasi consectetur deserunt, exercitationem hic,
-                  quaerat soluta ea cum, doloremque officiis sint modi cumque
-                  et! Ipsa quas debitis delectus.
-                </p>
-              </div>
-              <div>
-                <button
-                  class="bg-red-700 px-4 py-3 rounded-lg hover:bg-red-800"
-                  id="button-banner"
-                >
-                  Solicite nosso apoio
-                </button>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Catálogo -->
+      <div id="" class="">
+        <!-- Aba Build -->
         <section class="w-full md:px-11 md:pb-15">
-          <div class="xl:w-7xl 2xl:w-7xl mx-auto">
-            <div>
-              <h2 class="text-3xl text-center font-bold mb-6">Catálogo</h2>
+          <div class="h-full w-full flex-col gap-8 pt-7">
+            <h1 class="text-4xl pb-4 text-center">Build</h1>
+            <div
+              class="h-full w-full flex flex-col lg:flex-row gap-8 pt-5 justify-center"
+            >
+              <!-- Linha 1 Bloco 1 -->
+              <div
+                class="relative w-64 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
+              >
+                <img
+                  src="/Front-End/media/imgs/thumbs/ryzen-7.png"
+                  alt="Gabinete"
+                  class="w-full object-cover hover:scale-110 transition duration-500"
+                />
+
+                <div class="flex items-center justify-between px-4 py-3">
+                  <span
+                    class="font-bold text-xl flex gap-15 text-white group-hover:text-cyan-300 transition-colors duration-300"
+                    >// Processador
+                  </span>
+                  <span class="group-hover:text-cyan-300 transition-colors duration-300">
+                    <i class="bi bi-arrow-return-right text-xl group-hover:text-cyan-300"></i>
+                  </span>
+                </div>
+
+                <!-- Cantos da borda -->
+                <span
+                  class="absolute top-0 left-0 w-6 h-6 border-t-2 border-l-2 border-white opacity-0 -translate-x-2 -translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+
+                <span
+                  class="absolute top-0 right-0 w-6 h-6 border-t-2 border-r-2 border-white opacity-0 translate-x-2 -translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+
+                <span
+                  class="absolute bottom-0 left-0 w-6 h-6 border-b-2 border-l-2 border-white opacity-0 -translate-x-2 translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+
+                <span
+                  class="absolute bottom-0 right-0 w-6 h-6 border-b-2 border-r-2 border-white opacity-0 translate-x-2 translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+              </div>
+
+              <!-- Linha 1 Bloco 2 -->
+              <div
+                class="relative w-64 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
+              >
+                <img
+                  src="/Front-End/media/imgs/thumbs/B-850F.png"
+                  alt="Gabinete"
+                  class="w-full object-cover hover:scale-110 transition duration-500"
+                />
+
+                <div class="flex items-center justify-between px-4 py-3">
+                  <span
+                    class="font-bold text-xl flex gap-15 text-white group-hover:text-cyan-300 transition-colors duration-300"
+                    >// Placa Mãe
+                  </span>
+                  <span class="group-hover:text-cyan-300 transition-colors duration-300">
+                    <i class="bi bi-arrow-return-right text-xl group-hover:text-cyan-300"></i>
+                  </span>
+                </div>
+
+                <!-- Cantos da borda -->
+                <span
+                  class="absolute top-0 left-0 w-6 h-6 border-t-2 border-l-2 border-white opacity-0 -translate-x-2 -translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+
+                <span
+                  class="absolute top-0 right-0 w-6 h-6 border-t-2 border-r-2 border-white opacity-0 translate-x-2 -translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+
+                <span
+                  class="absolute bottom-0 left-0 w-6 h-6 border-b-2 border-l-2 border-white opacity-0 -translate-x-2 translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+
+                <span
+                  class="absolute bottom-0 right-0 w-6 h-6 border-b-2 border-r-2 border-white opacity-0 translate-x-2 translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+              </div>
+              <!-- Linha 1 Bloco 3 -->
+              <div
+                class="relative w-64 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
+              >
+                <img
+                  src="/Front-End/media/imgs/thumbs/xpg-mem.png"
+                  alt="Gabinete"
+                  class="w-full object-cover hover:scale-110 transition duration-500"
+                />
+
+                <div class="flex items-center justify-between px-4 py-3">
+                  <span
+                    class="font-bold text-xl flex gap-15 text-white group-hover:text-cyan-300 transition-colors duration-300"
+                    >// Memória Ram
+                  </span>
+                  <span class="group-hover:text-cyan-300 transition-colors duration-300">
+                    <i class="bi bi-arrow-return-right text-xl group-hover:text-cyan-300"></i>
+                  </span>
+                </div>
+
+                <!-- Cantos da borda -->
+                <span
+                  class="absolute top-0 left-0 w-6 h-6 border-t-2 border-l-2 border-white opacity-0 -translate-x-2 -translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+
+                <span
+                  class="absolute top-0 right-0 w-6 h-6 border-t-2 border-r-2 border-white opacity-0 translate-x-2 -translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+
+                <span
+                  class="absolute bottom-0 left-0 w-6 h-6 border-b-2 border-l-2 border-white opacity-0 -translate-x-2 translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+
+                <span
+                  class="absolute bottom-0 right-0 w-6 h-6 border-b-2 border-r-2 border-white opacity-0 translate-x-2 translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+              </div>
+              <!-- Linha 1 Bloco 4 -->
+              <div
+                class="relative w-64 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
+              >
+                <img
+                  src="/Front-End/media/imgs/thumbs/rtx-5070.png"
+                  alt="Gabinete"
+                  class="w-full object-cover hover:scale-110 transition duration-500"
+                />
+
+                <div class="flex items-center justify-between px-4 py-3">
+                  <span
+                    class="font-bold text-xl flex gap-15 text-white group-hover:text-cyan-300 transition-colors duration-300"
+                    >// Placa de Vídeo
+                  </span>
+                  <span class="group-hover:text-cyan-300 transition-colors duration-300">
+                    <i class="bi bi-arrow-return-right text-xl group-hover:text-cyan-300"></i>
+                  </span>
+                </div>
+
+                <!-- Cantos da borda -->
+                <span
+                  class="absolute top-0 left-0 w-6 h-6 border-t-2 border-l-2 border-white opacity-0 -translate-x-2 -translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+
+                <span
+                  class="absolute top-0 right-0 w-6 h-6 border-t-2 border-r-2 border-white opacity-0 translate-x-2 -translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+
+                <span
+                  class="absolute bottom-0 left-0 w-6 h-6 border-b-2 border-l-2 border-white opacity-0 -translate-x-2 translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+
+                <span
+                  class="absolute bottom-0 right-0 w-6 h-6 border-b-2 border-r-2 border-white opacity-0 translate-x-2 translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
+                ></span>
+              </div>
             </div>
-            <div class="grid md:grid-cols-3 gap-6">
+
+            <!-- Linha 2 Bloco 1 -->
+            <div
+              class="h-full w-full flex flex-row gap-8 pt-5 pb-5 justify-center 2xl:flex-row md:flex-row sm:flex-col"
+            >
               <div
-                class="bg-gray-900 rounded-lg p-6 flex flex-col items-center text-center hover:shadow-lg hover:shadow-red-600 transition duration-300"
+                class="border-4 border-yellow-400 overflow-hidden sm:self-center"
               >
-                <img
-                  class="w-50 h-35"
-                  src="https://static.wikia.nocookie.net/residentevil/images/c/cd/Garmr_Render.png/revision/latest?cb=20260302052423"
-                  alt="Garmr"
-                />
-                <h3 class="text-lg font-bold mb-2">Code: CM-G-002 (Garmr)</h3>
-                <h2 class="mb-2">Price: $30,000,000~</h2>
-                <p class="text-gray-500">
-                  Product Specifications: Umbrella Corporation's "Cerberus" has
-                  been further enhanced and enlarged, resulting in increased
-                  combat capabilities. It can track and pursue targets at speeds
-                  exceeding 60 mph.
-                </p>
-                <!-- Botão de solicitação -->
-                <div class="flex justify-end p-0 pt-5">
-                  <button
-                    class="btn-redeem text-xl text-gray-500 hover:text-red-500 transition duration-200 flex items-left gap-2"
-                  >
-                    <i class="bi bi-bag-plus-fill"></i
-                    ><span class="redeem-count">0</span>
-                  </button>
-                </div>
+                <a href="https://frieren-anime.jp/character/chara_group1/1-2/"
+                  ><img
+                    src="midia/thumbs/himel.png"
+                    class="hover:scale-110 transition duration-500 bg-gradient-to-t hover:from-cyan-500/75 hover:to-inherit"
+                    alt=""
+                /></a>
               </div>
               <div
-                class="bg-gray-900 rounded-lg p-6 flex flex-col items-center text-center hover:shadow-lg hover:shadow-red-600 transition duration-300"
+                class="border-4 border-yellow-400 overflow-hidden sm:self-center"
               >
-                <img
-                  class="w-50 h-35"
-                  src="https://static.wikia.nocookie.net/residentevil/images/3/36/Licker10.png/revision/latest?cb=20180108064948&path-prefix=pt-br"
-                  alt="Licker"
-                />
-                <h3 class="text-lg font-bold mb-2">
-                  Code: CM-LB-110 (Licker β2)
-                </h3>
-                <h2 class="mb-2">Price: $14,000,000~</h2>
-                <p class="text-gray-500">
-                  Product Specifications: Originally an infection anomaly,
-                  rigorous experimentation revealed the key to activating the
-                  mutation, paving the way for commercialization. Product boasts
-                  enhanced climbing capabilities and possesses sharp claws and a
-                  pointed tongue.
-                </p>
-                <!-- Botão de solicitação -->
-                <div class="flex justify-end p-0 pt-5">
-                  <button
-                    class="btn-redeem text-xl text-gray-500 hover:text-red-500 transition duration-200 flex items-left gap-2"
-                  >
-                    <i class="bi bi-bag-plus-fill"></i
-                    ><span class="redeem-count">0</span>
-                  </button>
-                </div>
+                <a href="https://frieren-anime.jp/character/chara_group1/1-3/"
+                  ><img
+                    src=""
+                    class="hover:scale-110 transition duration-500 bg-gradient-to-t hover:from-cyan-500/75 hover:to-inherit"
+                    alt=""
+                /></a>
               </div>
               <div
-                class="bg-gray-900 rounded-lg p-6 mb-5 md:mb-0 text-center flex flex-col items-center hover:shadow-lg hover:shadow-red-600 transition duration-300"
+                class="border-4 border-yellow-400 overflow-hidden sm:self-center"
               >
-                <img
-                  class="w-50 h-30"
-                  src="https://static.wikia.nocookie.net/residentevil/images/5/5a/Plant_43_%28REQ%29_Render.png/revision/latest/scale-to-width-down/1200?cb=20260308164839"
-                  alt="Plant"
-                />
-                <h3 class="text-lg font-bold mb-2 mt-5">
-                  Code: CX-P-001 (Plant)
-                </h3>
-                <h2 class="mb-2">Price: $100,000,000~</h2>
-                <p class="text-gray-500">
-                  Product Specifications: A prototype bioweapon developed from a
-                  viral plant infection found in the Arklay Mountains and
-                  Raccoon City.
-                </p>
-                <!-- Botão de solicitação -->
-                <div class="flex justify-end p-0 pt-5">
-                  <button
-                    class="btn-redeem text-xl text-gray-500 hover:text-red-500 transition duration-200 flex items-center gap-2"
-                  >
-                    <i class="bi bi-bag-plus-fill"></i
-                    ><span class="redeem-count">0</span>
-                  </button>
-                </div>
+                <a href="https://frieren-anime.jp/character/chara_group1/1-4/"
+                  ><img
+                    class="hover:scale-110 transition duration-500 bg-gradient-to-t hover:from-cyan-500/75 hover:to-inherit"
+                    src="midia/thumbs/anao.png"
+                    alt=""
+                /></a>
               </div>
+            </div>
+            <div
+              class="flex text-cyan-300 text-lg justify-around pb-5 2xl:justify-center xl:justify-center lg:justify-center lg:gap-76"
+            >
+              <p>...</p>
+              <p>...</p>
+              <p>...</p>
             </div>
           </div>
         </section>
@@ -326,6 +402,12 @@
     <script>
       function revelarSite() {
         const hero = document.getElementById("hero");
+        const header = document.querySelector("header");
+
+        // Fixa o header no lugar antes da animação
+        header.style.position = "fixed";
+        header.style.top = "0";
+        header.style.display = "none";
 
         hero.style.transition =
           "transform 1s ease-in-out, opacity 0.8s ease-in-out";
