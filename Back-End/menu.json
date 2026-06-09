@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Builds",
+    "link": "builds.html",
+    "active": true,
+    "external": false,
+    "icon": "bi-house"
+  },
+  {
+    "id": 2,
+    "title": "Testes",
+    "link": "testes.html",
+    "active": true,
+    "external": false,
+    "icon": "bi-info-circle"
+  },
+  {
+    "id": 3,
+    "title": "Combos",
+    "link": "combos.html",
+    "active": true,
+    "external": true,
+    "icon": "bi-bag"
+  }
+]

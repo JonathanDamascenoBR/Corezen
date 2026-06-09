@@ -9,6 +9,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css"
+    />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
 
@@ -21,7 +25,7 @@
     </style>
   </head>
   <body class="bg-slate-950 text-white orbitron">
-    <header class="w-full absolute top-0 left-0 z-20">
+    <header class="w-full absolute top-0 left-0 z-60">
       <!-- Barra superior -->
       <div class="w-full h-10 bg-zinc-800 flex">
         <!-- Div menu esquerda -->
@@ -29,15 +33,11 @@
           <!-- Espaço para novidades -->
         </div>
         <!-- Div menu direita -->
-        <div class="w-1/2 pl-40 flex justify-end px-10 gap-6 self-center">
-          <div>
-            <a href=""
-              ><img
-                src="https://assets.corsair.com/image/upload/f_auto,q_auto/akamai/content/images/header/flags/br-flag.svg"
-                alt=""
-            /></a>
+        <div class="w-1/2 flex justify-end px-10 gap-6 self-center">
+          <div class="">
+            <a href=""><span class="fi fi-br text-xl"></span></a>
           </div>
-          <nav class="">
+          <nav1 class="">
             <ul class="flex gap-6">
               <li
                 class="border-l-2 border-r-2 border-gray-600 px-5 hover:underline"
@@ -48,18 +48,31 @@
                 <a href="">Entrar</a>
               </li>
             </ul>
-          </nav>
+          </nav1>
         </div>
       </div>
       <div
-        class="w-full xl:w-7xl py-4 mx-auto flex items-center justify-between px-5"
+        class="w-full xl:w-7xl py-4 mx-auto flex items-center xl:justify-between"
       >
-        <div class="group flex items-center cursor-pointer w-max p-2">
+        <!-- Ícone -->
+        <div class="flex px-10">
+          <button
+            id="menu-toggle"
+            class="flex md:hidden hover:cursor-pointer hover:scale-120 duration-200 hover:text-cyan-300"
+          >
+            <i class="bi bi-list text-5xl pr-7"></i>
+          </button>
+        </div>
+
+        <!-- Menu -->
+        <div
+          class="md:w-max w-full group flex items-center justify-center cursor-pointer pt-2 md:pr-0 pr-40"
+        >
           <a href="home.html"
             ><img
               src="/Front-End/media/imgs/LOGO BRANCO.png"
               alt="Logo"
-              class="w-16 h-16 object-contain relative z-10 transition-transform duration-300 group-hover:scale-105"
+              class="w-16 h-16 object-contain relative transition-transform duration-300 group-hover:scale-105"
           /></a>
 
           <div
@@ -72,18 +85,25 @@
             />
           </div>
         </div>
-        <nav class="w-full flex justify-end gap-x-30 pr-10">
-          <a
-            href=""
-            class="text-2xl hover:text-sky-300 transform duration-300"
-            >Build</a
-          >
-          <a href="" class="text-2xl hover:text-gray-300">Testes</a>
-          <a href="" class="text-2xl hover:text-gray-300">Combos</a>
-        </nav>
+        <div class="mx-auto hidden md:flex w-full justify-end gap-30 pr-10">
+          <nav class="flex gap-10 text-2xl"></nav>
+        </div>
       </div>
     </header>
 
+    <!-- Menu Mobile -->
+    <div
+      id="menu-mobile"
+      class="mt-36 h-24 content-center fixed top-0 left-0 w-full z-50 -translate-y-full invisible transition-transform duration-300 ease-in-out"
+    >
+      <nav class="flex flex-row gap-16 text-xl justify-center"></nav>
+    </div>
+
+    <!-- Overlay -->
+    <div
+      id="overlay"
+      class="fixed top-0 left-0 w-full bg-black/50 z-30 inset-0 opacity-0 invisible transition-all duration-300"
+    ></div>
     <main class="w-full mt-6">
       <section class="">
         <div id="hero" class="w-full h-screen overflow-hidden">
@@ -491,8 +511,10 @@
         </section>
       </div>
     </main>
-    <footer class="bg-gray-950 text-gray-400 pt-16 pb-8">
-      <div class="md:max-w-7xl mx-auto px-10 grid md:grid-cols-4 gap-10">
+    <footer class="bg-slate-950 text-gray-400 pt-16 pb-8">
+      <div
+        class="w-full max-w-7xl py-4 px-11 xl:px-16 mx-auto grid sm:grid-cols-3 md:grid-cols-3 gap-10"
+      >
         <!-- Logo + descrição -->
         <div>
           <h2 class="text-2xl font-bold text-white mb-4">
@@ -502,81 +524,78 @@
               alt=""
             />
           </h2>
-          <p class="text-gray-500 mb-6">Hardware - Benchmarks - Reviews</p>
+          <p class="text-w mb-6">
+            Hardware - Benchmarks  - Reviews
+          </p>
 
           <!-- Redes sociais -->
           <div class="flex space-x-4">
             <a
               href="#"
-              class="w-10 h-10 bg-gray-800 rounded-full hover:bg-blue-600 transition flex items-center justify-center"
+              class=" hover:text-blue-800 text-white transition flex items-center justify-center"
             >
               <!-- Facebook -->
-              <i class="bi bi-facebook"></i>
+              <i class="bi bi-facebook text-4xl"></i>
             </a>
 
             <a
               href="#"
-              class="w-10 h-10 bg-gray-800 rounded-full hover:bg-blue-400 transition flex items-center justify-center"
+              class="hover:text-blue-400 text-white transition flex items-center justify-center"
             >
               <!-- Twitter/X -->
-              <i class="bi bi-twitter-x"></i>
+              <i class="bi bi-twitter-x text-4xl"></i>
             </a>
 
             <a
               href="#"
-              class="w-10 h-10 bg-gray-800 rounded-full hover:bg-pink-500 transition flex items-center justify-center"
+              class="hover:text-pink-500 text-white transition flex items-center justify-center"
             >
               <!-- Instagram -->
-              <i class="bi bi-instagram"></i>
+              <i class="bi bi-instagram text-4xl"></i>
             </a>
           </div>
         </div>
 
         <!-- Menu 1 -->
-        <div class="px-40">
-          <h3 class="text-white font-semibold mb-4">Menus</h3>
+        <div class="w-fit md:mx-auto text-left text-xl md:translate-x-12">
+          <h3 class="text-white font-semibold mb-4">Navegação</h3>
           <ul class="space-y-2">
-            <li><a href="#" class="text-cyan-300 transition">Home</a></li>
             <li>
-              <a href="#" class="text-cyan-300 transition">Build</a>
+              <a href="#" class="hover:text-white text-sky-300 transition">Home</a></li>
+            <li>
+              <a href="#" class="hover:text-white text-sky-300 transition">Sobre</a>
             </li>
             <li>
-              <a href="#" class="text-cyan-300 transition">Testes</a>
+              <a href="#" class="hover:text-white text-sky-300 transition">Serviços</a>
             </li>
             <li>
-              <a href="#" class="text-cyan-300 transition">Combos</a>
-            </li>
-            <li>
-              <a href="#" class="text-cyan-300 transition">Perfil</a>
+              <a href="#" class="hover:text-white text-sky-300 transition">Contato</a>
             </li>
           </ul>
         </div>
 
         <!-- Menu 2 -->
-        <div class="ml-80">
-          <h3 class="text-white w-24 font-semibold mb-4 flex flex-col">
-            Sobre Nós
-          </h3>
+        <div class="w-fit md:ml-auto text-left text-xl">
+          <h3 class="text-white font-semibold mb-4">Sobre Nós</h3>
           <ul class="space-y-2">
             <li>
-              <a href="#" class="hover:text-blue-400 transition">Carreiras</a>
+              <a href="#" class="hover:text-white text-sky-300 transition">Carreiras</a>
             </li>
-            <li><a href="#" class="hover:text-blue-400 transition">Blog</a></li>
+            <li><a href="#" class="hover:text-white text-sky-300 transition">Blog</a></li>
             <li>
-              <a href="#" class="hover:text-blue-400 transition">Privacidade</a>
+              <a href="#" class="hover:text-white text-sky-300 transition">Privacidade</a>
             </li>
             <li>
-              <a href="#" class="hover:text-blue-400 transition">Termos</a>
+              <a href="#" class="hover:text-white text-sky-300 transition">Termos</a>
             </li>
           </ul>
         </div>
       </div>
 
       <!-- Divider -->
-      <div
-        class="border-t border-gray-800 mt-12 pt-6 text-center text-gray-600"
-      >
-        <p>&copy; 2026 Umbrella Corp. Todos os direitos reservados.</p>
+      <div class="border-t border-gray-800 mt-12 pt-6 text-center text-white">
+        <p class="text-lg">Construído por apaixonados por tecnologia</p>
+        <p class="text-sm">&copy; 2026 Corezen. Todos os direitos reservados.</p>
       </div>
     </footer>
     <script src="../js/script.js"></script>
