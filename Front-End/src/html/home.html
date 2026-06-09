@@ -75,7 +75,7 @@
         <nav class="w-full flex justify-end gap-x-30 pr-10">
           <a
             href=""
-            class="text-2xl border-b-4 border-cyan-300 hover:text-sky-300 transform duration-300"
+            class="text-2xl hover:text-sky-300 transform duration-300"
             >Build</a
           >
           <a href="" class="text-2xl hover:text-gray-300">Testes</a>
@@ -485,12 +485,8 @@
 
           <!-- 2 Blocos -->
           <div class="w-full w-7xl flex py-20">
-            <div class="w-1/2 flex">
-              
-            </div>
-            <div class="w-1/2 flex">
-              
-            </div>
+            <div class="w-1/2 flex"></div>
+            <div class="w-1/2 flex"></div>
           </div>
         </section>
       </div>
@@ -583,27 +579,6 @@
         <p>&copy; 2026 Umbrella Corp. Todos os direitos reservados.</p>
       </div>
     </footer>
-    <script>
-      function revelarSite() {
-        const hero = document.getElementById("hero");
-        const header = document.querySelector("header");
-
-        // Fixa o header no lugar antes da animação
-        header.style.position = "fixed";
-        header.style.top = "0";
-        header.style.display = "none";
-
-        hero.style.transition =
-          "transform 1s ease-in-out, opacity 0.8s ease-in-out";
-        hero.style.transform = "translateY(-100%)";
-        hero.style.opacity = "0";
-
-        // Remove o hero depois da animação terminar
-        setTimeout(() => {
-          hero.style.display = "none";
-        }, 1000);
-      }
-    </script>
     <script src="../js/script.js"></script>
   </body>
 </html>
