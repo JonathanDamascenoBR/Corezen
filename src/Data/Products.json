@@ -1,0 +1,609 @@
+[
+  {
+    "id": 1,
+    "marca": "Intel",
+    "modelo": "Core i5-12400",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Processador",
+    "valor": 789.99,
+    "pontuacao": 10
+  },
+  {
+    "id": 2,
+    "marca": "Intel",
+    "modelo": "Core i5-14600K",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Processador",
+    "valor": 1599.99,
+    "pontuacao": 20
+  },
+  {
+    "id": 3,
+    "marca": "Intel",
+    "modelo": "Core i9-14900K",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Processador",
+    "valor": 2899.0,
+    "pontuacao": 25
+  },
+  {
+    "id": 4,
+    "marca": "Intel",
+    "modelo": "Core i5-1350",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Processador",
+    "valor": 1359.99,
+    "pontuacao": 10
+  },
+  {
+    "id": 5,
+    "marca": "Intel",
+    "modelo": "Core Ultra 9 285",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Processador",
+    "valor": 2789.99,
+    "pontuacao": 25
+  },
+
+  {
+    "id": 6,
+    "marca": "AMD",
+    "modelo": "Ryzen 5 5600",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Processador",
+    "valor": 988.8,
+    "pontuacao": 10
+  },
+  {
+    "id": 7,
+    "marca": "AMD",
+    "modelo": "Ryzen 7 7800X3D",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Processador",
+    "valor": 1998.0,
+    "pontuacao": 20
+  },
+  {
+    "id": 8,
+    "marca": "AMD",
+    "modelo": "Ryzen 9 9950X3",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Processador",
+    "valor": 6899.99,
+    "pontuacao": 25
+  },
+  {
+    "id": 9,
+    "marca": "AMD",
+    "modelo": "Ryzen 7 7700",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Processador",
+    "valor": 1649.0,
+    "pontuacao": 10
+  },
+  {
+    "id": 10,
+    "marca": "AMD",
+    "modelo": "Ryzen 9 9950",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Processador",
+    "valor": 3299.0,
+    "pontuacao": 25
+  },
+  {
+    "id": 11,
+    "marca": "Intel",
+    "modelo": "ASUS Prime B660M-A",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "PlacaMãe",
+    "valor": 899.99,
+    "pontuacao": 10
+  },
+  {
+    "id": 12,
+    "marca": "Intel",
+    "modelo": "MSI MAG Z790 Tomahawk",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Placa Mãe",
+    "valor": 1226.99,
+    "pontuacao": 20
+  },
+  {
+    "id": 13,
+    "marca": "Intel",
+    "modelo": "ASUS ROG Maximus Z890 Hero",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Placa Mãe",
+    "valor": 5539.99,
+    "pontuacao": 25
+  },
+  {
+    "id": 14,
+    "marca": "Intel",
+    "modelo": "Gigabyte B760 Aorus Elite",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Placa Mãe",
+    "valor": 989.99,
+    "pontuacao": 10
+  },
+  {
+    "id": 15,
+    "marca": "Intel",
+    "modelo": "ASRock Z890 Taichi",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Placa Mãe",
+    "valor": 3399.99,
+    "pontuacao": 25
+  },
+
+  {
+    "id": 16,
+    "marca": "AMD",
+    "modelo": "Gigabyte B550M DS3H",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Placa Mãe",
+    "valor": 619.99,
+    "pontuacao": 10
+  },
+  {
+    "id": 17,
+    "marca": "AMD",
+    "modelo": "MSI MAG B650 Tomahawk",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Placa Mãe",
+    "valor": 1832.99,
+    "pontuacao": 20
+  },
+  {
+    "id": 18,
+    "marca": "AMD",
+    "modelo": "ASUS ROG Crosshair X870E Hero",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Placa Mãe",
+    "valor": 12011.95,
+    "pontuacao": 25
+  },
+  {
+    "id": 19,
+    "marca": "AMD",
+    "modelo": "ASRock B650 Pro RS",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Placa Mãe",
+    "valor": 1089.99,
+    "pontuacao": 10
+  },
+  {
+    "id": 20,
+    "marca": "AMD",
+    "modelo": "Gigabyte X870E Aorus Master",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Placa Mãe",
+    "valor": 5299.99,
+    "pontuacao": 25
+  },
+  {
+    "id": 21,
+    "marca": "Corsair",
+    "modelo": "Vengeance LPX 16GB DDR4 3200MHz",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Mémoria Ram",
+    "valor": 780.0,
+    "pontuacao": 10
+  },
+  {
+    "id": 22,
+    "marca": "Kingston",
+    "modelo": "Fury Beast 32GB DDR5 5600MHz",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Mémoria Ram",
+    "valor": 3429.9,
+    "pontuacao": 20
+  },
+  {
+    "id": 23,
+    "marca": "G.Skill",
+    "modelo": "Trident Z5 RGB 64GB DDR5 7200MHz",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Mémoria Ram",
+    "valor": 12599.99,
+    "pontuacao": 25
+  },
+  {
+    "id": 24,
+    "marca": "Crucial",
+    "modelo": "Pro 32GB DDR5 5600MHz",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Mémoria Ram",
+    "valor": 2798.0,
+    "pontuacao": 10
+  },
+  {
+    "id": 25,
+    "marca": "Corsair",
+    "modelo": "Dominator Titanium 96GB DDR5 6600MHz",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Mémoria Ram",
+    "valor": 12900.0,
+    "pontuacao": 25
+  },
+
+  {
+    "id": 26,
+    "marca": "Kingston",
+    "modelo": "Fury Renegade 16GB DDR4 3600MHz",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Mémoria Ram",
+    "valor": 697.0,
+    "pontuacao": 10
+  },
+  {
+    "id": 27,
+    "marca": "TeamGroup",
+    "modelo": "T-Force Delta RGB 32GB DDR5 6000MHz",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Mémoria Ram",
+    "valor": 4199.99,
+    "pontuacao": 20
+  },
+  {
+    "id": 28,
+    "marca": "ADATA",
+    "modelo": "XPG Lancer RGB 64GB DDR5 6400MHz",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Mémoria Ram",
+    "valor": 6999.99,
+    "pontuacao": 25
+  },
+  {
+    "id": 29,
+    "marca": "Kingston",
+    "modelo": "ValueRAM 32GB DDR5 5200MHz",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Mémoria Ram",
+    "valor": 3399.9,
+    "pontuacao": 10
+  },
+  {
+    "id": 30,
+    "marca": "G.Skill",
+    "modelo": "Ripjaws S5 96GB DDR5 6400MHz",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Mémoria Ram",
+    "valor": 5599.0,
+    "pontuacao": 25
+  },
+
+  {
+    "id": 31,
+    "marca": "AMD",
+    "modelo": "Radeon RX 7600 8GB",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Placa de Vídeo",
+    "valor": 2069.99,
+    "pontuacao": 10
+  },
+  {
+    "id": 32,
+    "marca": "NVIDIA",
+    "modelo": "GeForce RTX 5070 12GB",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Placa de Vídeo",
+    "valor": 6000.0,
+    "pontuacao": 20
+  },
+  {
+    "id": 33,
+    "marca": "NVIDIA",
+    "modelo": "GeForce RTX 5090 32GB",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Placa de Vídeo",
+    "valor": 22999.9,
+    "pontuacao": 25
+  },
+  {
+    "id": 34,
+    "marca": "Intel",
+    "modelo": "Arc B580 12GB",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Placa de Vídeo",
+    "valor": 2189.9,
+    "pontuacao": 10
+  },
+  {
+    "id": 35,
+    "marca": "NVIDIA",
+    "modelo": "RTX 6000 Ada",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Placa de Vídeo",
+    "valor": 96857.1,
+    "pontuacao": 25
+  },
+
+  {
+    "id": 36,
+    "marca": "NVIDIA",
+    "modelo": "GeForce RTX 4060 8GB",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Placa de Vídeo",
+    "valor": 3362.0,
+    "pontuacao": 10
+  },
+  {
+    "id": 37,
+    "marca": "AMD",
+    "modelo": "Radeon RX 9070 XT 16GB",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Placa de Vídeo",
+    "valor": 4889.99,
+    "pontuacao": 20
+  },
+  {
+    "id": 38,
+    "marca": "AMD",
+    "modelo": "Radeon RX 7900 XTX 24GB",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Placa de Vídeo",
+    "valor": 7239.0,
+    "pontuacao": 25
+  },
+  {
+    "id": 39,
+    "marca": "Intel",
+    "modelo": "Arc A770 16GB",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Placa de Vídeo",
+    "valor": 2446.0,
+    "pontuacao": 10
+  },
+  {
+    "id": 40,
+    "marca": "AMD",
+    "modelo": "Radeon Pro W7900",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Placa de Vídeo",
+    "valor": 27000.0,
+    "pontuacao": 25
+  },
+
+  {
+    "id": 51,
+    "marca": "Kingston",
+    "modelo": "NV3 500GB",
+    "faixaPreco": "baixo",
+    "categoria": "Armazenamento",
+    "valor": 789.99
+  },
+  {
+    "id": 52,
+    "marca": "WD",
+    "modelo": "Blue SN580 1TB",
+    "faixaPreco": "baixo",
+    "categoria": "Armazenamento",
+    "valor": 599.99
+  },
+  {
+    "id": 53,
+    "marca": "Crucial",
+    "modelo": "P3 Plus 1TB",
+    "faixaPreco": "medio",
+    "categoria": "Armazenamento",
+    "valor": 2811.83
+  },
+  {
+    "id": 54,
+    "marca": "Samsung",
+    "modelo": "990 EVO Plus 1TB",
+    "faixaPreco": "medio",
+    "categoria": "Armazenamento",
+    "valor": 1985.0
+  },
+  {
+    "id": 55,
+    "marca": "WD",
+    "modelo": "Black SN850X 2TB",
+    "faixaPreco": "alto",
+    "categoria": "Armazenamento",
+    "valor": 2884.0
+  },
+  {
+    "id": 56,
+    "marca": "Samsung",
+    "modelo": "9100 PRO 2TB",
+    "faixaPreco": "alto",
+    "categoria": "Armazenamento",
+    "valor": 3925.0
+  },
+
+  {
+    "id": 57,
+    "marca": "Corsair",
+    "modelo": "CV550 550W",
+    "faixaPreco": "baixo",
+    "categoria": "Fonte",
+    "valor": 449.0
+  },
+  {
+    "id": 58,
+    "marca": "MSI",
+    "modelo": "MAG A650BN 650W",
+    "faixaPreco": "baixo",
+    "categoria": "Fonte",
+    "valor": 299.99
+  },
+
+  {
+    "id": 59,
+    "marca": "Cooler Master",
+    "modelo": "MWE Gold 750 V2",
+    "faixaPreco": "medio",
+    "categoria": "Fonte",
+    "valor": 799.99
+  },
+  {
+    "id": 60,
+    "marca": "Corsair",
+    "modelo": "RM850x 850W",
+    "faixaPreco": "medio",
+    "categoria": "Fonte",
+    "valor": 1200.0
+  },
+  {
+    "id": 61,
+    "marca": "Seasonic",
+    "modelo": "Vertex GX-1000 1000W",
+    "faixaPreco": "alto",
+    "categoria": "Fonte",
+    "valor": 1589.99
+  },
+  {
+    "id": 62,
+    "marca": "ASUS",
+    "modelo": "ROG Thor 1200W Platinum",
+    "faixaPreco": "alto",
+    "categoria": "Fonte",
+    "valor": 2469.9
+  },
+
+  {
+    "id": 63,
+    "marca": "Mancer",
+    "modelo": "Goblin",
+    "faixaPreco": "baixo",
+    "categoria": "Gabinetes",
+    "valor": 349.99
+  },
+  {
+    "id": 64,
+    "marca": "Pichau",
+    "modelo": "HX300 Glass",
+    "faixaPreco": "baixo",
+    "categoria": "Gabinetes",
+    "valor": 230.0
+  },
+  {
+    "id": 65,
+    "marca": "NZXT",
+    "modelo": "H5 Flow",
+    "faixaPreco": "medio",
+    "categoria": "Gabinetes",
+    "valor": 853.9
+  },
+  {
+    "id": 66,
+    "marca": "Corsair",
+    "modelo": "4000D Airflow",
+    "faixaPreco": "medio",
+    "categoria": "Gabinetes",
+    "valor": 609.99
+  },
+  {
+    "id": 67,
+    "marca": "Lian Li",
+    "modelo": "O11 Dynamic EVO",
+    "faixaPreco": "alto",
+    "categoria": "Gabinetes",
+    "valor": 1399.99
+  },
+  {
+    "id": 68,
+    "marca": "Hyte",
+    "modelo": "Y70 Touch",
+    "faixaPreco": "alto",
+    "categoria": "Gabinetes",
+    "valor": 3679.99
+  },
+
+  {
+    "id": 69,
+    "marca": "Cooler Master",
+    "modelo": "Hyper 212 Black",
+    "tipo": "air",
+    "faixaPreco": "baixo",
+    "valor": 226.19
+  },
+  {
+    "id": 70,
+    "marca": "DeepCool",
+    "modelo": "AK400",
+    "tipo": "air",
+    "faixaPreco": "baixo",
+    "categoria": "Cooler",
+    "valor": 154.9
+  },
+  {
+    "id": 71,
+    "marca": "Noctua",
+    "modelo": "NH-D15",
+    "tipo": "air",
+    "faixaPreco": "alto",
+    "categoria": "Cooler",
+    "valor": 1200.0
+  },
+  {
+    "id": 72,
+    "marca": "Cooler Master",
+    "modelo": "MasterLiquid 240L Core",
+    "tipo": "water",
+    "faixaPreco": "medio",
+    "categoria": "Cooler",
+    "valor": 1049.82
+  },
+  {
+    "id": 73,
+    "marca": "Corsair",
+    "modelo": "iCUE H100i RGB Elite",
+    "tipo": "water",
+    "faixaPreco": "alto",
+    "categoria": "Cooler",
+    "valor": 2149.99
+  },
+  {
+    "id": 74,
+    "marca": "NZXT",
+    "modelo": "Kraken Elite 360",
+    "tipo": "water",
+    "faixaPreco": "alto",
+    "categoria": "Cooler",
+    "valor": 4359.99
+  }
+]

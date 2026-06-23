@@ -1,0 +1,32 @@
+[
+    {
+        "url": "/",
+        "label": "",
+        "customClass": ""
+    },
+    {
+        "url": "/testes",
+        "label": "Testes",
+        "customClass": ""
+    },
+    {
+        "url": "/builds",
+        "label": "Builds",
+        "customClass": ""
+    },
+    {
+        "url": "/combos",
+        "label": "Combos",
+        "customClass": ""
+    },
+    {
+        "url": "/testesGame",
+        "label": "Testes de Jogos",
+        "customClass": ""
+    },
+    {
+        "url": "/testesDesemp",
+        "label": "Testes de Desempenho",
+        "customClass": ""
+    }
+]
