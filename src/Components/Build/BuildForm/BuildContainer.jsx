@@ -1,9 +1,31 @@
+import { useState } from "react"
 import BuildRow from "../../Build/BuildForm/BuildRow"
 import productList from "../../../Data/Products.json"
+import BuildFooter from "./BuildFooter"
 
 function BuildContainerJD() {
 
     const categorias = Object.groupBy(productList, (p) => p.categoria)
+
+    const [selecionados, setSelecionados] = useState({})
+
+    const handleSelecionarPeca = (nomeCategoria, produtoObj) => {
+        setSelecionados((prev) => ({ ...prev, [nomeCategoria]: produtoObj }))
+    }
+
+    const listaDeSelecinados = Object.values(selecionados)
+
+    const consumoTotal = listaDeSelecinados.reduce((acc, item) => acc + (item?.consumo || 0), 0)
+    const precoTotal = listaDeSelecinados.reduce((acc, item) => acc + (item.valor || 0), 0)
+
+    const handleSalvar = () => {
+        console.log("Build Salvar!", {
+            pecas: selecionados,
+            consumoTotal,
+            precoTotal
+        })
+        alert(`Build salva com sucesso! Total: R$ ${precoTotal.toFixed(2)}`)
+    }
 
     return <div className="w-full xl:w-2/3 flex flex-col justify-center items-center mt-32">
         <h2 className="text-3xl text-white">Monte sua própria configuração</h2>
@@ -19,9 +41,14 @@ function BuildContainerJD() {
                         key={index}
                         categoria={categoria}
                         item={item}
+                        onSelectProduct={(prod) => handleSelecionarPeca(categoria, prod)}
                     />
                 )}
             </div>
+            <BuildFooter
+                consumo={consumoTotal}
+                preco={precoTotal}
+                onSalvar={handleSalvar} />
 
         </div>
     </div>

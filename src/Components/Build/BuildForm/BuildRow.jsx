@@ -1,12 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-function BuildRowJD({ categoria, item }) {
+function BuildRowJD({ categoria, item, onSelectProduct }) {
 
-    const [product, setProduct] = useState(item[0].id);
+    const [product, setProduct] = useState(item[0]?.id || "")
 
     const produtoSelecionado = item.find(
         (produto) => String(produto.id) === String(product)
     );
+
+    useEffect(() => {
+        if (produtoSelecionado && onSelectProduct) {
+            onSelectProduct(produtoSelecionado);
+        }
+    }, [product]);
 
     const handleSelectChange = (e) => {
         setProduct(e.target.value);
@@ -26,7 +32,7 @@ function BuildRowJD({ categoria, item }) {
                 </select>
             </div>
 
-            <h3 className="text-right">R$ {produtoSelecionado?.valor}</h3>
+            <h3 className="text-right">R$ {produtoSelecionado?.valor ? produtoSelecionado.valor.toFixed(2) : "0.00"}</h3>
         </>
     );
 }

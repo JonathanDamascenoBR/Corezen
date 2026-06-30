@@ -7,7 +7,8 @@
     "faixaPreco": "baixo",
     "categoria": "Processador",
     "valor": 789.99,
-    "pontuacao": 10
+    "pontuacao": 10,
+    "consumo": 45
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "faixaPreco": "medio",
     "categoria": "Processador",
     "valor": 1599.99,
-    "pontuacao": 20
+    "pontuacao": 20,
+    "consumo": 65
   },
   {
     "id": 3,
@@ -27,7 +29,9 @@
     "faixaPreco": "alto",
     "categoria": "Processador",
     "valor": 2899.0,
-    "pontuacao": 25
+    "pontuacao": 25,
+    "consumo": 125
+    }
   },
   {
     "id": 4,
@@ -37,7 +41,8 @@
     "faixaPreco": "baixo",
     "categoria": "Processador",
     "valor": 1359.99,
-    "pontuacao": 10
+    "pontuacao": 10,
+    "consumo": 45
   },
   {
     "id": 5,
@@ -47,7 +52,8 @@
     "faixaPreco": "alto",
     "categoria": "Processador",
     "valor": 2789.99,
-    "pontuacao": 25
+    "pontuacao": 25,
+    "consumo": 125
   },
 
   {
@@ -58,7 +64,8 @@
     "faixaPreco": "baixo",
     "categoria": "Processador",
     "valor": 988.8,
-    "pontuacao": 10
+    "pontuacao": 10,
+    "consumo": 45
   },
   {
     "id": 7,
@@ -68,7 +75,8 @@
     "faixaPreco": "medio",
     "categoria": "Processador",
     "valor": 1998.0,
-    "pontuacao": 20
+    "pontuacao": 20,
+    "consumo": 65
   },
   {
     "id": 8,
@@ -78,7 +86,8 @@
     "faixaPreco": "alto",
     "categoria": "Processador",
     "valor": 6899.99,
-    "pontuacao": 25
+    "pontuacao": 25,
+    "consumo": 125
   },
   {
     "id": 9,
@@ -88,7 +97,8 @@
     "faixaPreco": "baixo",
     "categoria": "Processador",
     "valor": 1649.0,
-    "pontuacao": 10
+    "pontuacao": 10,
+    "consumo": 45
   },
   {
     "id": 10,
@@ -98,7 +108,8 @@
     "faixaPreco": "alto",
     "categoria": "Processador",
     "valor": 3299.0,
-    "pontuacao": 25
+    "pontuacao": 25,
+    "consumo": 125
   },
   {
     "id": 11,
@@ -108,7 +119,8 @@
     "faixaPreco": "baixo",
     "categoria": "Placa Mãe",
     "valor": 899.99,
-    "pontuacao": 10
+    "pontuacao": 10,
+    "consumo": 40
   },
   {
     "id": 12,
@@ -118,7 +130,8 @@
     "faixaPreco": "medio",
     "categoria": "Placa Mãe",
     "valor": 1226.99,
-    "pontuacao": 20
+    "pontuacao": 20,
+    "consumo": 55
   },
   {
     "id": 13,
@@ -128,7 +141,8 @@
     "faixaPreco": "alto",
     "categoria": "Placa Mãe",
     "valor": 5539.99,
-    "pontuacao": 25
+    "pontuacao": 25,
+    "consumo": 75
   },
   {
     "id": 14,
@@ -138,7 +152,8 @@
     "faixaPreco": "baixo",
     "categoria": "Placa Mãe",
     "valor": 989.99,
-    "pontuacao": 10
+    "pontuacao": 10,
+    "consumo": 40
   },
   {
     "id": 15,
@@ -148,7 +163,8 @@
     "faixaPreco": "alto",
     "categoria": "Placa Mãe",
     "valor": 3399.99,
-    "pontuacao": 25
+    "pontuacao": 25,
+    "consumo": 75
   },
 
   {
@@ -159,7 +175,8 @@
     "faixaPreco": "baixo",
     "categoria": "Placa Mãe",
     "valor": 619.99,
-    "pontuacao": 10
+    "pontuacao": 10,
+    "consumo": 40
   },
   {
     "id": 17,
@@ -169,7 +186,8 @@
     "faixaPreco": "medio",
     "categoria": "Placa Mãe",
     "valor": 1832.99,
-    "pontuacao": 20
+    "pontuacao": 20,
+    "consumo": 55
   },
   {
     "id": 18,
@@ -179,7 +197,8 @@
     "faixaPreco": "alto",
     "categoria": "Placa Mãe",
     "valor": 12011.95,
-    "pontuacao": 25
+    "pontuacao": 25,
+    "consumo": 75
   },
   {
     "id": 19,
@@ -189,7 +208,8 @@
     "faixaPreco": "baixo",
     "categoria": "Placa Mãe",
     "valor": 1089.99,
-    "pontuacao": 10
+    "pontuacao": 10,
+    "consumo": 40
   },
   {
     "id": 20,
@@ -199,7 +219,8 @@
     "faixaPreco": "alto",
     "categoria": "Placa Mãe",
     "valor": 5299.99,
-    "pontuacao": 25
+    "pontuacao": 25,
+    "consumo": 75
   },
   {
     "id": 21,
@@ -311,7 +332,8 @@
     "faixaPreco": "baixo",
     "categoria": "Placa de Vídeo",
     "valor": 2069.99,
-    "pontuacao": 10
+    "pontuacao": 10,
+    "consumo": 75
   },
   {
     "id": 32,
@@ -321,7 +343,8 @@
     "faixaPreco": "medio",
     "categoria": "Placa de Vídeo",
     "valor": 6000.0,
-    "pontuacao": 20
+    "pontuacao": 20,
+    "consumo": 170
   },
   {
     "id": 33,
@@ -331,7 +354,8 @@
     "faixaPreco": "alto",
     "categoria": "Placa de Vídeo",
     "valor": 22999.9,
-    "pontuacao": 25
+    "pontuacao": 25,
+    "consumo": 280
   },
   {
     "id": 34,
@@ -341,7 +365,8 @@
     "faixaPreco": "baixo",
     "categoria": "Placa de Vídeo",
     "valor": 2189.9,
-    "pontuacao": 10
+    "pontuacao": 10,
+    "consumo": 75
   },
   {
     "id": 35,
@@ -351,7 +376,8 @@
     "faixaPreco": "alto",
     "categoria": "Placa de Vídeo",
     "valor": 96857.1,
-    "pontuacao": 25
+    "pontuacao": 25,
+    "consumo": 280
   },
 
   {
@@ -362,7 +388,8 @@
     "faixaPreco": "baixo",
     "categoria": "Placa de Vídeo",
     "valor": 3362.0,
-    "pontuacao": 10
+    "pontuacao": 10,
+    "consumo": 75
   },
   {
     "id": 37,
@@ -372,7 +399,8 @@
     "faixaPreco": "medio",
     "categoria": "Placa de Vídeo",
     "valor": 4889.99,
-    "pontuacao": 20
+    "pontuacao": 20,
+    "consumo": 170
   },
   {
     "id": 38,
@@ -382,7 +410,8 @@
     "faixaPreco": "alto",
     "categoria": "Placa de Vídeo",
     "valor": 7239.0,
-    "pontuacao": 25
+    "pontuacao": 25,
+    "consumo": 280
   },
   {
     "id": 39,
@@ -392,7 +421,8 @@
     "faixaPreco": "baixo",
     "categoria": "Placa de Vídeo",
     "valor": 2446.0,
-    "pontuacao": 10
+    "pontuacao": 10,
+    "consumo": 75
   },
   {
     "id": 40,
@@ -402,7 +432,8 @@
     "faixaPreco": "alto",
     "categoria": "Placa de Vídeo",
     "valor": 27000.0,
-    "pontuacao": 25
+    "pontuacao": 25,
+    "consumo": 280
   },
 
   {
