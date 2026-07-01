@@ -8,7 +8,8 @@
     "categoria": "Processador",
     "valor": 789.99,
     "pontuacao": 10,
-    "consumo": 45
+    "consumo": 45,
+    "powerScore": 100
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "categoria": "Processador",
     "valor": 1599.99,
     "pontuacao": 20,
-    "consumo": 65
+    "consumo": 65,
+    "powerScore": 145
   },
   {
     "id": 3,
@@ -30,8 +32,8 @@
     "categoria": "Processador",
     "valor": 2899.0,
     "pontuacao": 25,
-    "consumo": 125
-    }
+    "consumo": 125,
+    "powerScore": 165
   },
   {
     "id": 4,
@@ -65,7 +67,8 @@
     "categoria": "Processador",
     "valor": 988.8,
     "pontuacao": 10,
-    "consumo": 45
+    "consumo": 45,
+    "powerScore": 95
   },
   {
     "id": 7,
@@ -76,7 +79,8 @@
     "categoria": "Processador",
     "valor": 1998.0,
     "pontuacao": 20,
-    "consumo": 65
+    "consumo": 65,
+    "powerScore": 185
   },
   {
     "id": 8,
@@ -87,7 +91,8 @@
     "categoria": "Processador",
     "valor": 6899.99,
     "pontuacao": 25,
-    "consumo": 125
+    "consumo": 125,
+    "powerScore": 190
   },
   {
     "id": 9,
@@ -333,7 +338,8 @@
     "categoria": "Placa de Vídeo",
     "valor": 2069.99,
     "pontuacao": 10,
-    "consumo": 75
+    "consumo": 75,
+    "powerScore": 195
   },
   {
     "id": 32,
@@ -344,7 +350,8 @@
     "categoria": "Placa de Vídeo",
     "valor": 6000.0,
     "pontuacao": 20,
-    "consumo": 170
+    "consumo": 170,
+    "powerScore": 190
   },
   {
     "id": 33,
@@ -355,7 +362,7 @@
     "categoria": "Placa de Vídeo",
     "valor": 22999.9,
     "pontuacao": 25,
-    "consumo": 280
+    "consumo": 400
   },
   {
     "id": 34,
@@ -389,7 +396,8 @@
     "categoria": "Placa de Vídeo",
     "valor": 3362.0,
     "pontuacao": 10,
-    "consumo": 75
+    "consumo": 75,
+    "powerScore": 100
   },
   {
     "id": 37,
@@ -400,7 +408,8 @@
     "categoria": "Placa de Vídeo",
     "valor": 4889.99,
     "pontuacao": 20,
-    "consumo": 170
+    "consumo": 170,
+    "powerScore": 180
   },
   {
     "id": 38,
@@ -411,7 +420,8 @@
     "categoria": "Placa de Vídeo",
     "valor": 7239.0,
     "pontuacao": 25,
-    "consumo": 280
+    "consumo": 280,
+    "powerScore": 235
   },
   {
     "id": 39,
