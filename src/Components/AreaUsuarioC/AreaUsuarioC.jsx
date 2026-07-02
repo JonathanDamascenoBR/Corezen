@@ -7,20 +7,21 @@ function AreaUsuarioC() {
       {/* Container principal */}
 
       {/* Container interno */}
-      <div className="bg-slate-900 border-white rounded-3xl p-50 gap-60 flex flex-col md:flex-row justify-between items-center">
+      <div className="bg-slate-900 border-white rounded-3xl p-50 gap-70 flex flex-col md:flex-row justify-between items-center">
         {/* Lado esquerdo */}
-        <div className="flex flex-col gap-6 p-5 w-full md:w-1/2">
-          <button className="border border-white rounded-2xl py-6 px-8 text-white text-xl hover:bg-white hover:text-black transition">
-            Botão de builds salvas
+        <div className="flex flex-col justify-center gap-6 p-5 w-full md:w-1/2">
+          <button className="text-black bg-cyan-400 mt hover:bg-cyan-300 transition   rounded-md py-6 px-6  text-xl ">
+            Builds Salvas
+          </button>
+          <button className=" text-black bg-cyan-400 mt hover:bg-cyan-300 transition  rounded-md py-6 px-6  text-xl ">
+            Configurações
           </button>
 
-          <button className="border border-white rounded-2xl py-6 px-8 text-white text-xl hover:bg-white hover:text-black transition">
+          <button className="text-black bg-cyan-400 mt hover:bg-cyan-300 transition  rounded-md py-6 px-6 text-xl">
             Relatar problema
           </button>
 
-          <button className="border border-white rounded-2xl py-6 px-8 text-white text-xl hover:bg-white hover:text-black transition">
-            Configurações
-          </button>
+          
         </div>
 
         {/* Lado direito */}
@@ -32,17 +33,14 @@ function AreaUsuarioC() {
               src="https://i.pravatar.cc/150"
               alt="Avatar"
             />
-            {/* Ícone câmera */}
-            <button className="absolute bottom-2 left-4 border border-white rounded-md p-2 text-white hover:bg-white hover:text-black transition">
-              <FaCamera />
-            </button>
+           
           </div>
 
           {/* Nome */}
           <h2 className="text-white text-3xl font-medium">Usuario</h2>
 
           {/* Editar info */}
-          <button className="border border-white rounded-md px-3 py-2 text-white text-md hover:bg-white hover:text-black transition">
+          <button className="rounded-md px-2 py-2 text-black bg-cyan-400 mt hover:bg-cyan-300 transition">
             Editar
           </button>
         </div>
