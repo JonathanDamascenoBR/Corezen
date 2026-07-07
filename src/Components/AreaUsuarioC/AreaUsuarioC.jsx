@@ -7,9 +7,9 @@ function AreaUsuarioC() {
       {/* Container principal */}
 
       {/* Container interno */}
-      <div className="bg-slate-900 border-white rounded-3xl p-50 gap-70 flex flex-col md:flex-row justify-between items-center">
+      <div className="bg-slate-900 border-white rounded-3xl p-50 gap-70 flex flex-col md:flex-row justify-center items-center">
         {/* Lado esquerdo */}
-        <div className="flex flex-col justify-center gap-6 p-5 w-full md:w-1/2">
+        <div className="flex flex-col gap-6 p-5 items-center  w-full md:w-1/2">
           <button className="text-black bg-cyan-400 mt hover:bg-cyan-300 transition   rounded-md py-6 px-6  text-xl ">
             Builds Salvas
           </button>
@@ -20,12 +20,12 @@ function AreaUsuarioC() {
           <button className="text-black bg-cyan-400 mt hover:bg-cyan-300 transition  rounded-md py-6 px-6 text-xl">
             Relatar problema
           </button>
-
-          
         </div>
 
+        <div className="hidden md:block w-[2px] bg-slate-600 self-stretch"></div>
+
         {/* Lado direito */}
-        <div className="flex flex-col items-center justify-center w-full md:w-1/2 gap-6">
+        <div className="flex flex-col gap-6 p-5 items-center  w-full md:w-1/2">
           {/* Foto de perfil */}
           <div className="">
             <img
@@ -33,7 +33,6 @@ function AreaUsuarioC() {
               src="https://i.pravatar.cc/150"
               alt="Avatar"
             />
-           
           </div>
 
           {/* Nome */}
