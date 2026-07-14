@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "modelo": "Valorant",
+    "categoria": "Jogo",
+    "powerScore": 30,
+    "pesoCpu": 0.65,
+    "pesoGpu": 0.35
+  },
+  {
+    "id": 2,
+    "modelo": "Fortnite",
+    "categoria": "Jogo",
+    "powerScore": 70,
+    "pesoCpu": 0.45,
+    "pesoGpu": 0.55
+  },
+  {
+    "id": 3,
+    "modelo": "Overwatch",
+    "categoria": "Jogo",
+    "powerScore": 60,
+    "pesoCpu": 0.45,
+    "pesoGpu": 0.55
+  },
+  {
+    "id": 4,
+    "modelo": "Counter Strike 2",
+    "categoria": "Jogo",
+    "powerScore": 80,
+    "pesoCpu": 0.7,
+    "pesoGpu": 0.3
+  },
+  {
+    "id": 5,
+    "modelo": "Elden Ring",
+    "categoria": "Jogo",
+    "powerScore": 120,
+    "pesoCpu": 0.35,
+    "pesoGpu": 0.65
+  },
+  {
+    "id": 6,
+    "modelo": "Red Dead Redemption 2",
+    "categoria": "Jogo",
+    "powerScore": 160,
+    "pesoCpu": 0.25,
+    "pesoGpu": 0.75
+  },
+  {
+    "id": 7,
+    "modelo": "Hollow Knight: Silksong",
+    "categoria": "Jogo",
+    "powerScore": 25,
+    "pesoCpu": 0.6,
+    "pesoGpu": 0.4
+  },
+  {
+    "id": 8,
+    "modelo": "DARK SOULS I",
+    "categoria": "Jogo",
+    "powerScore": 50,
+    "pesoCpu": 0.45,
+    "pesoGpu": 0.55
+  },
+  {
+    "id": 9,
+    "modelo": "DARK SOULS II",
+    "categoria": "Jogo",
+    "powerScore": 55,
+    "pesoCpu": 0.45,
+    "pesoGpu": 0.55
+  },
+  {
+    "id": 10,
+    "modelo": "DARK SOULS III",
+    "categoria": "Jogo",
+    "powerScore": 90,
+    "pesoCpu": 0.35,
+    "pesoGpu": 0.65
+  },
+{
+    "modelo": "(1920x1080) FULLHD",
+    "categoria": "Resolução",
+    "multiplicador": 1.0
+},
+{
+    "modelo": "(2160x1440) FULLHD+",
+    "categoria": "Resolução",
+    "multiplicador": 1.4
+},
+{
+    "modelo": "(2560x1440) QUADHD",
+    "categoria": "Resolução",
+    "multiplicador": 1.8
+},
+{
+    "modelo": "(3840x2160) 4K ULTRA HD",
+    "categoria": "Resolução",
+    "multiplicador": 3.0
+}
+]
