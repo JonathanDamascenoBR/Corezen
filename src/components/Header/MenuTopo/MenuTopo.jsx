@@ -4,7 +4,7 @@ function MenuTopo() {
     return (
         <>
             {/* <!-- Barra superior --> */}
-            <div className="w-full h-10 bg-zinc-800 flex">
+            <div className="w-full h-10 bg-zinc-800 flex text-white">
                 {/* <!-- Div menu esquerda --> */}
                 <div className="w-1/2">
                     {/* <!-- Espaço para novidades --> */}

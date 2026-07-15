@@ -9,18 +9,18 @@ function App() {
 
   return (
     <>
-      <Header />
+        <Header />
 
-      {/* Conteúdo Principal */}
-      <main className="my-10 text-gray-200 flex justify-center flex-1">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/build" element={<Build />} />
-          <Route path="/combos" element={<Combos />} />
-        </Routes>
-      </main>
+        {/* Conteúdo Principal */}
+        <main className="my-10 text-gray-200 flex justify-center flex-1">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/build" element={<Build />} />
+            <Route path="/combos" element={<Combos />} />
+          </Routes>
+        </main>
 
-      <Footer />
+        <Footer />
     </>
   )
 }
