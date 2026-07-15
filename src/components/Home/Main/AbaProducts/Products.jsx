@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import ProductItem from "./ProductItem";
-import Promotions from "../../../data/Promotions.json";
+import Promotions from "../../../../Data/Promotions.json";
 
 const categoriaPorBotao = {
     "// Processadores": "Processadores",

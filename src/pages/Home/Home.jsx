@@ -1,5 +1,5 @@
-import BannerHero from '../../components/Main/BannerHero/BannerHero'
-import AbaBuild from '../../components/Main/AbaBuild/AbaBuild'
+import BannerHero from '../../components/Home/Main/BannerHero/BannerHero'
+import AbaBuild from '../../components/Home/Main/AbaBuild/AbaBuild'
 
 function Home() {
   return (

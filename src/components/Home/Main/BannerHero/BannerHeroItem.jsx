@@ -1,5 +1,5 @@
-import VideoBack from '../../../assets/videos/Background-Corezen-Home.mp4'
-import LogoNome from '../../../assets/imgs/nome.png'
+import VideoBack from '../../../../assets/videos/Background-Corezen-Home.mp4'
+import LogoNome from '../../../../assets/imgs/nome.png'
 
 function BannerHeroItem({ item }) {
 

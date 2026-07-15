@@ -1,12 +1,12 @@
 import { BsArrowReturnRight } from "react-icons/bs";
-import ImgProcessador from '../../../assets/imgs/thumbs/ryzen-7.png'
-import ImgPlacaMae from '../../../assets/imgs/thumbs/B-850F.png'
-import ImgPlacaVid from '../../../assets/imgs/thumbs/rtx-5070.png'
-import ImgMem from '../../../assets/imgs/thumbs/xpg-mem.png'
-import ImgCooler from '../../../assets/imgs/thumbs/W-Cooler.png'
-import ImgSsd from '../../../assets/imgs/thumbs/ssd-m2.png'
-import ImgFonte from '../../../assets/imgs/thumbs/fonte.png'
-import ImgGabinete from '../../../assets/imgs/thumbs/gabinete.png'
+import ImgProcessador from '../../../../assets/imgs/thumbs/ryzen-7.png'
+import ImgPlacaMae from '../../../../assets/imgs/thumbs/B-850F.png'
+import ImgPlacaVid from '../../../../assets/imgs/thumbs/rtx-5070.png'
+import ImgMem from '../../../../assets/imgs/thumbs/xpg-mem.png'
+import ImgCooler from '../../../../assets/imgs/thumbs/W-Cooler.png'
+import ImgSsd from '../../../../assets/imgs/thumbs/ssd-m2.png'
+import ImgFonte from '../../../../assets/imgs/thumbs/fonte.png'
+import ImgGabinete from '../../../../assets/imgs/thumbs/gabinete.png'
 import SecaoPromocao from '../AbaProducts/SecaoPromocao'
 
 
