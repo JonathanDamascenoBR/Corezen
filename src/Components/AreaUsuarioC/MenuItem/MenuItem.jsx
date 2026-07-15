@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { useState } from "react";
-import Login from "../Login/Login";
+import Login from "../../Login/Login";
 
-function MenuItem({ url, label, customClass }) {
+// function MenuItem({ url, label, customClass }) {
+function MenuItem({ label }) {
   const [open, setOpen] = useState(false);
   return (
     <>
