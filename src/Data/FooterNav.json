@@ -1,0 +1,27 @@
+[
+  {
+    "url": "/",
+    "label": "Home",
+    "customClass": ""
+  },
+  {
+    "url": "/build",
+    "label": "Build",
+    "customClass": ""
+  },
+  {
+    "url": "/combos",
+    "label": "Combos",
+    "customClass": ""
+  },
+  {
+    "url": "/testesDesemp",
+    "label": "Testes de Desempenho",
+    "customClass": ""
+  },
+  {
+    "url": "/testesGame",
+    "label": "Testes de Jogos",
+    "customClass": ""
+  }
+]
