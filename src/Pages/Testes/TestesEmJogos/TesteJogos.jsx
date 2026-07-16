@@ -1,9 +1,8 @@
-import Pecas from "../../../components/Pecas/Pecas"
-
-
+import Pecas from "../../../components/TesteDeJogos/Pecas/Pecas"
 
 function TesteJogos() {
-    return (<>
+    return (
+    <> 
         <Pecas />
     </>
     )

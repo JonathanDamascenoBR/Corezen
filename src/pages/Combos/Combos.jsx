@@ -2,12 +2,12 @@ import { useState, useMemo } from 'react';
 import { ShoppingCart, Cpu, HardDrive, CheckCircle2, ShieldCheck, Zap, Layers, Gamepad2, Briefcase, MonitorPlay } from 'lucide-react';
 import productsData from '../../Data/Products.json';
 
-import amdSrc from './media/processador_amd.jpg';
-import intelSrc from './media/placa_mae2.jpg';
-import ryzen9Src from './media/memoria.jpg';
-import intel9Src from './media/caixa_intel.jpg';
-import apuSrc from './media/placa_mae_caixa.jpg';
-import pcu3Src from './media/ram_sticks.jpg';
+import amdSrc from '../../assets/imgs/imgsCombo/processador_amd.jpg';
+import intelSrc from '../../assets/imgs/imgsCombo/placa_mae2.jpg';
+import ryzen9Src from '../../assets/imgs/imgsCombo/memoria.jpg';
+import intel9Src from '../../assets/imgs/imgsCombo/caixa_intel.jpg';
+import apuSrc from '../../assets/imgs/imgsCombo/placa_mae_caixa.jpg';
+import pcu3Src from '../../assets/imgs/imgsCombo/ram_sticks.jpg';
 
 // Componente visual para renderizar cada card de combo individualmente
 const ComboCard = ({ title, badge, price, oldPrice, imageUrl, description, components }) => {
@@ -160,7 +160,7 @@ export default function Combos() {
 
   return (
     <div className="w-full mt-24 mb-20 px-4 md:px-11 min-h-screen">
-      <section className="max-w-7xl mx-auto py-10 md:py-16">
+      <section className="max-w-7xl mx-auto py-10 md:pt-16">
         {/* Cabeçalho principal */}
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-5xl font-bold text-white tracking-wide mb-4">Escolha a Categoria Ideal</h1>

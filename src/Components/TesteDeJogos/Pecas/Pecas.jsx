@@ -1,6 +1,6 @@
-import PecasItem from "./PecasItem";
-import dados from "../../Data/Products.json";
-import Jogos from "../../Data/Jogos.json";
+import PecasItem from "../Pecas/PecasItem";
+import dados from "../../../Data/Products.json";
+import Jogos from "../../../Data/Jogos.json";
 import { useState } from "react";
 import GraficoFps from "./GraficoFps";
 import { motion } from "framer-motion";
@@ -56,7 +56,7 @@ function Pecas() {
     console.log(resultadoFps);
 
     return (
-        <section className="w-full bg-slate-950 text-white orbitron text-center justify-center py-5">
+        <section className="w-full bg-slate-950 text-white orbitron text-center justify-center mt-16 py-30">
             <h2 className="text-5xl text-white mt-10">Testes em Jogos</h2>
             <div className=" grid grid-cols-4 gap-5 mt-15 w-7xl mx-auto">
                 <PecasItem

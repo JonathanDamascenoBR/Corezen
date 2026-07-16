@@ -22,7 +22,7 @@ function MenuTopo() {
                                 <a href="">Suporte</a>
                             </li>
                             <li className="hover:underline">
-                                <a href="">Entrar</a>
+                                <a href="/login">Entrar</a>
                             </li>
                         </ul>
                     </nav>

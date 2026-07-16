@@ -52,7 +52,7 @@ function BuildPageJD() {
     const notaDeCompatibilidade = analisarSetup()
 
     return <section className="w-full p-6 xl:p-0 mx-auto">
-        <div className="w-7xl mx-auto flex flex-col xl:flex-row mt-46 gap-6">
+        <div className="w-7xl mx-auto flex flex-col xl:flex-row mt-16 mb-10 gap-6">
             <BuildContainerJD
                 selecionados={selecionados}
                 setSelecionados={setSelecionados}

@@ -10,7 +10,7 @@
     "customClass": "",
     "subMenu": [
       {
-        "url": "/testesGame",
+        "url": "/testeJogos",
         "label": "Testes em Jogos",
         "customClass": ""
       },
