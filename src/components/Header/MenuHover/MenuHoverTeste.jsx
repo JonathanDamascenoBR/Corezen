@@ -30,7 +30,7 @@ function MenuHoverTeste() {
                         {item.subMenu && (
                             <div
 
-                                className={`absolute xl:mr-8 right-0 flex justify-end top-0 transform transition-transform duration-300 ease-in-out z-30 py-9 px-10 gap-6 
+                                className={`absolute flex 2xl:ml-255 2xl:justify-center justify-end top-0 left-0 right-0 transform transition-transform duration-300 ease-in-out z-30 py-9 px-10 gap-6 
                                     ${isOpen ? 'translate-y-full' : '-translate-y-full'}`}>
                                 {item.subMenu.map((itemSub, idx) => (
                                     <a

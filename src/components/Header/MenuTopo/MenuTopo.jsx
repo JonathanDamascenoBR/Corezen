@@ -1,4 +1,5 @@
 import "flag-icons/css/flag-icons.min.css";
+import { Link } from 'react-router-dom';
 
 function MenuTopo() {
     return (
@@ -22,7 +23,7 @@ function MenuTopo() {
                                 <a href="">Suporte</a>
                             </li>
                             <li className="hover:underline">
-                                <a href="/login">Entrar</a>
+                                <Link to="/login">Entrar</Link>
                             </li>
                         </ul>
                     </nav>

@@ -29,10 +29,10 @@ function BannerHeroItem({ item }) {
 
                 {/* <!-- Logo e texto --> */}
                 <div
-                    className="absolute inset-0 flex flex-col items-center justify-center gap-6 z-0"
+                    className="absolute inset-0 flex flex-col items-center justify-center gap-6 z-0 "
                 >
                     <img src={LogoNome} alt="Logo" className='w-86 md:w-96 opacity-65' />
-                    <h2 className="text-2xl text-gray-300">
+                    <h2 className="text-2xl text-gray-300 md:px-0 px-10 text-center">
                         {item.description}
                     </h2>
                 </div>

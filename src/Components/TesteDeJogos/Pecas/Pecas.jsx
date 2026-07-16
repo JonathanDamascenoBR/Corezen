@@ -80,7 +80,7 @@ function Pecas() {
                     onSelect={setResoSelecionada}
                 />
             </div>
-            <div className="mt-50">
+            <div className="">
                 <h3 className="mt-20 text-3xl font-bold text-cyan-400">Desempenho</h3>
                 <motion.div
                     className="text-white flex flex-col items-center justify-center"
