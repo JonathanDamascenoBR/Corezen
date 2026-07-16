@@ -1,16 +1,32 @@
-import "./App.css";
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Home from './pages/Home/Home';
+import Combos from './pages/Combos/Combos';
+
+export default import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import TesteDesempenho from "./components/Pages/TesteDesempenho";
 
 
 function App() {
   return (
-    <main className="w-full mt-18">
-      <Routes>
-        <Route path="/" element={<TesteDesempenho />} />
-      </Routes>
-    </main>
-  )
+    <Router>
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="combos" element={<Combos />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
-
-export default App
