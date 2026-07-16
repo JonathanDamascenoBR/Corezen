@@ -1,0 +1,1281 @@
+[
+  {
+    "id": 1,
+    "marca": "Intel",
+    "modelo": "Core i5-12400",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Processador",
+    "valor": 789.99,
+    "pontuacao": 10,
+    "consumo": 45,
+    "powerScore": 100,
+    "imagem": "/images/Processador/Intel-12400.webp",
+    "descricao": "O Intel Core i5-12400 oferece um excelente custo-benefício para jogadores, contando com 6 núcleos de alto desempenho da arquitetura Alder Lake para rodar jogos modernos com estabilidade.",
+    "specs": {
+      "soquete": "LGA1700",
+      "nucleos_threads": "6 Cores / 12 Threads",
+      "frequencia_base": "2.5 GHz",
+      "frequencia_turbo": "4.4 GHz",
+      "memoria_suportada": "DDR4 / DDR5",
+      "tdp_padrao": "65W"
+    }
+  },
+  {
+    "id": 2,
+    "marca": "Intel",
+    "modelo": "Core i5-14600K",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Processador",
+    "valor": 1599.99,
+    "pontuacao": 20,
+    "consumo": 65,
+    "powerScore": 145,
+    "imagem": "/images/Processador/Intel-14600.webp",
+    "descricao": "Projetado para entusiastas e overclocking, o i5-14600K combina altas frequências de clock com uma arquitetura híbrida avançada para entregar taxas de quadro altíssimas em jogos exigentes.",
+    "specs": {
+      "soquete": "LGA1700",
+      "nucleos_threads": "14 Cores (6P+8E) / 20 Threads",
+      "frequencia_base": "3.5 GHz",
+      "frequencia_turbo": "5.3 GHz",
+      "memoria_suportada": "DDR4 / DDR5",
+      "tdp_padrao": "125W"
+    }
+  },
+  {
+    "id": 3,
+    "marca": "Intel",
+    "modelo": "Core i9-14900K",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Processador",
+    "valor": 2899.0,
+    "pontuacao": 25,
+    "consumo": 125,
+    "powerScore": 165,
+    "imagem": "/images/Processador/Intel-14900.webp",
+    "descricao": "O ápice da performance em jogos e computação entusiasta. O Core i9-14900K quebra barreiras de frequência de fábrica para garantir que nenhuma placa de vídeo do mercado sofra gargalo.",
+    "specs": {
+      "soquete": "LGA1700",
+      "nucleos_threads": "24 Cores (8P+16E) / 32 Threads",
+      "frequencia_base": "3.2 GHz",
+      "frequencia_turbo": "6.0 GHz",
+      "memoria_suportada": "DDR4 / DDR5",
+      "tdp_padrao": "125W"
+    }
+  },
+  {
+    "id": 4,
+    "marca": "Intel",
+    "modelo": "Core i5-13400",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Processador",
+    "valor": 1359.99,
+    "pontuacao": 10,
+    "consumo": 45,
+    "imagem": "/images/Processador/Intel-1350.webp",
+    "descricao": "Com a adição de núcleos de eficiência (E-Cores) em relação à geração anterior, o i5 de 13ª geração se destaca no trabalho multitarefa, streaming leve e edição sem comprometer o orçamento.",
+    "specs": {
+      "soquete": "LGA1700",
+      "nucleos_threads": "10 Cores (6P+4E) / 16 Threads",
+      "frequencia_base": "2.5 GHz",
+      "frequencia_turbo": "4.6 GHz",
+      "memoria_suportada": "DDR4 / DDR5",
+      "tdp_padrao": "65W"
+    }
+  },
+  {
+    "id": 5,
+    "marca": "Intel",
+    "modelo": "Core Ultra 9 285K",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Processador",
+    "valor": 2789.99,
+    "pontuacao": 25,
+    "consumo": 125,
+    "imagem": "/images/Processador/Intel-9285.webp",
+    "descricao": "Baseado na arquitetura Arrow Lake com foco em eficiência energética revolucionária e uma NPU integrada para Inteligência Artificial, este processador redefine a produtividade profissional pesada.",
+    "specs": {
+      "soquete": "LGA1851",
+      "nucleos_threads": "24 Cores (8P+16E) / 24 Threads",
+      "frequencia_base": "3.7 GHz",
+      "frequencia_turbo": "5.7 GHz",
+      "memoria_suportada": "DDR5 apenas",
+      "tdp_padrao": "125W"
+    }
+  },
+  {
+    "id": 6,
+    "marca": "AMD",
+    "modelo": "Ryzen 5 5600",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Processador",
+    "valor": 988.8,
+    "pontuacao": 10,
+    "consumo": 45,
+    "powerScore": 95,
+    "imagem": "/images/Processador/Ryzen-5600.webp",
+    "descricao": "Um dos processadores mais populares do mundo para setups de entrada e intermediários. A arquitetura Zen 3 extrai o máximo de desempenho por Watt, ideal para empurrar jogos competitivos.",
+    "specs": {
+      "soquete": "AM4",
+      "nucleos_threads": "6 Cores / 12 Threads",
+      "frequencia_base": "3.5 GHz",
+      "frequencia_turbo": "4.4 GHz",
+      "memoria_suportada": "DDR4 apenas",
+      "tdp_padrao": "65W"
+    }
+  },
+  {
+    "id": 7,
+    "marca": "AMD",
+    "modelo": "Ryzen 7 7800X3D",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Processador",
+    "valor": 1998.0,
+    "pontuacao": 20,
+    "consumo": 65,
+    "powerScore": 185,
+    "imagem": "/images/Processador/Ryzen-7800x3d.webp",
+    "descricao": "Equipado com a tecnologia 3D V-Cache da AMD, este processador possui uma quantidade massiva de memória cache L3, tornando-o o chip definitivo e mais rápido do mercado para jogos eletrônicos.",
+    "specs": {
+      "soquete": "AM5",
+      "nucleos_threads": "8 Cores / 16 Threads",
+      "frequencia_base": "4.2 GHz",
+      "frequencia_turbo": "5.0 GHz",
+      "memoria_suportada": "DDR5 apenas",
+      "tdp_padrao": "120W"
+    }
+  },
+  {
+    "id": 8,
+    "marca": "AMD",
+    "modelo": "Ryzen 9 9950X3D",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Processador",
+    "valor": 6899.99,
+    "pontuacao": 25,
+    "consumo": 125,
+    "powerScore": 190,
+    "imagem": "/images/Processador/Ryzen-9950x3.webp",
+    "descricao": "Combinando a nova arquitetura Zen 5 com o empilhamento 3D V-Cache, o Ryzen 9 9950X3D entrega o topo absoluto de frames em jogos junto a um poder avassalador para criadores de conteúdo.",
+    "specs": {
+      "soquete": "AM5",
+      "nucleos_threads": "16 Cores / 32 Threads",
+      "frequencia_base": "4.3 GHz",
+      "frequencia_turbo": "5.7 GHz",
+      "memoria_suportada": "DDR5 apenas",
+      "tdp_padrao": "120W"
+    }
+  },
+  {
+    "id": 9,
+    "marca": "AMD",
+    "modelo": "Ryzen 7 7700",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Processador",
+    "valor": 1649.0,
+    "pontuacao": 10,
+    "consumo": 45,
+    "imagem": "/images/Processador/Ryzen-7700.webp",
+    "descricao": "Uma excelente porta de entrada para a plataforma AM5. Com 8 núcleos modernos e alta eficiência, opera de forma fria e veloz em compilação de código, renderizações e softwares profissionais.",
+    "specs": {
+      "soquete": "AM5",
+      "nucleos_threads": "8 Cores / 16 Threads",
+      "frequencia_base": "3.8 GHz",
+      "frequencia_turbo": "5.3 GHz",
+      "memoria_suportada": "DDR5 apenas",
+      "tdp_padrao": "65W"
+    }
+  },
+  {
+    "id": 10,
+    "marca": "AMD",
+    "modelo": "Ryzen 9 9950X",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Processador",
+    "valor": 3299.0,
+    "pontuacao": 25,
+    "consumo": 125,
+    "imagem": "/images/Processador/Ryzen-9950.webp",
+    "descricao": "Um monstro para estações de trabalho. Desenvolvido na arquitetura Zen 5 de 4nm, entrega poder bruto incomparável em renderização 3D pesada, inteligência artificial local e servidores domésticos.",
+    "specs": {
+      "soquete": "AM5",
+      "nucleos_threads": "16 Cores / 32 Threads",
+      "frequencia_base": "4.3 GHz",
+      "frequencia_turbo": "5.7 GHz",
+      "memoria_suportada": "DDR5 apenas",
+      "tdp_padrao": "170W"
+    }
+  },
+  {
+    "id": 11,
+    "marca": "Intel",
+    "modelo": "ASUS Prime B660M-A",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Placa Mãe",
+    "valor": 899.99,
+    "pontuacao": 10,
+    "consumo": 40,
+    "imagem": "/images/Placa Mãe/B660M-A.webp",
+    "descricao": "Uma placa-mãe equilibrada e compacta para a 12ª e 13ª geração Intel. Oferece dissipadores robustos no VRM e excelente suporte para memórias estáveis em computadores de entrada ou intermediários.",
+    "specs": {
+      "soquete": "LGA1700",
+      "chipset": "Intel B660",
+      "formato": "Micro-ATX (mATX)",
+      "tipo_memoria": "DDR4 (Até 5333MHz OC)",
+      "slots_m2": "2x M.2 NVMe PCIe Gen4",
+      "pci_express": "PCIe 4.0 x16"
+    }
+  },
+  {
+    "id": 12,
+    "marca": "Intel",
+    "modelo": "MSI MAG Z790 Tomahawk WiFi",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Placa Mãe",
+    "valor": 1226.99,
+    "pontuacao": 20,
+    "consumo": 55,
+    "imagem": "/images/Placa Mãe/Z790-Tomahawk.webp",
+    "descricao": "Construída para entusiastas de jogos, a linha Tomahawk oferece entrega de energia premium, conectividade de rede sem fio de alta velocidade e dissipação passiva avançada para processadores de série K desbloqueados.",
+    "specs": {
+      "soquete": "LGA1700",
+      "chipset": "Intel Z790",
+      "formato": "ATX",
+      "tipo_memoria": "DDR5 (Até 7200MHz OC)",
+      "slots_m2": "4x M.2 NVMe PCIe Gen4",
+      "pci_express": "PCIe 5.0 x16"
+    }
+  },
+  {
+    "id": 13,
+    "marca": "Intel",
+    "modelo": "ASUS ROG Maximus Z890 Hero",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Placa Mãe",
+    "valor": 5539.99,
+    "pontuacao": 25,
+    "consumo": 75,
+    "imagem": "/images/Placa Mãe/Z890-Hero.webp",
+    "descricao": "Placa topo de linha absoluta projetada para a nova linha Core Ultra. Traz recursos avançados de overclock assistidos por Inteligência Artificial, portas Thunderbolt 4 nativas e acabamento estético premium.",
+    "specs": {
+      "soquete": "LGA1851",
+      "chipset": "Intel Z890",
+      "formato": "ATX",
+      "tipo_memoria": "DDR5 (Até 8000+ MHz OC)",
+      "slots_m2": "5x M.2 (1x Gen5 / 4x Gen4)",
+      "pci_express": "PCIe 5.0 x16"
+    }
+  },
+  {
+    "id": 14,
+    "marca": "Intel",
+    "modelo": "Gigabyte B760 Aorus Elite",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Placa Mãe",
+    "valor": 989.99,
+    "pontuacao": 10,
+    "consumo": 40,
+    "imagem": "/images/Placa Mãe/B760-Aorus-Elite.webp",
+    "descricao": "Perfeita para workstations e computadores multitarefa avançados. Oferece conexões traseiras abundantes, ótima estabilidade de VRM para renderizações longas e suporte nativo à tecnologia de memória moderna.",
+    "specs": {
+      "soquete": "LGA1700",
+      "chipset": "Intel B760",
+      "formato": "ATX",
+      "tipo_memoria": "DDR5 (Até 7600MHz OC)",
+      "slots_m2": "3x M.2 NVMe PCIe Gen4",
+      "pci_express": "PCIe 4.0 x16"
+    }
+  },
+  {
+    "id": 15,
+    "marca": "Intel",
+    "modelo": "ASRock Z890 Taichi",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Placa Mãe",
+    "valor": 3399.99,
+    "pontuacao": 25,
+    "consumo": 75,
+    "imagem": "/images/Placa Mãe/Z890-Taichi.webp",
+    "descricao": "Uma obra-prima de engenharia voltada para criadores de conteúdo e estações de processamento de dados massivos. Possui um circuito de alimentação implacável e suporte para os padrões de transferência mais rápidos do mundo.",
+    "specs": {
+      "soquete": "LGA1851",
+      "chipset": "Intel Z890",
+      "formato": "ATX",
+      "tipo_memoria": "DDR5 (Até 9200+ MHz OC)",
+      "slots_m2": "6x M.2 (1x Gen5 / 5x Gen4)",
+      "pci_express": "PCIe 5.0 x16"
+    }
+  },
+  {
+    "id": 16,
+    "marca": "AMD",
+    "modelo": "Gigabyte B550M DS3H",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Placa Mãe",
+    "valor": 619.99,
+    "pontuacao": 10,
+    "consumo": 40,
+    "imagem": "/images/Placa Mãe/B550N-DS3H.webp",
+    "descricao": "A queridinha do custo-benefício para a consagrada plataforma AM4. Ideal para montar PCs gamers focados em economia sem abrir mão de tecnologias cruciais como conexões digitais de alta velocidade.",
+    "specs": {
+      "soquete": "AM4",
+      "chipset": "AMD B550",
+      "formato": "Micro-ATX (mATX)",
+      "tipo_memoria": "DDR4 (Até 4733MHz OC)",
+      "slots_m2": "2x M.2 NVMe (1x Gen4 / 1x Gen3)",
+      "pci_express": "PCIe 4.0 x16"
+    }
+  },
+  {
+    "id": 17,
+    "marca": "AMD",
+    "modelo": "MSI MAG B650 Tomahawk WiFi",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Placa Mãe",
+    "valor": 1832.99,
+    "pontuacao": 20,
+    "consumo": 55,
+    "imagem": "/images/Placa Mãe/B650-Tomahawk.webp",
+    "descricao": "Uma base sólida e extremamente elogiada para a plataforma AM5. Oferece estabilidade térmica impecável para extrair a potência máxima de chips potentes como as linhas com tecnologia de cache empilhado.",
+    "specs": {
+      "soquete": "AM5",
+      "chipset": "AMD B650",
+      "formato": "ATX",
+      "tipo_memoria": "DDR5 (Até 7600MHz OC)",
+      "slots_m2": "3x M.2 NVMe PCIe Gen4",
+      "pci_express": "PCIe 4.0 x16"
+    }
+  },
+  {
+    "id": 18,
+    "marca": "AMD",
+    "modelo": "ASUS ROG Crosshair X870E Hero",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Placa Mãe",
+    "valor": 12011.95,
+    "pontuacao": 25,
+    "consumo": 75,
+    "imagem": "/images/Placa Mãe/X870-Hero.webp",
+    "descricao": "O nível máximo de engenharia para processadores AMD modernos. Pronta para suportar folgadamente as arquiteturas mais exigentes do mercado com suporte nativo a USB4 de banda ultra larga e conexões sem fio avançadas.",
+    "specs": {
+      "soquete": "AM5",
+      "chipset": "AMD X870E",
+      "formato": "ATX",
+      "tipo_memoria": "DDR5 (Até 8000+ MHz OC)",
+      "slots_m2": "5x M.2 (3x Gen5 / 2x Gen4)",
+      "pci_express": "PCIe 5.0 x16"
+    }
+  },
+  {
+    "id": 19,
+    "marca": "AMD",
+    "modelo": "ASRock B650 Pro RS",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Placa Mãe",
+    "valor": 1089.99,
+    "pontuacao": 10,
+    "consumo": 40,
+    "imagem": "/images/Placa Mãe/B650-Pro-RS.webp",
+    "descricao": "Apresentando um design elegante e limpo com dissipadores prateados, esta placa AM5 oferece excelente expansibilidade para múltiplos storages rápidos e componentes periféricos em tarefas pesadas do dia a dia.",
+    "specs": {
+      "soquete": "AM5",
+      "chipset": "AMD B650",
+      "formato": "ATX",
+      "tipo_memoria": "DDR5 (Até 7200MHz OC)",
+      "slots_m2": "3x M.2 (1x Gen5 / 2x Gen4)",
+      "pci_express": "PCIe 4.0 x16"
+    }
+  },
+  {
+    "id": 20,
+    "marca": "AMD",
+    "modelo": "Gigabyte X870E Aorus Master",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Placa Mãe",
+    "valor": 5299.99,
+    "pontuacao": 25,
+    "consumo": 75,
+    "imagem": "/images/Placa Mãe/X870E-Aorus-Master.webp",
+    "descricao": "Uma potência voltada para ambientes de desenvolvimento complexos e produtividade de alto nível. Conta com soluções simplificadas para montagem rápida e dissipadores de calor massivos para componentes críticos.",
+    "specs": {
+      "soquete": "AM5",
+      "chipset": "AMD X870E",
+      "formato": "ATX",
+      "tipo_memoria": "DDR5 (Até 8200MHz OC)",
+      "slots_m2": "4x M.2 (3x Gen5 / 1x Gen4)",
+      "pci_express": "PCIe 5.0 x16"
+    }
+  },
+  {
+    "id": 21,
+    "marca": "Corsair",
+    "modelo": "Vengeance LPX 16GB DDR4 3200MHz",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Mémoria Ram",
+    "valor": 780.0,
+    "pontuacao": 10,
+    "imagem": "/images/Mémoria Ram/Vengeance-LPX-16GB.webp",
+    "descricao": "Módulos de perfil baixo projetados para excelente compatibilidade física com qualquer cooler de CPU. Construídos com dissipador de alumínio puro para dissipação térmica rápida e operação estável em overclock leve.",
+    "specs": {
+      "tipo": "DDR4",
+      "capacidade_total": "16 GB",
+      "frequencia": "3200 MHz",
+      "latencia_cl": "CL16",
+      "tensao": "1.35V",
+      "iluminacao": "Não possui"
+    }
+  },
+  {
+    "id": 22,
+    "marca": "Kingston",
+    "modelo": "Fury Beast 32GB DDR5 5600MHz",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Mémoria Ram",
+    "valor": 3429.9,
+    "pontuacao": 20,
+    "imagem": "/images/Mémoria Ram/Fury-Beast-32GB.webp",
+    "descricao": "Traz o avanço tecnológico do DDR5 para setups modernos de jogos. Conta com overclock automático Plug N Play e dissipador térmico agressivo e elegante de baixo perfil.",
+    "specs": {
+      "tipo": "DDR5",
+      "capacidade_total": "32 GB",
+      "frequencia": "5600 MHz",
+      "latencia_cl": "CL40",
+      "tensao": "1.25V",
+      "iluminacao": "Não possui"
+    }
+  },
+  {
+    "id": 23,
+    "marca": "G.Skill",
+    "modelo": "Trident Z5 RGB 64GB DDR5 7200MHz",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Mémoria Ram",
+    "valor": 12599.99,
+    "pontuacao": 25,
+    "imagem": "/images/Mémoria Ram/Trident-Z5-RGB-64GB.webp",
+    "descricao": "O ápice do desempenho e estética entusiasta. Projetado para entusiastas de jogos e overclock extremo, alcança velocidades massivas com timings extremamente refinados sob uma barra de iluminação fluida.",
+    "specs": {
+      "tipo": "DDR5",
+      "capacidade_total": "64 GB",
+      "frequencia": "7200 MHz",
+      "latencia_cl": "CL34",
+      "tensao": "1.40V",
+      "iluminacao": "RGB Sincronizável"
+    }
+  },
+  {
+    "id": 24,
+    "marca": "Crucial",
+    "modelo": "Pro 32GB DDR5 5600MHz",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Mémoria Ram",
+    "valor": 2798.0,
+    "pontuacao": 10,
+    "imagem": "/images/Mémoria Ram/Crucial-Pro-32GB.webp",
+    "descricao": "Uma solução sóbria e focada em estabilidade para estações de trabalho. Suporta cargas de dados intensas e otimiza os tempos de compilação e edição com a eficiência nativa da arquitetura DDR5.",
+    "specs": {
+      "tipo": "DDR5",
+      "capacidade_total": "32 GB",
+      "frequencia": "5600 MHz",
+      "latencia_cl": "CL46",
+      "tensao": "1.1V",
+      "iluminacao": "Não possui"
+    }
+  },
+  {
+    "id": 25,
+    "marca": "Corsair",
+    "modelo": "Dominator Titanium 96GB DDR5 6600MHz",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Mémoria Ram",
+    "valor": 12900.0,
+    "pontuacao": 25,
+    "imagem": "/images/Mémoria Ram/DominatorTitanium.webp",
+    "descricao": "Luxo combinando densidade massiva e velocidade implacável. Utiliza chips rigorosamente selecionados e barras superiores intercambiáveis para profissionais que exigem o máximo de largura de banda em renderizações extremas.",
+    "specs": {
+      "tipo": "DDR5",
+      "capacidade_total": "96 GB",
+      "frequencia": "6600 MHz",
+      "latencia_cl": "CL32",
+      "tensao": "1.40V",
+      "iluminacao": "RGB Avançado iCUE"
+    }
+  },
+  {
+    "id": 26,
+    "marca": "Kingston",
+    "modelo": "Fury Renegade 16GB DDR4 3600MHz",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Mémoria Ram",
+    "valor": 697.0,
+    "pontuacao": 10,
+    "imagem": "/images/Mémoria Ram/Fury-Renegade-16GB.webp",
+    "descricao": "Ideal para maximizar o desempenho de plataformas baseadas em DDR4. Entrega altas frequências aliadas a baixas latências, garantindo melhor estabilidade de quadros mínimos em jogos competitivos.",
+    "specs": {
+      "tipo": "DDR4",
+      "capacidade_total": "16 GB",
+      "frequencia": "3600 MHz",
+      "latencia_cl": "CL16",
+      "tensao": "1.35V",
+      "iluminacao": "Não possui"
+    }
+  },
+  {
+    "id": 27,
+    "marca": "TeamGroup",
+    "modelo": "T-Force Delta RGB 32GB DDR5 6000MHz",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Mémoria Ram",
+    "valor": 4199.99,
+    "pontuacao": 20,
+    "imagem": "/images/Mémoria Ram/T-Force-Delta-RGB-32GB.webp",
+    "descricao": "Inspirada em um design geométrico furtivo, oferece uma dispersão de luz em 120 graus ultra-ampla. Perfeita para sincronização visual de setups gamers modernos sem abrir mão de alta velocidade estável.",
+    "specs": {
+      "tipo": "DDR5",
+      "capacidade_total": "32 GB",
+      "frequencia": "6000 MHz",
+      "latencia_cl": "CL38",
+      "tensao": "1.25V",
+      "iluminacao": "RGB Sincronizável"
+    }
+  },
+  {
+    "id": 28,
+    "marca": "ADATA",
+    "modelo": "XPG Lancer RGB 64GB DDR5 6400MHz",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Mémoria Ram",
+    "valor": 6999.99,
+    "pontuacao": 25,
+    "imagem": "/images/Mémoria Ram/XPG-Lancer-RGB-64GB.webp",
+    "descricao": "Define novos padrões para memórias de jogos. Equipada com PMIC integrado (Circuito Integrado de Gestão de Energia) e ECC na placa para manter a integridade dos dados mesmo sob forte estresse computacional.",
+    "specs": {
+      "tipo": "DDR5",
+      "capacidade_total": "64 GB",
+      "frequencia": "6400 MHz",
+      "latencia_cl": "CL32",
+      "tensao": "1.40V",
+      "iluminacao": "RGB Sincronizável"
+    }
+  },
+  {
+    "id": 29,
+    "marca": "Kingston",
+    "modelo": "ValueRAM 32GB DDR5 5200MHz",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Mémoria Ram",
+    "valor": 3399.9,
+    "pontuacao": 10,
+    "imagem": "/images/Mémoria Ram/ValueRAM-32GB.webp",
+    "descricao": "A linha padrão industrial da Kingston focada exclusivamente em estabilidade, custo reduzido e compatibilidade universal. Ideal para servidores domésticos ou computadores corporativos de alta demanda por capacidade.",
+    "specs": {
+      "tipo": "DDR5",
+      "capacidade_total": "32 GB",
+      "frequencia": "5200 MHz",
+      "latencia_cl": "CL42",
+      "tensao": "1.1V",
+      "iluminacao": "Não possui"
+    }
+  },
+  {
+    "id": 30,
+    "marca": "G.Skill",
+    "modelo": "Ripjaws S5 96GB DDR5 6400MHz",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Mémoria Ram",
+    "valor": 5599.0,
+    "pontuacao": 25,
+    "imagem": "/images/Mémoria Ram/Ripjaws-S5-96GB.webp",
+    "descricao": "Uma opção de altíssima densidade compactada em um dissipador de alumínio fosco discreto. Excelente para setups que rodam máquinas virtuais pesadas, bancos de dados ou modelagem complexa de arquitetura.",
+    "specs": {
+      "tipo": "DDR5",
+      "capacidade_total": "96 GB",
+      "frequencia": "6400 MHz",
+      "latencia_cl": "CL32",
+      "tensao": "1.35V",
+      "iluminacao": "Não possui"
+    }
+  },
+  {
+    "id": 31,
+    "marca": "AMD",
+    "modelo": "Radeon RX 7600 8GB",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Placa de Vídeo",
+    "valor": 2069.99,
+    "pontuacao": 10,
+    "consumo": 75,
+    "powerScore": 195,
+    "imagem": "/images/Placa de Vídeo/Radeon-RX7600-8GB.webp",
+    "descricao": "Uma excelente opção para jogar em resolução Full HD (1080p) com taxas de quadro elevadas. Baseada na arquitetura RDNA 3, conta com suporte nativo a codificação AV1 e tecnologias modernas de upscaling.",
+    "specs": {
+      "vram": "8GB GDDR6",
+      "interface_memoria": "128-bit",
+      "pci_express": "PCIe 4.0 x8",
+      "consumo_recomendado": "550W",
+      "tecnologias_chave": "AMD FSR 3 / Ray Tracing / AV1",
+      "saidas_video": "3x DisplayPort 2.1 / 1x HDMI 2.1"
+    }
+  },
+  {
+    "id": 32,
+    "marca": "NVIDIA",
+    "modelo": "GeForce RTX 5070 12GB",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Placa de Vídeo",
+    "valor": 6000.0,
+    "pontuacao": 20,
+    "consumo": 170,
+    "powerScore": 190,
+    "imagem": "/images/Placa de Vídeo/GeForce-RTX5070-12GB.webp",
+    "descricao": "Construída sob a arquitetura Blackwell, redefine o segmento intermediário-alto ao entregar excelente desempenho em Quad HD e 4K. Destaca-se pelo avanço massivo em processamento de traçado de raios por IA.",
+    "specs": {
+      "vram": "12GB GDDR7",
+      "interface_memoria": "192-bit",
+      "pci_express": "PCIe 5.0 x16",
+      "consumo_recomendado": "650W",
+      "tecnologias_chave": "DLSS 4 / Ray Reconstruction / Reflex",
+      "saidas_video": "3x DisplayPort 2.1a / 1x HDMI 2.1a"
+    }
+  },
+  {
+    "id": 33,
+    "marca": "NVIDIA",
+    "modelo": "GeForce RTX 5090 32GB",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Placa de Vídeo",
+    "valor": 22999.9,
+    "pontuacao": 25,
+    "consumo": 400,
+    "imagem": "/images/Placa de Vídeo/GeForce-RTX5090-32GB.webp",
+    "descricao": "O monstro definitivo e topo de linha absoluto da arquitetura Blackwell. Equipada com uma quantidade colossal de VRAM ultra veloz, foi feita para rodar qualquer jogo em 4K ou 8K no máximo e IA local avançada.",
+    "specs": {
+      "vram": "32GB GDDR7",
+      "interface_memoria": "512-bit",
+      "pci_express": "PCIe 5.0 x16",
+      "consumo_recomendado": "850W / 1000W",
+      "tecnologias_chave": "DLSS 4 / Full Ray Tracing / Dual AV1",
+      "saidas_video": "3x DisplayPort 2.1a / 1x HDMI 2.1a"
+    }
+  },
+  {
+    "id": 34,
+    "marca": "Intel",
+    "modelo": "Arc B580 12GB",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Placa de Vídeo",
+    "valor": 2189.9,
+    "pontuacao": 10,
+    "consumo": 75,
+    "imagem": "/images/Placa de Vídeo/Arc-B580-12GB.webp",
+    "descricao": "Parte da segunda geração de placas de vídeo da Intel (Battlemage). Oferece 12GB de VRAM para lidar confortavelmente com multitarefas pesadas, renderização de nível básico e criação de conteúdo estável.",
+    "specs": {
+      "vram": "12GB GDDR6",
+      "interface_memoria": "192-bit",
+      "pci_express": "PCIe 4.0 x8",
+      "consumo_recomendado": "600W",
+      "tecnologias_chave": "Intel XeSS / Xe Media Engine (AV1) / Ray Tracing",
+      "saidas_video": "3x DisplayPort 2.1 / 1x HDMI 2.1"
+    }
+  },
+  {
+    "id": 35,
+    "marca": "NVIDIA",
+    "modelo": "RTX 6000 Ada",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Placa de Vídeo",
+    "valor": 96857.1,
+    "pontuacao": 25,
+    "consumo": 280,
+    "imagem": "/images/Placa de Vídeo/RTX6000-Ada.webp",
+    "descricao": "Uma placa voltada exclusivamente para o mercado corporativo de altíssimo nível. Projetada para workstations de Inteligência Artificial, renderizações em tempo real de cinema e processamento de dados científicos massivos.",
+    "specs": {
+      "vram": "48GB GDDR6 ECC",
+      "interface_memoria": "384-bit",
+      "pci_express": "PCIe 4.0 x16",
+      "consumo_recomendado": "850W",
+      "tecnologias_chave": "Memória ECC (Correção de Erros) / NVENC / vGPU",
+      "saidas_video": "4x DisplayPort 1.4a"
+    }
+  },
+  {
+    "id": 36,
+    "marca": "NVIDIA",
+    "modelo": "GeForce RTX 4060 8GB",
+    "funcao": "jogo",
+    "faixaPreco": "baixo",
+    "categoria": "Placa de Vídeo",
+    "valor": 3362.0,
+    "pontuacao": 10,
+    "consumo": 75,
+    "powerScore": 100,
+    "imagem": "/images/Placa de Vídeo/GeForce-RTX4060-8GB.webp",
+    "descricao": "Altamente popular por sua eficiência energética extrema. Ideal para setups compactos de jogos em 1080p, aproveitando os núcleos de IA dedicados para triplicar o desempenho através do gerador de quadros.",
+    "specs": {
+      "vram": "8GB GDDR6",
+      "interface_memoria": "128-bit",
+      "pci_express": "PCIe 4.0 x8",
+      "consumo_recomendado": "550W",
+      "tecnologias_chave": "DLSS 3 Frame Generation / Reflex / NVENC",
+      "saidas_video": "3x DisplayPort 1.4a / 1x HDMI 2.1a"
+    }
+  },
+  {
+    "id": 37,
+    "marca": "AMD",
+    "modelo": "Radeon RX 9070 XT 16GB",
+    "funcao": "jogo",
+    "faixaPreco": "medio",
+    "categoria": "Placa de Vídeo",
+    "valor": 4889.99,
+    "pontuacao": 20,
+    "consumo": 170,
+    "powerScore": 180,
+    "imagem": "/images/Placa de Vídeo/Radeon-RX9070XT-16GB.webp",
+    "descricao": "Integrante da nova geração RDNA 4. Traz melhorias expressivas no desempenho de traçado de raios e uma generosa quantidade de memória VRAM para segurar texturas pesadas em jogos AAA por muitos anos.",
+    "specs": {
+      "vram": "16GB GDDR6",
+      "interface_memoria": "256-bit",
+      "pci_express": "PCIe 5.0 x16",
+      "consumo_recomendado": "700W",
+      "tecnologias_chave": "AMD FSR 4 (AI) / Ray Tracing Gen4 / AV1 Engine",
+      "saidas_video": "3x DisplayPort 2.1 / 1x HDMI 2.1"
+    }
+  },
+  {
+    "id": 38,
+    "marca": "AMD",
+    "modelo": "Radeon RX 7900 XTX 24GB",
+    "funcao": "jogo",
+    "faixaPreco": "alto",
+    "categoria": "Placa de Vídeo",
+    "valor": 7239.0,
+    "pontuacao": 25,
+    "consumo": 280,
+    "powerScore": 235,
+    "imagem": "/images/Placa de Vídeo/Radeon-RX7900XTX-24GB.webp",
+    "descricao": "A placa gamer mais veloz da geração RDNA 3. Com seu design inovador baseado em chiplets e impressionantes 24GB de memória, ela entrega performance bruta massiva ideal para rasterização pura em 4K.",
+    "specs": {
+      "vram": "24GB GDDR6",
+      "interface_memoria": "384-bit",
+      "pci_express": "PCIe 4.0 x16",
+      "consumo_recomendado": "800W",
+      "tecnologias_chave": "AMD FSR 3 / Ray Tracing / SmartAccess Memory",
+      "saidas_video": "2x DisplayPort 2.1 / 1x HDMI 2.1 / 1x USB-C"
+    }
+  },
+  {
+    "id": 39,
+    "marca": "Intel",
+    "modelo": "Arc A770 16GB",
+    "funcao": "multitarefa",
+    "faixaPreco": "baixo",
+    "categoria": "Placa de Vídeo",
+    "valor": 2446.0,
+    "pontuacao": 10,
+    "consumo": 75,
+    "imagem": "/images/Placa de Vídeo/Arc-A770-16GB.webp",
+    "descricao": "Famosa no mercado por disponibilizar 16GB de VRAM a um preço acessível. Seus codificadores integrados de hardware tornam essa placa uma escolha sensacional para edição de vídeo em formatos modernos e transmissões.",
+    "specs": {
+      "vram": "16GB GDDR6",
+      "interface_memoria": "256-bit",
+      "pci_express": "PCIe 4.0 x16",
+      "consumo_recomendado": "600W",
+      "tecnologias_chave": "Intel XeSS / Dual AV1 Encoders / Ray Tracing",
+      "saidas_video": "3x DisplayPort 2.0 / 1x HDMI 2.1"
+    }
+  },
+  {
+    "id": 40,
+    "marca": "AMD",
+    "modelo": "Radeon Pro W7900",
+    "funcao": "multitarefa",
+    "faixaPreco": "alto",
+    "categoria": "Placa de Vídeo",
+    "valor": 27000.0,
+    "pontuacao": 25,
+    "consumo": 280,
+    "imagem": "/images/Placa de Vídeo/Radeon-Pro-W7900.webp",
+    "descricao": "Placa aceleradora gráfica profissional voltada para engenharia, arquitetura e criadores visuais de grande porte. Traz drivers certificados para os softwares mais exigentes de mercado, operando com precisão absoluta.",
+    "specs": {
+      "vram": "48GB GDDR6 ECC",
+      "interface_memoria": "384-bit",
+      "pci_express": "PCIe 4.0 x16 (Suporte a DisplayPort 2.1)",
+      "consumo_recomendado": "850W",
+      "tecnologias_chave": "Drivers Certificados ISV / Memória ECC / RDNA 3",
+      "saidas_video": "3x DisplayPort 2.1 / 1x Mini-DisplayPort 2.1"
+    }
+  },
+  {
+    "id": 51,
+    "marca": "Kingston",
+    "modelo": "NV3 500GB",
+    "faixaPreco": "baixo",
+    "categoria": "Armazenamento",
+    "valor": 789.99,
+    "imagem": "/images/Armazenamento/NV3-500GB.webp",
+    "descricao": "Uma unidade de entrada ideal para acelerar a inicialização do sistema operacional e reduzir drasticamente os tempos de carregamento de aplicativos cotidianos e jogos mais leves.",
+    "specs": {
+      "tipo": "SSD NVMe M.2 (2280)",
+      "capacidade": "500 GB",
+      "interface": "PCIe 4.0 x4",
+      "leitura_sequencial": "5000 MB/s",
+      "grava_sequencial": "3000 MB/s",
+      "durabilidade_tbw": "160 TBW"
+    }
+  },
+  {
+    "id": 52,
+    "marca": "WD",
+    "modelo": "Blue SN580 1TB",
+    "faixaPreco": "baixo",
+    "categoria": "Armazenamento",
+    "valor": 599.99,
+    "imagem": "/images/Armazenamento/Blue-SN580-1TB.webp",
+    "descricao": "Perfeito para criadores de conteúdo e estudantes de tecnologia. Utiliza a arquitetura nCache 4.0 para otimizar cópias de arquivos pesados de forma estável, mantendo excelente eficiência térmica.",
+    "specs": {
+      "tipo": "SSD NVMe M.2 (2280)",
+      "capacidade": "1 TB",
+      "interface": "PCIe 4.0 x4",
+      "leitura_sequencial": "4150 MB/s",
+      "grava_sequencial": "4150 MB/s",
+      "durabilidade_tbw": "600 TBW"
+    }
+  },
+  {
+    "id": 53,
+    "marca": "Crucial",
+    "modelo": "P3 Plus 1TB",
+    "faixaPreco": "medio",
+    "categoria": "Armazenamento",
+    "valor": 2811.83,
+    "imagem": "/images/Armazenamento/P3-Plus-1TB.webp",
+    "descricao": "Oferece armazenamento NVMe resiliente com desempenho de quarta geração. Ideal para expandir bibliotecas de jogos ou ambientes de desenvolvimento que exigem carregamento rápido de pacotes e dependências.",
+    "specs": {
+      "tipo": "SSD NVMe M.2 (2280)",
+      "capacidade": "1 TB",
+      "interface": "PCIe 4.0 x4",
+      "leitura_sequencial": "5000 MB/s",
+      "grava_sequencial": "3600 MB/s",
+      "durabilidade_tbw": "220 TBW"
+    }
+  },
+  {
+    "id": 54,
+    "marca": "Samsung",
+    "modelo": "990 EVO Plus 1TB",
+    "faixaPreco": "medio",
+    "categoria": "Armazenamento",
+    "valor": 1985.0,
+    "imagem": "/images/Armazenamento/990-EVO-Plus-1TB.webp",
+    "descricao": "Uma evolução em gerenciamento térmico e velocidade. Oferece compatibilidade híbrida versátil e grande economia de energia para sistemas que operam por longas horas sob carregamento contínuo de arquivos.",
+    "specs": {
+      "tipo": "SSD NVMe M.2 (2280)",
+      "capacidade": "1 TB",
+      "interface": "PCIe 4.0 x4 / PCIe 5.0 x2",
+      "leitura_sequencial": "7150 MB/s",
+      "grava_sequencial": "6300 MB/s",
+      "durabilidade_tbw": "600 TBW"
+    }
+  },
+  {
+    "id": 55,
+    "marca": "WD",
+    "modelo": "Black SN850X 2TB",
+    "faixaPreco": "alto",
+    "categoria": "Armazenamento",
+    "valor": 2884.0,
+    "imagem": "/images/Armazenamento/Black-N850X-2TB.webp",
+    "descricao": "SSD premium focado no público entusiasta e de jogos competitivos. Conta com latências extremamente baixas e o recurso Game Mode 2.0 para manter o drive operando no pico máximo de velocidade constante.",
+    "specs": {
+      "tipo": "SSD NVMe M.2 (2280)",
+      "capacidade": "2 TB",
+      "interface": "PCIe 4.0 x4",
+      "leitura_sequencial": "7300 MB/s",
+      "grava_sequencial": "6600 MB/s",
+      "durabilidade_tbw": "1200 TBW"
+    }
+  },
+  {
+    "id": 56,
+    "marca": "Samsung",
+    "modelo": "990 PRO 2TB",
+    "faixaPreco": "alto",
+    "categoria": "Armazenamento",
+    "valor": 3925.0,
+    "imagem": "/images/Armazenamento/9100-PRO-2TB.webp",
+    "descricao": "O ápice do desempenho para o ecossistema PCIe 4.0. Muito procurado por desenvolvedores de software complexos, editores de vídeo profissional e renderizadores de vídeo 3D por sua estabilidade e durabilidade impecáveis.",
+    "specs": {
+      "tipo": "SSD NVMe M.2 (2280)",
+      "capacidade": "2 TB",
+      "interface": "PCIe 4.0 x4",
+      "leitura_sequencial": "7450 MB/s",
+      "grava_sequencial": "6900 MB/s",
+      "durabilidade_tbw": "1200 TBW"
+    }
+  },
+  {
+    "id": 57,
+    "marca": "Corsair",
+    "modelo": "CV550 550W",
+    "faixaPreco": "baixo",
+    "categoria": "Fonte",
+    "valor": 449.0,
+    "imagem": "/images/Fontes/CV550-550W.webp",
+    "descricao": "Uma excelente opção de entrada para computadores domésticos ou setups gamers intermediários e discretos. Garante entrega contínua de energia com a tradicional confiabilidade de componentes de mercado.",
+    "specs": {
+      "potencia": "550W",
+      "certificacao_80plus": "80 Plus Bronze",
+      "cabeamento": "Padrão (Fixo)",
+      "padrao_atx": "ATX 2.31",
+      "protecoes": "OVP, UVP, SCP, OPP, OTP",
+      "refrigeracao": "Ventoinha de 120mm com controle térmico"
+    }
+  },
+  {
+    "id": 58,
+    "marca": "MSI",
+    "modelo": "MAG A650BN 650W",
+    "faixaPreco": "baixo",
+    "categoria": "Fonte",
+    "valor": 299.99,
+    "imagem": "/images/Fontes/MAG-A650BN-650W.webp",
+    "descricao": "Um dos maiores destaques em custo-benefício. Entrega ótimos níveis de estabilidade e segurança para alimentar setups modernos que utilizam placas de vídeo de consumo moderado.",
+    "specs": {
+      "potencia": "650W",
+      "certificacao_80plus": "80 Plus Bronze",
+      "cabeamento": "Padrão (Fixo)",
+      "padrao_atx": "ATX 2.4",
+      "protecoes": "OCP, OVP, SCP, OPP, OTP",
+      "refrigeracao": "Ventoinha de 120mm de Baixo Ruído"
+    }
+  },
+  {
+    "id": 59,
+    "marca": "Cooler Master",
+    "modelo": "MWE Gold 750 V2",
+    "faixaPreco": "medio",
+    "categoria": "Fonte",
+    "valor": 799.99,
+    "imagem": "/images/Fontes/MWE-Gold-750-V2.webp",
+    "descricao": "Projetada para setups intermediários avançados. Oferece alta eficiência de conversão energética e cabeamento modular, facilitando consideravelmente a organização interna e o fluxo de ar no gabinete.",
+    "specs": {
+      "potencia": "750W",
+      "certificacao_80plus": "80 Plus Gold",
+      "cabeamento": "Totalmente Modular",
+      "padrao_atx": "ATX 2.52",
+      "protecoes": "OVP, OPP, SCP, UVP, OCP, OTP",
+      "refrigeracao": "Ventoinha HDB de 120mm silenciosa"
+    }
+  },
+  {
+    "id": 60,
+    "marca": "Corsair",
+    "modelo": "RM850x 850W",
+    "faixaPreco": "medio",
+    "categoria": "Fonte",
+    "valor": 1200.0,
+    "imagem": "/images/Fontes/RM850x-850W.webp",
+    "descricao": "Uma das fontes mais consagradas do mercado. Construída com capacitores japoneses de altíssima durabilidade (105°C) e ventoinha com levitação magnética para operação em completo silêncio.",
+    "specs": {
+      "potencia": "850W",
+      "certificacao_80plus": "80 Plus Gold",
+      "cabeamento": "Totalmente Modular",
+      "padrao_atx": "ATX 2.52 / EPS12V",
+      "protecoes": "OVP, UVP, SCP, OPP, OTP",
+      "refrigeracao": "Ventoinha ML de 135mm com Modo Zero RPM"
+    }
+  },
+  {
+    "id": 61,
+    "marca": "Seasonic",
+    "modelo": "Vertex GX-1000 1000W",
+    "faixaPreco": "alto",
+    "categoria": "Fonte",
+    "valor": 1589.99,
+    "imagem": "/images/Fontes/Vertex-GX-1000-1000W.webp",
+    "descricao": "Alinhada aos padrões modernos mais exigentes do mercado. Fornece energia ultraestável com suporte e cabos nativos dedicados para alimentar as placas de vídeo topo de linha mais famintas por energia.",
+    "specs": {
+      "potencia": "1000W",
+      "certificacao_80plus": "80 Plus Gold",
+      "cabeamento": "Totalmente Modular",
+      "padrao_atx": "ATX 3.0 / PCIe 5.0 Nativo",
+      "protecoes": "OPP, OVP, UVP, OCP, OTP, SCP",
+      "refrigeracao": "Ventoinha FDB de 135mm com Controle Híbrido"
+    }
+  },
+  {
+    "id": 62,
+    "marca": "ASUS",
+    "modelo": "ROG Thor 1200W Platinum",
+    "faixaPreco": "alto",
+    "categoria": "Fonte",
+    "valor": 2469.9,
+    "imagem": "/images/Fontes/ROG-Thor-1200W-Platinum.webp",
+    "descricao": "O ápice em suprimento de energia e apelo visual para máquinas entusiastas. Apresenta dissipação térmica inspirada na linha ROG, certificação de eficiência cirúrgica e um painel OLED integrado para exibição de consumo em tempo real.",
+    "specs": {
+      "potencia": "1200W",
+      "certificacao_80plus": "80 Plus Platinum",
+      "cabeamento": "Totalmente Modular (Cabos Sleeved)",
+      "padrao_atx": "ATX 3.0 / PCIe 5.0 (via adaptador/revisões)",
+      "protecoes": "OPP, OVP, SCP, OCP, OTP",
+      "refrigeracao": "Ventoinha Wing-blade de 135mm com Modo Zero dB"
+    }
+  },
+  {
+    "id": 63,
+    "marca": "Mancer",
+    "modelo": "Goblin",
+    "faixaPreco": "baixo",
+    "categoria": "Gabinetes",
+    "valor": 349.99,
+    "imagem": "/images/Gabinetes/Mancer-Goblin.webp",
+    "descricao": "Um gabinete compacto no formato Micro-ATX extremamente popular por seu excelente fluxo de ar. Conta com painel frontal em estilo mesh (malha) que otimiza a entrada de ar frio.",
+    "specs": {
+      "tipo": "Mini Tower",
+      "suporte_placa_mae": "Micro-ATX, Mini-ITX",
+      "painel_lateral": "Vidro Temperado",
+      "comprimento_gpu_max": "330 mm",
+      "suporte_radiador": "Até 240mm no topo/frente",
+      "fans_inclusas": "1x 120mm na traseira"
+    }
+  },
+  {
+    "id": 64,
+    "marca": "Pichau",
+    "modelo": "HX300 Glass",
+    "faixaPreco": "baixo",
+    "categoria": "Gabinetes",
+    "valor": 230.0,
+    "imagem": "/images/Gabinetes/HX300-Glass.webp",
+    "descricao": "Uma opção minimalista e de baixo custo com estrutura robusta. Ideal para quem busca um visual limpo e painel lateral transparente para exibir o hardware sem estourar o orçamento.",
+    "specs": {
+      "tipo": "Mini Tower",
+      "suporte_placa_mae": "Micro-ATX, Mini-ITX",
+      "painel_lateral": "Vidro Temperado",
+      "comprimento_gpu_max": "310 mm",
+      "suporte_radiador": "Até 240mm na frente",
+      "fans_inclusas": "Não acompanha ventoinhas"
+    }
+  },
+  {
+    "id": 65,
+    "marca": "NZXT",
+    "modelo": "H5 Flow",
+    "faixaPreco": "medio",
+    "categoria": "Gabinetes",
+    "valor": 853.9,
+    "imagem": "/images/Gabinetes/H5-Flow.webp",
+    "descricao": "Famoso por seu design elegante e soluções térmicas inteligentes. Inclui uma ventoinha exclusiva posicionada na parte inferior traseira, angulada especificamente para refrigerar a placa de vídeo.",
+    "specs": {
+      "tipo": "Mid Tower",
+      "suporte_placa_mae": "ATX, Micro-ATX, Mini-ITX",
+      "painel_lateral": "Vidro Temperado",
+      "comprimento_gpu_max": "365 mm",
+      "suporte_radiador": "Até 280mm na frente / 240mm no topo",
+      "fans_inclusas": "2x 120mm (1x traseira, 1x inferior dedicada para GPU)"
+    }
+  },
+  {
+    "id": 66,
+    "marca": "Corsair",
+    "modelo": "4000D Airflow",
+    "faixaPreco": "medio",
+    "categoria": "Gabinetes",
+    "valor": 609.99,
+    "imagem": "/images/Gabinetes/4000D-Airflow.webp",
+    "descricao": "Um dos gabinetes Mid Tower mais premiados do mercado. Possui um painel frontal de alta ventilação geométrica e o sistema de gerenciamento de cabos RapidRoute, que facilita uma montagem limpa.",
+    "specs": {
+      "tipo": "Mid Tower",
+      "suporte_placa_mae": "ATX, Micro-ATX, Mini-ITX, E-ATX",
+      "painel_lateral": "Vidro Temperado",
+      "comprimento_gpu_max": "360 mm",
+      "suporte_radiador": "Até 360mm na frente / 240mm no topo",
+      "fans_inclusas": "2x 120mm Corsair AirGuide"
+    }
+  },
+  {
+    "id": 67,
+    "marca": "Lian Li",
+    "modelo": "O11 Dynamic EVO",
+    "faixaPreco": "alto",
+    "categoria": "Gabinetes",
+    "valor": 1399.99,
+    "imagem": "/images/Gabinetes/O11-Dynamic-EVO.webp",
+    "descricao": "Gabinete estilo aquário de altíssimo padrão, modular e versátil. Permite montagens invertidas e oferece amplo espaço de câmara dupla para sistemas complexos de refrigeração líquida personalizada.",
+    "specs": {
+      "tipo": "Mid Tower (Câmara Dupla)",
+      "suporte_placa_mae": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+      "painel_lateral": "Vidro Temperado (Frontal e Lateral)",
+      "comprimento_gpu_max": "426 mm",
+      "suporte_radiador": "Até 360mm no topo, lateral ou base",
+      "fans_inclusas": "Não acompanha ventoinhas (Foco em customização)"
+    }
+  },
+  {
+    "id": 68,
+    "marca": "Hyte",
+    "modelo": "Y70 Touch",
+    "faixaPreco": "alto",
+    "categoria": "Gabinetes",
+    "valor": 3679.99,
+    "imagem": "/images/Gabinetes/Y70-Touch.webp",
+    "descricao": "O ápice do design entusiasta contemporâneo. Apresenta uma impressionante tela LCD integrada de toque capacitivo no canto chanfrado, permitindo monitoramento de hardware em tempo real e widgets interativos.",
+    "specs": {
+      "tipo": "Mid Tower (Visão Panorâmica)",
+      "suporte_placa_mae": "E-ATX, ATX, Micro-ATX, Mini-ITX",
+      "painel_lateral": "Vidro Panorâmico + Tela Touch LCD de 14.1\"",
+      "comprimento_gpu_max": "422 mm (Montagem exclusivamente vertical)",
+      "suporte_radiador": "Até 360mm no topo ou lateral",
+      "fans_inclusas": "Não acompanha ventoinhas"
+    }
+  },
+  {
+    "id": 69,
+    "marca": "Cooler Master",
+    "modelo": "Hyper 212 Black",
+    "tipo": "air",
+    "faixaPreco": "baixo",
+    "categoria": "Cooler",
+    "valor": 226.19,
+    "imagem": "/images/Cooler/Hyper-212-Black.webp",
+    "descricao": "Um dos Air Coolers mais tradicionais e refinados do mercado. Esta versão Black traz acabamento anodizado e aletas pretas furtivas, mantendo um desempenho térmico confiável e silencioso.",
+    "specs": {
+      "tipo_refrigeracao": "Air Cooler (Torre Única)",
+      "tdp_maximo": "150W",
+      "tamanho_fans": "1x 120mm SickleFlow PWM",
+      "fluxo_ar_max": "62 CFM",
+      "ruido_maximo": "27 dBA",
+      "sockets_suportados": "Intel LGA1700/1200/115X, AMD AM5/AM4"
+    }
+  },
+  {
+    "id": 70,
+    "marca": "DeepCool",
+    "modelo": "AK400",
+    "tipo": "air",
+    "faixaPreco": "baixo",
+    "categoria": "Cooler",
+    "valor": 154.9,
+    "imagem": "/images/Cooler/AK400.webp",
+    "descricao": "Altamente aclamado por seu custo-benefício insuperável. Possui quatro tubos de calor de cobre de contato direto e um design exclusivo de aletas em matriz que maximiza a dissipação térmica em CPUs modernas.",
+    "specs": {
+      "tipo_refrigeracao": "Air Cooler (Torre Única)",
+      "tdp_maximo": "220W",
+      "tamanho_fans": "1x 120mm FDB PWM",
+      "fluxo_ar_max": "66.47 CFM",
+      "ruido_maximo": "29.4 dBA",
+      "sockets_suportados": "Intel LGA1700/1200/115X, AMD AM5/AM4"
+    }
+  },
+  {
+    "id": 71,
+    "marca": "Noctua",
+    "modelo": "NH-D15",
+    "tipo": "air",
+    "faixaPreco": "alto",
+    "categoria": "Cooler",
+    "valor": 1200.0,
+    "imagem": "/images/Cooler/NH-D15.webp",
+    "descricao": "O rei absoluto dos Air Coolers de nível entusiasta. Com sua estrutura colossal de torre dupla e engenharia austríaca de ponta, rivaliza e muitas vezes supera o desempenho de Water Coolers integrados.",
+    "specs": {
+      "tipo_refrigeracao": "Air Cooler (Torre Dupla)",
+      "tdp_maximo": "250W+",
+      "tamanho_fans": "2x 140mm NF-A15 PWM",
+      "fluxo_ar_max": "82.5 CFM",
+      "ruido_maximo": "24.6 dBA",
+      "sockets_suportados": "Intel LGA1700/1200/115X, AMD AM5/AM4"
+    }
+  },
+  {
+    "id": 72,
+    "marca": "Cooler Master",
+    "modelo": "MasterLiquid 240L Core",
+    "tipo": "water",
+    "faixaPreco": "medio",
+    "categoria": "Cooler",
+    "valor": 1049.82,
+    "imagem": "/images/Cooler/MasterLiquid-240L-Core.webp",
+    "descricao": "Apresenta uma base de cobre redesenhada e uma bomba de câmara dupla de nova geração. Garante uma troca de calor fluida e eficiente para processadores intermediários e avançados operando sob estresse.",
+    "specs": {
+      "tipo_refrigeracao": "Water Cooler (Radiador de 240mm)",
+      "tdp_maximo": "240W",
+      "tamanho_fans": "2x 120mm ARGB PWM",
+      "fluxo_ar_max": "71.93 CFM",
+      "ruido_maximo": "27.2 dBA",
+      "sockets_suportados": "Intel LGA1700/1200/115X, AMD AM5/AM4"
+    }
+  },
+  {
+    "id": 73,
+    "marca": "Corsair",
+    "modelo": "iCUE H100i RGB Elite",
+    "tipo": "water",
+    "faixaPreco": "alto",
+    "categoria": "Cooler",
+    "valor": 2149.99,
+    "imagem": "/images/Cooler/iCUE-H100i-RGB-Elite.webp",
+    "descricao": "Oferece refrigeração líquida premium de primeira linha. Conta com ventoinhas avançadas da série AF Elite com tecnologia AirGuide e integração total ao software iCUE para monitoramento fino de curvas de temperatura.",
+    "specs": {
+      "tipo_refrigeracao": "Water Cooler (Radiador de 240mm)",
+      "tdp_maximo": "250W",
+      "tamanho_fans": "2x 120mm AF ELITE PWM",
+      "fluxo_ar_max": "59.1 CFM",
+      "ruido_maximo": "31.5 dBA",
+      "sockets_suportados": "Intel LGA1700/1200/115X/2066, AMD AM5/AM4/sTRX4"
+    }
+  },
+  {
+    "id": 74,
+    "marca": "NZXT",
+    "modelo": "Kraken Elite 360",
+    "tipo": "water",
+    "faixaPreco": "alto",
+    "categoria": "Cooler",
+    "valor": 4359.99,
+    "imagem": "/images/Cooler/Kraken-Elite-360.webp",
+    "descricao": "O ápice do resfriamento customizado e estática visual. Apresenta um radiador massivo de tripla ventoinha e uma impressionante tela LCD circular integrada ao bloco, capaz de exibir GIFs dinâmicos e métricas em tempo real.",
+    "specs": {
+      "tipo_refrigeracao": "Water Cooler (Radiador de 360mm)",
+      "tdp_maximo": "300W+",
+      "tamanho_fans": "3x 120mm F120P Static Pressure",
+      "fluxo_ar_max": "78.02 CFM",
+      "ruido_maximo": "30.6 dBA",
+      "sockets_suportados": "Intel LGA1700/1200/115X, AMD AM5/AM4/TR4"
+    }
+  }
+]
