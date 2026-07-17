@@ -75,6 +75,7 @@
     "valor": 1359.99,
     "pontuacao": 10,
     "consumo": 45,
+    "powerScore": 90,
     "imagem": "/images/Processador/Intel-1350.webp",
     "descricao": "Com a adição de núcleos de eficiência (E-Cores) em relação à geração anterior, o i5 de 13ª geração se destaca no trabalho multitarefa, streaming leve e edição sem comprometer o orçamento.",
     "specs": {
@@ -96,6 +97,7 @@
     "valor": 2789.99,
     "pontuacao": 25,
     "consumo": 125,
+    "powerScore": 245,
     "imagem": "/images/Processador/Intel-9285.webp",
     "descricao": "Baseado na arquitetura Arrow Lake com foco em eficiência energética revolucionária e uma NPU integrada para Inteligência Artificial, este processador redefine a produtividade profissional pesada.",
     "specs": {
@@ -183,6 +185,7 @@
     "valor": 1649.0,
     "pontuacao": 10,
     "consumo": 45,
+    "powerScore": 105,
     "imagem": "/images/Processador/Ryzen-7700.webp",
     "descricao": "Uma excelente porta de entrada para a plataforma AM5. Com 8 núcleos modernos e alta eficiência, opera de forma fria e veloz em compilação de código, renderizações e softwares profissionais.",
     "specs": {
@@ -204,6 +207,7 @@
     "valor": 3299.0,
     "pontuacao": 25,
     "consumo": 125,
+    "powerScore": 230,
     "imagem": "/images/Processador/Ryzen-9950.webp",
     "descricao": "Um monstro para estações de trabalho. Desenvolvido na arquitetura Zen 5 de 4nm, entrega poder bruto incomparável em renderização 3D pesada, inteligência artificial local e servidores domésticos.",
     "specs": {
@@ -679,6 +683,7 @@
     "valor": 22999.9,
     "pontuacao": 25,
     "consumo": 400,
+    "powerScore": 280,
     "imagem": "/images/Placa de Vídeo/Geforce-RTX5090-32GB.webp",
     "descricao": "O monstro definitivo e topo de linha absoluto da arquitetura Blackwell. Equipada com uma quantidade colossal de VRAM ultra veloz, foi feita para rodar qualquer jogo em 4K ou 8K no máximo e IA local avançada.",
     "specs": {
@@ -700,6 +705,7 @@
     "valor": 2189.9,
     "pontuacao": 10,
     "consumo": 75,
+    "powerScore": 75,
     "imagem": "/images/Placa de Vídeo/Arc-B580-12GB.webp",
     "descricao": "Parte da segunda geração de placas de vídeo da Intel (Battlemage). Oferece 12GB de VRAM para lidar confortavelmente com multitarefas pesadas, renderização de nível básico e criação de conteúdo estável.",
     "specs": {
@@ -721,6 +727,7 @@
     "valor": 96857.1,
     "pontuacao": 25,
     "consumo": 280,
+    "powerScore": 260,
     "imagem": "/images/Placa de Vídeo/RTX6000-Ada.webp",
     "descricao": "Uma placa voltada exclusivamente para o mercado corporativo de altíssimo nível. Projetada para workstations de Inteligência Artificial, renderizações em tempo real de cinema e processamento de dados científicos massivos.",
     "specs": {
@@ -808,6 +815,7 @@
     "valor": 2446.0,
     "pontuacao": 10,
     "consumo": 75,
+    "powerScore": 90,
     "imagem": "/images/Placa de Vídeo/Arc-A770-16GB.webp",
     "descricao": "Famosa no mercado por disponibilizar 16GB de VRAM a um preço acessível. Seus codificadores integrados de hardware tornam essa placa uma escolha sensacional para edição de vídeo em formatos modernos e transmissões.",
     "specs": {
@@ -829,6 +837,7 @@
     "valor": 27000.0,
     "pontuacao": 25,
     "consumo": 280,
+    "powerScore": 260,
     "imagem": "/images/Placa de Vídeo/Radeon-Pro-W7900.webp",
     "descricao": "Placa aceleradora gráfica profissional voltada para engenharia, arquitetura e criadores visuais de grande porte. Traz drivers certificados para os softwares mais exigentes de mercado, operando com precisão absoluta.",
     "specs": {
