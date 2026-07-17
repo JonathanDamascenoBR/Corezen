@@ -9,11 +9,14 @@ import Combos from './pages/Combos/Combos'
 import TesteJogos from './pages/Testes/TestesEmJogos/TesteJogos'
 import TesteDeDesempenho from './pages/Testes/TestesDeDesempenho/TestesDeDesempenho'
 import Footer from './components/Footer/Footer'
+import ScrollToTop from './components/Home/ScrollToTop/ScrollToTop';
 
 function App() {
 
   return (
     <>
+      <ScrollToTop />
+
       <Header />
 
       {/* Conteúdo Principal */}
