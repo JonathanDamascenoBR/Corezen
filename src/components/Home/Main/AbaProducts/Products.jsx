@@ -4,7 +4,7 @@ import Promotions from "../../../../Data/Promotions.json";
 
 const categoriaPorBotao = {
     "// Processadores": "Processadores",
-    "// Placas de Video": "Placas de Vídeo",
+    "// Placas de Vídeo": "Placas de Vídeo",
     "// Placas Mãe": "Placas mãe",
     "// Memórias": "Memórias"
 };
