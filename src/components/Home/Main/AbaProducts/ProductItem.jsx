@@ -10,7 +10,7 @@ function ProductItem({ item }) {
         >
 
             <img
-                className="w-full object-contain p-4 hover:scale-110 transition duration-500"
+                className="w-screen object-contain p-4 hover:scale-110 transition duration-500"
                 src={item.img}
                 alt={item.name}
             />

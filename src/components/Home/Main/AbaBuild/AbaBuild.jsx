@@ -17,7 +17,7 @@ function AbaBuild() {
                 {/* Aba Build */}
                 <section className="w-full md:px-11">
                     <div className="h-full w-full flex-col gap-8 pt-7">
-                        <h1 className="text-4xl pt-8 text-center">Comparador de Preços</h1>
+                        <h1 className="text-4xl pt-8 text-center">Comparador de Hardware</h1>
                         <p className="text-xl pt-10 text-gray-300 text-center">
                             Escolha abaixo uma peça para comparar o desempenho:
                         </p>
