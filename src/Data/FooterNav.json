@@ -15,12 +15,12 @@
     "customClass": ""
   },
   {
-    "url": "/testesDesemp",
+    "url": "/testeDesemp",
     "label": "Testes de Desempenho",
     "customClass": ""
   },
   {
-    "url": "/testesGame",
+    "url": "/testeJogos",
     "label": "Testes de Jogos",
     "customClass": ""
   }
