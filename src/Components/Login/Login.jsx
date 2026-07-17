@@ -1,12 +1,33 @@
-// import React, { useState } from "react";
+import React from "react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { FaFacebook, FaGoogle } from "react-icons/fa";
 
 export default function Login() {
   const [isLogin, setIsLogin] = useState(false);
 
+  // Novos estados para os inputs
+  const [nome, setNome] = useState("");
+  const [email, setEmail] = useState("");
+  const [senha, setSenha] = useState("");
+  const [confirmarSenha, setConfirmarSenha] = useState("");
+
+  const navigate = useNavigate();
+
+  // Se for Login, precisa de email e senha.
+  // Se for Cadastro, precisa de nome, email, senha e confirmar senha.
+  const isFormValid = isLogin
+    ? email.trim() !== "" && senha.trim() !== ""
+    : nome.trim() !== "" && email.trim() !== "" && senha.trim() !== "" && confirmarSenha.trim() !== "";
+
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (isLogin) {
+      navigate("/");
+    } else {
+      navigate("/usuario");
+    }
   };
 
   return (
@@ -20,6 +41,7 @@ export default function Login() {
     bg-slate-700
     transition-transform duration-[1400ms]
     ease-[cubic-bezier(0.77,0,0.175,1)]
+    pointer-events-none
     ${isLogin ? "translate-x-full" : "translate-x-0"}
   `}
         />
@@ -31,6 +53,7 @@ export default function Login() {
     bg-slate-900
     transition-transform duration-[1400ms]
     ease-[cubic-bezier(0.77,0,0.175,1)]
+    pointer-events-none
     ${isLogin ? "-translate-x-full" : "translate-x-0"}
   `}
         />
@@ -38,6 +61,7 @@ export default function Login() {
           className={`
     md:hidden
     absolute inset-0
+    pointer-events-none
     ${isLogin ? "bg-slate-900" : "bg-slate-700"}
     `}
         />
@@ -47,6 +71,7 @@ export default function Login() {
     absolute top-0 left-0 w-full h-full
     z-10
     rounded-none
+    pointer-events-none
     ${isLogin ? "bg-slate-900" : "bg-slate-700"}
     transition-transform duration-[1400ms]
     ease-[cubic-bezier(0.77,0,0.175,1)]
@@ -105,12 +130,16 @@ export default function Login() {
               </h2>
 
               {/* FORM */}
-              <form className="flex flex-col gap-4">
+              <form
+
+                className="flex flex-col gap-4">
                 {!isLogin && (
                   <div className="relative animate-in fade-in duration-500">
                     <input
                       type="text"
                       placeholder="Nome:"
+                      value={nome}
+                      onChange={(e) => setNome(e.target.value)}
                       className="w-full pl-5 pr-4 py-3 rounded-md bg-zinc-800/30 text-white/70 outline-none"
                     />
                   </div>
@@ -121,6 +150,8 @@ export default function Login() {
                   <input
                     type="email"
                     placeholder="E-mail:"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                     className="w-full pl-5 pr-4 py-3 rounded-md bg-zinc-800/30 text-white/70 outline-none focus:ring-2 focus:ring-cyan-400"
                   />
                 </div>
@@ -130,6 +161,8 @@ export default function Login() {
                   <input
                     type="password"
                     placeholder="Senha:"
+                    value={senha}
+                    onChange={(e) => setSenha(e.target.value)}
                     className="w-full pl-5 pr-4 py-3 rounded-md bg-zinc-800/30 text-white/70 outline-none focus:ring-2 focus:ring-cyan-400"
                   />
                 </div>
@@ -140,12 +173,16 @@ export default function Login() {
                     <input
                       type="password"
                       placeholder="Confirmar senha:"
+                      value={confirmarSenha}
+                      onChange={(e) => setConfirmarSenha(e.target.value)}
                       className="w-full pl-5 pr-4 py-3 rounded-md bg-zinc-800/30 text-white/70 outline-none focus:ring-2 focus:ring-cyan-400"
                     />
                   </div>
                 )}
                 <button
-                  type="submit"
+                  type="button"
+                  onClick={handleSubmit}
+                  disabled={!isFormValid}
                   className="bg-cyan-400 mt-4 text-black py-3 px-6 rounded w-fit self-center hover:bg-cyan-300 transition"
                 >
                   {isLogin ? "Entrar" : "Criar Conta"}

@@ -1,5 +1,5 @@
-// import React from "react";
-// import { FaCamera } from "react-icons/fa";
+import React from "react";
+import { FaCamera } from "react-icons/fa";
 
 function AreaUsuarioC() {
   return (
