@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-import Products from "../Data/Products.json";
+import Products from "../../Data/Products.json";
 
 export default function Comparacao() {
   const [categoria, setCategoria] = useState("Placa Mãe");

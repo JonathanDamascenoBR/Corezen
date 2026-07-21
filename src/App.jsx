@@ -1,10 +1,11 @@
-import Comparacao from "./Comparaçao/Comparacao";
+
+import TestesDeDesempenho from "./pages/TestesDeDesempenho";
 
 function App() {
   return (
     <main className="bg-slate-950 text-white orbitron">
 
-      <Comparacao />
+      <TestesDeDesempenho />
     </main>
   );
 }
