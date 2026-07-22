@@ -26,7 +26,7 @@ function App() {
           <Route path="/build" element={<Build />} />
           <Route path="/combos" element={<Combos />} />
           <Route path="/testeJogos" element={<TesteJogos />} />
-          <Route path="/testeDesemp" element={<TesteDeDesempenho />} />
+          <Route path="/testesDesemp" element={<TesteDeDesempenho />} />
           <Route path="/login" element={<Login />} />
           <Route path="/usuario" element={<AreaUsuario />} />
         </Routes>

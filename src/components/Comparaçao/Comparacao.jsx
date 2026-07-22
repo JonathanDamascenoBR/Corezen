@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { GoChevronDown } from "react-icons/go";
 
 import Products from "../../Data/Products.json";
 
@@ -53,7 +54,7 @@ export default function Comparacao() {
         >
           <option>Placa Mãe</option>
           <option>Processador</option>
-          <option>Mémoria Ram</option>
+          <option>Memória Ram</option>
           <option>Fonte</option>
           <option>Gabinetes</option>
           <option>Placa de Vídeo</option>
@@ -67,9 +68,9 @@ export default function Comparacao() {
         <div className="text-center">
           <button
             onClick={() => setMenuAberto("peca1")}
-            className="bg-cyan-400 text-black px-8 py-2 rounded  hover:bg-cyan-300 transition"
+            className="bg-cyan-200 text-black px-8 py-2 rounded  hover:bg-cyan-300 transition"
           >
-            {peca1.modelo}
+            {peca1.modelo} <GoChevronDown />
           </button>
         </div>
 
@@ -78,7 +79,7 @@ export default function Comparacao() {
             onClick={() => setMenuAberto("peca2")}
             className="bg-cyan-400 text-black px-8 py-2 rounded  hover:bg-cyan-300 transition"
           >
-            {peca2.modelo}
+            {peca2.modelo} <GoChevronDown />
           </button>
 
           {/* <!-- Menu de Seleção --> */}
