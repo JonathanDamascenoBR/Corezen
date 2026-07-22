@@ -7,7 +7,7 @@ import Home from './pages/Home/Home'
 import Build from './pages/Build/BuildPage'
 import Combos from './pages/Combos/Combos'
 import TesteJogos from './pages/Testes/TestesEmJogos/TesteJogos'
-import TesteDeDesempenho from './pages/Testes/TestesDeDesempenho/TestesDeDesempenho'
+import TesteDeDesempenho from './Pages/Testes/TesteDeDesempenho/TesteDeDesempenho'
 import Footer from './components/Footer/Footer'
 import ScrollToTop from './components/Home/ScrollToTop/ScrollToTop';
 

@@ -1,9 +1,9 @@
-import Comparacao from '../components/Comparaçao/Comparacao'
+import Comparacao from '../../../components/Comparaçao/Comparacao'
 
 function TestesDeDesempenho() {
   return (
     <>
-    <Comparacao />
+      <Comparacao />
     </>
   )
 }
