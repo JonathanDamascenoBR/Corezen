@@ -15,11 +15,13 @@ function Header() {
                 <div
                     className="w-full xl:w-7xl py-4 mx-auto flex items-center xl:justify-between"
                 >
-                    <MenuMobile />
+                    <div className="xl:hidden">
+                        <MenuMobile />
+                    </div>
 
                     {/* <!-- Menu --> */}
                     <div
-                        className="md:w-max w-full group flex items-center justify-center cursor-pointer pt-2 md:pr-0 pr-40"
+                        className="md:w-max w-full group flex items-center justify-center xl:justify-start cursor-pointer pt-2 md:pr-0 pr-40"
                     >
                         <a href="/"
                         ><img
@@ -39,7 +41,7 @@ function Header() {
                         </div>
                     </div>
 
-                    <div className="mx-auto hidden md:flex w-full justify-end gap-30 pr-10">
+                    <div className="mx-auto hidden md:flex w-full justify-end gap-30 xl:pr-0 pr-10">
                         <div className="">
                             {/* <!-- Textos Header --> */}
                             <nav className="flex gap-10 text-2xl">

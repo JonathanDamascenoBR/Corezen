@@ -160,7 +160,7 @@ export default function Combos() {
 
   return (
     <div className="w-full mt-24 mb-20 px-4 md:px-11 min-h-screen">
-      <section className="max-w-7xl mx-auto py-10 md:pt-16">
+      <section className="max-w-7xl mx-auto py-10 md:pt-36">
         {/* Cabeçalho principal */}
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-5xl font-bold text-white tracking-wide mb-4">Escolha a Categoria Ideal</h1>

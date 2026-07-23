@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
+import { useLocation } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import { GoChevronDown } from "react-icons/go";
 
 import Products from "../../Data/Products.json";
 
 export default function Comparacao() {
-  const [categoria, setCategoria] = useState("Placa Mãe");
+  const location = useLocation();
+
+  const [categoria, setCategoria] = useState(location.state?.categoriaSelecionada || "Placa Mãe");
 
   const pecas = Products.filter((item) => item.categoria === categoria);
 
@@ -27,6 +30,12 @@ export default function Comparacao() {
   };
 
   useEffect(() => {
+    if (location.state?.categoriaSelecionada) {
+      setCategoria(location.state.categoriaSelecionada);
+    }
+  }, [location.state]);
+
+  useEffect(() => {
     if (pecas.length >= 2) {
       setPeca1(pecas[0]);
       setPeca2(pecas[1]);
@@ -40,7 +49,7 @@ export default function Comparacao() {
   console.log(peca2);
 
   return (
-    <main className="max-w-6xl mx-auto px-4 py-45">
+    <main className="max-w-7xl mx-auto px-4 py-45">
       {/* Categoria */}
       <div className="mb-10 text-center">
         <h2 className="text-white text-xl font-bold mb-4">
@@ -65,19 +74,20 @@ export default function Comparacao() {
 
       {/* <!-- Seleção das Peças --> */}
       <div className="grid md:grid-cols-2 gap-8 mb-8">
-        <div className="text-center">
+        <div className="text-center flex justify-center">
           <button
             onClick={() => setMenuAberto("peca1")}
-            className="bg-cyan-200 text-black px-8 py-2 rounded  hover:bg-cyan-300 transition"
+            className="bg-cyan-400 text-black pl-8 pr-2 py-2 rounded  hover:bg-cyan-300 transition flex items-center gap-2"
           >
             {peca1.modelo} <GoChevronDown />
+            
           </button>
         </div>
 
-        <div className="text-center">
+        <div className="text-center flex justify-center">
           <button
             onClick={() => setMenuAberto("peca2")}
-            className="bg-cyan-400 text-black px-8 py-2 rounded  hover:bg-cyan-300 transition"
+            className="bg-cyan-400 text-black pl-8 pr-2 py-2 rounded  hover:bg-cyan-300 transition flex items-center gap-2"
           >
             {peca2.modelo} <GoChevronDown />
           </button>
@@ -119,7 +129,7 @@ export default function Comparacao() {
               <div className="px-4 py-2 border-t border-cyan-300">
                 <button
                   onClick={() => setMenuAberto(null)}
-                  className="text-xs text-white/50 hover:text-white transition-colors"
+                  className="text-xs text-white/50 hover:text-white transition-colors cursor-pointer"
                 >
                   Cancelar
                 </button>

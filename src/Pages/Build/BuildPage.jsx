@@ -1,8 +1,8 @@
 import { useState } from "react"
-import BuildContainerJD from "../../Components/Build/BuildForm/BuildContainer"
-import BuildSidebarContainerJD from "../../Components/Build/BuildSidebar/BuildSidebarContainer"
+import BuildContainer from "../../Components/Build/BuildForm/BuildContainer"
+import BuildSidebarContainer from "../../Components/Build/BuildSidebar/BuildSidebarContainer"
 
-function BuildPageJD() {
+function BuildPage() {
 
     const [selecionados, setSelecionados] = useState({})
 
@@ -51,18 +51,20 @@ function BuildPageJD() {
 
     const notaDeCompatibilidade = analisarSetup()
 
-    return <section className="w-full p-6 xl:p-0 mx-auto">
-        <div className="w-7xl mx-auto flex flex-col xl:flex-row mt-16 mb-10 gap-6">
-            <BuildContainerJD
-                selecionados={selecionados}
-                setSelecionados={setSelecionados}
-                consumoTotal={consumoTotal}
-                precoTotal={precoTotal} />
-            <BuildSidebarContainerJD
-                pontuacao={pontuacaoFinal}
-                notaTexto={notaDeCompatibilidade} />
-        </div>
-    </section>
+    return (
+        <section className="w-full p-6 xl:p-0 mx-auto">
+            <div className="w-7xl mx-auto flex flex-col xl:flex-row mt-28 mb-10 gap-6">
+                <BuildContainer
+                    selecionados={selecionados}
+                    setSelecionados={setSelecionados}
+                    consumoTotal={consumoTotal}
+                    precoTotal={precoTotal} />
+                <BuildSidebarContainer
+                    pontuacao={pontuacaoFinal}
+                    notaTexto={notaDeCompatibilidade} />
+            </div>
+        </section>
+    );
 }
 
-export default BuildPageJD
+export default BuildPage

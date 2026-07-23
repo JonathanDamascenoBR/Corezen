@@ -49,7 +49,7 @@ function Products({ categoriaAtiva }) {
         return <p className="text-red-500 text-center py-4">Erro.</p>;
 
     return (
-        <section className="h-full w-full grid grid-cols-1 sm:grid-cols-2 md:flex gap-8 pt-5 center pl-20 md:pl-0 justify-center">
+        <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 max-w-7xl mx-auto w-full">
 
             {item.map(produto => (
                 <ProductItem

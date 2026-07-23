@@ -56,9 +56,9 @@ function Pecas() {
     console.log(resultadoFps);
 
     return (
-        <section className="w-full bg-slate-950 text-white orbitron text-center justify-center mt-16 py-30">
+        <section className="w-full max-w-7xl mx-auto bg-slate-950 text-white text-center justify-center mt-56">
             <h2 className="text-5xl text-white mt-10">Testes em Jogos</h2>
-            <div className=" grid grid-cols-4 gap-5 mt-15 w-7xl mx-auto">
+            <div className="flex justify-between mt-15 items-start w-full">
                 <PecasItem
                     titulosjp="Processador"
                     produtosjp={processadoresJp}

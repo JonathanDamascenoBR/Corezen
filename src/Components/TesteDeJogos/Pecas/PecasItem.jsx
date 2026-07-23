@@ -6,7 +6,7 @@ function PecasItem({ titulosjp, produtosjp, onSelect }) {
     const [listjp, setListjp] = useState(false);
 
     return (
-        <div className="relative p-10 ">
+        <div className="flex flex-col items-center w-56">
             <h2 className="text-cyan-400 text-2xl text-center">{titulosjp}</h2>
             <p
                 onClick={() => setListjp(!listjp)}
@@ -18,7 +18,7 @@ function PecasItem({ titulosjp, produtosjp, onSelect }) {
                 />
             </p>
             <ul
-                className={`  transition-all duration-200 ${listjp ? "opacity-100 scale-100" : "opacity-0 scale-95 pointer-events-none  absolute "}`}
+                className={`transition-all duration-200 ${listjp ? "opacity-100 scale-100" : "opacity-0 hidden"} w-full`}
             >
                 {produtosjp.map((produto, index) => (
                     <li
@@ -27,11 +27,11 @@ function PecasItem({ titulosjp, produtosjp, onSelect }) {
                         onClick={() => {
                             (setProdutojp(produto.marca ? `${produto.marca}${produto.modelo} ` : `${produto.modelo}`),
                                 setListjp(false));
-                                onSelect(produto);
+                            onSelect(produto);
                         }}
                     >
                         {
-                            // produto.classificao === "hardware" ?
+                            // produto.classificação === "hardware" ?
                             produto.marca ?
                                 `${produto.marca} ${produto.modelo}` :
                                 `${produto.modelo}`

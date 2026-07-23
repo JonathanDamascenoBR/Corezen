@@ -1,4 +1,7 @@
 import { BsArrowReturnRight } from "react-icons/bs";
+import { Link } from 'react-router-dom';
+import SecaoPromocao from '../AbaProducts/SecaoPromocao'
+
 import ImgProcessador from '../../../../assets/imgs/thumbs/ryzen-7.png'
 import ImgPlacaMae from '../../../../assets/imgs/thumbs/B-850F.png'
 import ImgPlacaVid from '../../../../assets/imgs/thumbs/rtx-5070.png'
@@ -7,7 +10,7 @@ import ImgCooler from '../../../../assets/imgs/thumbs/W-Cooler.png'
 import ImgSsd from '../../../../assets/imgs/thumbs/ssd-m2.png'
 import ImgFonte from '../../../../assets/imgs/thumbs/fonte.png'
 import ImgGabinete from '../../../../assets/imgs/thumbs/gabinete.png'
-import SecaoPromocao from '../AbaProducts/SecaoPromocao'
+
 
 
 function AbaBuild() {
@@ -15,7 +18,7 @@ function AbaBuild() {
         <>
             <div id="" className="max-w-7xl mx-auto w-full">
                 {/* Aba Build */}
-                <section className="w-full md:px-11">
+                <section className="w-full">
                     <div className="h-full w-full flex-col gap-8 pt-7">
                         <h1 className="text-4xl pt-8 text-center">Comparador de Hardware</h1>
                         <p className="text-xl pt-10 text-gray-300 text-center">
@@ -26,19 +29,19 @@ function AbaBuild() {
 
                         {/* Linha 1 */}
                         <div
-                            className="h-full w-full grid grid-cols-1 sm:grid-cols-2 md:flex gap-8 pt-5 center pl-20 md:pl-0 justify-center"
+                            className="h-full w-full grid grid-cols-1 sm:grid-cols-2 md:flex pt-5 center pl-20 md:pl-0 justify-around"
                         >
                             {/* Linha 1 Bloco 1 */}
                             <div
-                                className="relative w-64 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
+                                className="relative w-74 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
                             >
-                                <a href="#">
+                                <Link to="/testesDesemp" state={{ categoriaSelecionada: "Processador" }}>
                                     <img
                                         src={ImgProcessador}
-                                        alt="Gabinete"
+                                        alt="Processador"
                                         className="w-full object-cover hover:scale-110 transition duration-500"
                                     />
-                                </a>
+                                </Link>
 
                                 <div className="flex items-center justify-between px-4 py-3">
                                     <span
@@ -74,15 +77,15 @@ function AbaBuild() {
 
                             {/* Linha 1 Bloco 2 */}
                             <div
-                                className="relative w-64 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
+                                className="relative w-74 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
                             >
-                                <a href="#">
+                                <Link to="/testesDesemp" state={{ categoriaSelecionada: "Placa Mãe" }}>
                                     <img
                                         src={ImgPlacaMae}
-                                        alt="Gabinete"
+                                        alt="Placa Mãe"
                                         className="w-full object-cover hover:scale-110 transition duration-500"
                                     />
-                                </a>
+                                </Link>
 
                                 <div className="flex items-center justify-between px-4 py-3">
                                     <span
@@ -117,15 +120,15 @@ function AbaBuild() {
                             </div>
                             {/* Linha 1 Bloco 3 */}
                             <div
-                                className="relative w-64 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
+                                className="relative w-74 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
                             >
-                                <a href="#">
+                                <Link to="/testesDesemp" state={{ categoriaSelecionada: "Memória Ram" }}>
                                     <img
                                         src={ImgMem}
-                                        alt="Gabinete"
+                                        alt="Memória Ram"
                                         className="w-full object-cover hover:scale-110 transition duration-500"
                                     />
-                                </a>
+                                </Link>
 
                                 <div className="flex items-center justify-between px-4 py-3">
                                     <span
@@ -160,15 +163,15 @@ function AbaBuild() {
                             </div>
                             {/* Linha 1 Bloco 4 */}
                             <div
-                                className="relative w-64 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
+                                className="relative w-74 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
                             >
-                                <a href="#">
+                                <Link to="/testesDesemp" state={{ categoriaSelecionada: "Placa de Vídeo" }}>
                                     <img
                                         src={ImgPlacaVid}
-                                        alt="Gabinete"
+                                        alt="Placa de Vídeo"
                                         className="w-full object-cover hover:scale-110 transition duration-500"
                                     />
-                                </a>
+                                </Link>
 
                                 <div className="flex items-center justify-between px-4 py-3">
                                     <span
@@ -205,19 +208,19 @@ function AbaBuild() {
 
                         {/* Linha 2 */}
                         <div
-                            className="h-full w-full grid grid-cols-1 sm:grid-cols-2 md:flex gap-8 pt-5 pb-5 center pl-20 md:pl-0 justify-center"
+                            className="h-full w-full grid grid-cols-1 sm:grid-cols-2 md:flex pt-5 pb-5 center pl-20 md:pl-0 justify-around"
                         >
                             {/* Linha 2 Bloco 1 */}
                             <div
-                                className="relative w-64 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
+                                className="relative w-74 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
                             >
-                                <a href="#">
+                                <Link to="/testesDesemp" state={{ categoriaSelecionada: "Cooler" }}>
                                     <img
                                         src={ImgCooler}
-                                        alt="Gabinete"
+                                        alt="Cooler"
                                         className="w-full object-cover hover:scale-110 transition duration-500"
                                     />
-                                </a>
+                                </Link>
 
                                 <div className="flex items-center justify-between px-4 py-3">
                                     <span
@@ -253,15 +256,15 @@ function AbaBuild() {
 
                             {/* Linha 2 Bloco 2 */}
                             <div
-                                className="relative w-64 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
+                                className="relative w-74 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
                             >
-                                <a href="#">
+                                <Link to="/testesDesemp" state={{ categoriaSelecionada: "Armazenamento" }}>
                                     <img
                                         src={ImgSsd}
-                                        alt="Gabinete"
+                                        alt="Armazenamento"
                                         className="w-full object-cover hover:scale-110 transition duration-500"
                                     />
-                                </a>
+                                </Link>
 
                                 <div className="flex items-center justify-between px-4 py-3">
                                     <span
@@ -296,15 +299,15 @@ function AbaBuild() {
                             </div>
                             {/* Linha 2 Bloco 3 */}
                             <div
-                                className="relative w-64 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
+                                className="relative w-74 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
                             >
-                                <a href="#">
+                                <Link to="/testesDesemp" state={{ categoriaSelecionada: "Fonte" }}>
                                     <img
                                         src={ImgFonte}
-                                        alt="Gabinete"
+                                        alt="Fonte"
                                         className="w-full object-cover hover:scale-110 transition duration-500"
                                     />
-                                </a>
+                                </Link>
 
                                 <div className="flex items-center justify-between px-4 py-3">
                                     <span
@@ -339,15 +342,15 @@ function AbaBuild() {
                             </div>
                             {/* Linha 2 Bloco 4 */}
                             <div
-                                className="relative w-64 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
+                                className="relative w-74 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
                             >
-                                <a href="#">
+                                <Link to="/testesDesemp" state={{ categoriaSelecionada: "Gabinetes" }}>
                                     <img
                                         src={ImgGabinete}
                                         alt="Gabinete"
                                         className="w-full object-cover hover:scale-110 transition duration-500"
                                     />
-                                </a>
+                                </Link>
 
                                 <div className="flex items-center justify-between px-4 py-3">
                                     <span

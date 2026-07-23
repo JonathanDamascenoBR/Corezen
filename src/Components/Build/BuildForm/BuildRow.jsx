@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function BuildRowJD({ categoria, item, onSelectProduct }) {
+function BuildRow({ categoria, item, onSelectProduct }) {
 
     const [product, setProduct] = useState(item[0]?.id || "")
 
@@ -37,4 +37,4 @@ function BuildRowJD({ categoria, item, onSelectProduct }) {
     );
 }
 
-export default BuildRowJD;
+export default BuildRow
