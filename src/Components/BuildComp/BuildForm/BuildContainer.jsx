@@ -1,4 +1,4 @@
-import BuildRow from "../../Build/BuildForm/BuildRow"
+import BuildRow from "../../BuildComp/BuildForm/BuildRow"
 import productList from "../../../Data/Products.json"
 import BuildFooter from "./BuildFooter"
 
@@ -27,7 +27,7 @@ function BuildContainer({ selecionados, setSelecionados, consumoTotal, precoTota
                 <h3 className=" text-[#53EAFD] text-center text-xl">Modelo</h3>
                 <h3 className="text-[#53EAFD] text-end mr-4 text-xl">Preço</h3>
             </div>
-            <div className="bg-[#131625] w-full h-auto shadow-lg shadow-cyan-300 rounded-xl mt-4 p-6">
+            <div className="bg-[#131625] w-full h-auto shadow-[0_0_20px_5px_rgba(83,234,253,0.6)] rounded-xl mt-4 p-6">
                 <div className="grid grid-cols-3 text-white text-lg gap-6">
                     {Object.entries(categorias).map(([categoria, item], index) =>
                         <BuildRow

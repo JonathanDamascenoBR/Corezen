@@ -5,7 +5,7 @@ function BuildSidebarContainer({ pontuacao, notaTexto }) {
     return (
         <>
             <div className="w-full xl:w-1/3 flex flex-col items-center gap-6">
-                <BuildPerformanceJD
+                <BuildPerformance
                     pontuacao={pontuacao} />
                 <BuildNotes
                     texto={notaTexto} />
