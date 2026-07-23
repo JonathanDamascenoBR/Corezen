@@ -376,7 +376,7 @@
     "valor": 12011.95,
     "pontuacao": 25,
     "consumo": 75,
-    "imagem": "/images/Placa Mãe/Z870-Hero.webp",
+    "imagem": "/images/Placa Mãe/X870E-Hero.webp",
     "descricao": "O nível máximo de engenharia para processadores AMD modernos. Pronta para suportar folgadamente as arquiteturas mais exigentes do mercado com suporte nativo a USB4 de banda ultra larga e conexões sem fio avançadas.",
     "specs": {
       "soquete": "AM5",
@@ -598,7 +598,7 @@
     "categoria": "Memória Ram",
     "valor": 3399.9,
     "pontuacao": 10,
-    "imagem": "/images/Memória Ram/ValueRam-32GB.webp",
+    "imagem": "/images/Memória Ram/ValueRAM-32GB-DDR5.webp",
     "descricao": "A linha padrão industrial da Kingston focada exclusivamente em estabilidade, custo reduzido e compatibilidade universal. Ideal para servidores domésticos ou computadores corporativos de alta demanda por capacidade.",
     "specs": {
       "tipo": "DDR5",
@@ -684,7 +684,7 @@
     "pontuacao": 25,
     "consumo": 400,
     "powerScore": 280,
-    "imagem": "/images/Placa de Vídeo/Geforce-RTX5090-32GB.webp",
+    "imagem": "/images/Placa de Vídeo/GeForce-RTX-5090-32GB.webp",
     "descricao": "O monstro definitivo e topo de linha absoluto da arquitetura Blackwell. Equipada com uma quantidade colossal de VRAM ultra veloz, foi feita para rodar qualquer jogo em 4K ou 8K no máximo e IA local avançada.",
     "specs": {
       "vram": "32GB GDDR7",
@@ -1200,7 +1200,7 @@
     "faixaPreco": "baixo",
     "categoria": "Cooler",
     "valor": 154.9,
-    "imagem": "/images/Gabinetes/AK400.webp",
+    "imagem": "/images/Cooler/AK400.webp",
     "descricao": "Altamente aclamado por seu custo-benefício insuperável. Possui quatro tubos de calor de cobre de contato direto e um design exclusivo de aletas em matriz que maximiza a dissipação térmica em CPUs modernas.",
     "specs": {
       "tipo_refrigeracao": "Air Cooler (Torre Única)",
@@ -1219,7 +1219,7 @@
     "faixaPreco": "alto",
     "categoria": "Cooler",
     "valor": 1200.0,
-    "imagem": "/images/Gabinetes/NH-D15.webp",
+    "imagem": "/images/Cooler/NH-D15.webp",
     "descricao": "O rei absoluto dos Air Coolers de nível entusiasta. Com sua estrutura colossal de torre dupla e engenharia austríaca de ponta, rivaliza e muitas vezes supera o desempenho de Water Coolers integrados.",
     "specs": {
       "tipo_refrigeracao": "Air Cooler (Torre Dupla)",
@@ -1238,7 +1238,7 @@
     "faixaPreco": "medio",
     "categoria": "Cooler",
     "valor": 1049.82,
-    "imagem": "/images/Gabinetes/MasterLiquid-240L-Core.webp",
+    "imagem": "/images/Cooler/MasterLiquid-240L-Core.webp",
     "descricao": "Apresenta uma base de cobre redesenhada e uma bomba de câmara dupla de nova geração. Garante uma troca de calor fluida e eficiente para processadores intermediários e avançados operando sob estresse.",
     "specs": {
       "tipo_refrigeracao": "Water Cooler (Radiador de 240mm)",
@@ -1257,7 +1257,7 @@
     "faixaPreco": "alto",
     "categoria": "Cooler",
     "valor": 2149.99,
-    "imagem": "/images/Gabinetes/iCUE-H100i-RGB-Elite.webp",
+    "imagem": "/images/Cooler/iCUE-H100i-RGB-Elite.webp",
     "descricao": "Oferece refrigeração líquida premium de primeira linha. Conta com ventoinhas avançadas da série AF Elite com tecnologia AirGuide e integração total ao software iCUE para monitoramento fino de curvas de temperatura.",
     "specs": {
       "tipo_refrigeracao": "Water Cooler (Radiador de 240mm)",
@@ -1276,7 +1276,7 @@
     "faixaPreco": "alto",
     "categoria": "Cooler",
     "valor": 4359.99,
-    "imagem": "/images/Gabinetes/Kraken-Elite-360.webp",
+    "imagem": "/images/Cooler/Kraken-Elite-360.webp",
     "descricao": "O ápice do resfriamento customizado e estática visual. Apresenta um radiador massivo de tripla ventoinha e uma impressionante tela LCD circular integrada ao bloco, capaz de exibir GIFs dinâmicos e métricas em tempo real.",
     "specs": {
       "tipo_refrigeracao": "Water Cooler (Radiador de 360mm)",
