@@ -1,6 +1,6 @@
 import { useState } from "react"
-import BuildContainer from "../../Components/BuildComp/BuildForm/BuildContainer"
-import BuildSidebarContainer from "../../Components/BuildComp/BuildSidebar/BuildSidebarContainer"
+import BuildContainer from "../../components/BuildComp/BuildForm/BuildContainer"
+import BuildSidebarContainer from "../../components/BuildComp/BuildSidebar/BuildSidebarContainer"
 
 function BuildPage() {
 

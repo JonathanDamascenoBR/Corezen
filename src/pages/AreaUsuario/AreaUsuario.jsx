@@ -1,4 +1,4 @@
-import AreaUsuarioC from "../../Components/AreaUsuarioC/AreaUsuarioC";
+import AreaUsuarioC from "../../components/AreaUsuarioC/AreaUsuarioC";
 
 function AreaUsuario() {
   return (
