@@ -14,7 +14,7 @@ export default function SecaoPromocao() {
     ];
 
     return (
-        <div className="max-w-7xl mx-auto w-full shadow-black/50 rounded-lg xl:px-0 px-8">
+        <div className="max-w-7xl mx-auto w-full shadow-black/50 rounded-lg">
             <p className="flex justify-center py-16 text-4xl font-bold">Promoções</p>
             <div className="bg-gray-400 w-full h-0.5"></div>
             <div className="py-6">

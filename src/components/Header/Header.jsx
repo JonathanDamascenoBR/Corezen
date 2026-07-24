@@ -13,15 +13,15 @@ function Header() {
                 {/* <!-- Barra superior --> */}
                 <MenuTopo />
                 <div
-                    className="w-full xl:w-7xl py-4 mx-auto flex items-center xl:justify-between"
+                    className="w-full max-w-7xl py-4 mx-auto flex items-center justify-between px-10 xl:px-0"
                 >
-                    <div className="xl:hidden">
+                    <div className="md:hidden">
                         <MenuMobile />
                     </div>
 
                     {/* <!-- Menu --> */}
                     <div
-                        className="md:w-max w-full group flex items-center justify-center xl:justify-start cursor-pointer pt-2 md:pr-0 pr-40"
+                        className="w-full md:w-max group flex items-center justify-center md:justify-start cursor-pointer pt-2"
                     >
                         <a href="/"
                         ><img
@@ -41,7 +41,7 @@ function Header() {
                         </div>
                     </div>
 
-                    <div className="mx-auto hidden md:flex w-full justify-end gap-30 xl:pr-0 pr-10">
+                    <div className="hidden md:flex justify-end items-center gap-8">
                         <div className="">
                             {/* <!-- Textos Header --> */}
                             <nav className="flex gap-10 text-2xl">
