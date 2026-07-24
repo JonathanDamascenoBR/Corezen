@@ -3,13 +3,13 @@ import { FaCamera } from "react-icons/fa";
 
 function AreaUsuarioC() {
   return (
-    <div className="w-full max-w-7xl mx-auto flex items-center justify-center p-6">
+    <div className="w-full mx-auto flex items-center justify-center px-4 py-6 md:p-6">
       {/* Container principal */}
 
       {/* Container interno */}
-      <div className="bg-slate-900 max-w-7xl border-white rounded-3xl p-50 gap-70 flex flex-col md:flex-row justify-center items-center">
+      <div className="bg-slate-900 w-full max-w-7xl mx-auto p-8 md:p-20 rounded-3xl gap-8 md:gap-[70px] flex flex-col md:flex-row justify-center items-center border border-slate-700">
         {/* Lado esquerdo */}
-        <div className="flex flex-col gap-6 p-5 items-center  w-full md:w-1/2">
+        <div className="flex flex-col gap-6 p-5 items-center w-full md:w-1/2">
           <button className="text-black bg-cyan-400 mt hover:bg-cyan-300 transition   rounded-md py-6 px-6  text-xl ">
             Builds Salvas
           </button>
@@ -22,7 +22,7 @@ function AreaUsuarioC() {
           </button>
         </div>
 
-        <div className="hidden md:block w-[2px] bg-slate-600 self-stretch"></div>
+        <div className="w-3/4 h-[2px] md:w-[2px] md:h-auto bg-slate-600 md:self-stretch my-2 md:my-0 rounded-full"></div>
 
         {/* Lado direito */}
         <div className="flex flex-col gap-6 p-5 items-center  w-full md:w-1/2">
