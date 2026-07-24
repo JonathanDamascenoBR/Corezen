@@ -16,10 +16,10 @@ import ImgGabinete from '../../../../assets/imgs/thumbs/gabinete.png'
 function AbaBuild() {
     return (
         <>
-            <div id="" className="max-w-7xl mx-auto w-full">
+            <div id="" className="max-w-7xl mx-auto w-full px-4 md:px-8">
                 {/* Aba Build */}
                 <section className="w-full">
-                    <div className="h-full w-full flex-col gap-8 pt-7">
+                    <div className="w-full flex flex-col pt-7">
                         <h1 className="text-4xl pt-8 text-center">Comparador de Hardware</h1>
                         <p className="text-xl pt-10 text-gray-300 text-center">
                             Escolha abaixo uma peça para comparar o desempenho:
@@ -29,7 +29,7 @@ function AbaBuild() {
 
                         {/* Linha 1 */}
                         <div
-                            className="h-full w-full grid grid-cols-1 sm:grid-cols-2 md:flex pt-5 center pl-20 md:pl-0 justify-around"
+                            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-10 pb-6 w-full justify-items-center"
                         >
                             {/* Linha 1 Bloco 1 */}
                             <div
@@ -74,7 +74,6 @@ function AbaBuild() {
                                     className="absolute bottom-0 right-0 w-6 h-6 border-b-2 border-r-2 border-white opacity-0 translate-x-2 translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
                                 ></span>
                             </div>
-
                             {/* Linha 1 Bloco 2 */}
                             <div
                                 className="relative w-74 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
@@ -208,7 +207,7 @@ function AbaBuild() {
 
                         {/* Linha 2 */}
                         <div
-                            className="h-full w-full grid grid-cols-1 sm:grid-cols-2 md:flex pt-5 pb-5 center pl-20 md:pl-0 justify-around"
+                            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-6 w-full justify-items-center"
                         >
                             {/* Linha 2 Bloco 1 */}
                             <div
@@ -253,7 +252,6 @@ function AbaBuild() {
                                     className="absolute bottom-0 right-0 w-6 h-6 border-b-2 border-r-2 border-white opacity-0 translate-x-2 translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
                                 ></span>
                             </div>
-
                             {/* Linha 2 Bloco 2 */}
                             <div
                                 className="relative w-74 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
@@ -384,10 +382,10 @@ function AbaBuild() {
                                 ></span>
                             </div>
                         </div>
+                    <div className="bg-gray-400 max-w-7xl h-0.5"></div>
                     </div>
 
-                    {/* Produtos */}
-                    <div className="bg-gray-400 max-w-7xl h-0.5"></div>
+                    {/* Promoções */}
                     <div className=''>
                         <SecaoPromocao />
 
