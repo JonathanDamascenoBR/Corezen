@@ -52,8 +52,8 @@ function BuildPage() {
     const notaDeCompatibilidade = analisarSetup()
 
     return (
-        <section className="w-full p-6 xl:p-0 mx-auto">
-            <div className="w-7xl mx-auto flex flex-col xl:flex-row mt-28 mb-10 gap-6">
+        <section className="w-full p-6 xl:p-0">
+            <div className="max-w-7xl mx-auto flex flex-col mt-28 mb-10 lg:flex-row items-center justify-center w-full gap-6">
                 <BuildContainer
                     selecionados={selecionados}
                     setSelecionados={setSelecionados}
