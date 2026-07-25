@@ -14,7 +14,7 @@ function MenuMobile() {
   return (
     <>
       {/* <!-- Ícone --> */}
-      <div className="flex px-10 z-100">
+      <div className="flex z-100">
         <button
           onClick={toggleMenu}
           className="flex md:hidden hover:cursor-pointer hover:scale-120 duration-200 hover:text-cyan-300"
