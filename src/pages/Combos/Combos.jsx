@@ -159,7 +159,7 @@ export default function Combos() {
   }, []); // Array de dependências vazio garante que o processamento execute apenas uma vez no carregamento do componente
 
   return (
-    <div className="w-full mt-24 mb-20 px-4 md:px-11 min-h-screen">
+    <div className="w-full md:mt-12 mt-48 mb-20 px-4 md:px-11 min-h-screen">
       <section className="max-w-7xl mx-auto py-10 md:pt-36">
         {/* Cabeçalho principal */}
         <div className="text-center mb-12">

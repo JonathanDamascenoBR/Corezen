@@ -9,7 +9,7 @@ function Footer() {
         <>
             <footer className="bg-slate-950 text-gray-400 py-8">
                 <div
-                    className="w-full max-w-7xl py-4 px-11 xl:px-0 mx-auto grid sm:grid-cols-3 md:grid-cols-3 gap-10"
+                    className="w-full max-w-7xl py-4 px-11 xl:px-0 mx-auto grid md:grid-cols-3 gap-10"
                 >
                     <FooterRedes />
 

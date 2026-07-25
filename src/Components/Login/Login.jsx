@@ -32,7 +32,7 @@ export default function Login() {
 
   return (
     <div>
-      <div className="w-full min-h-screen max-w-7xl mx-auto relative overflow-hidden md:mt-6 mt-0 md:h-[850px] md:rounded-xl rounded-xl shadow-2xl">
+      <div className="w-full min-h-screen max-w-7xl mx-auto relative overflow-hidden md:mt-6 mt-18 md:h-[850px] md:rounded-xl rounded-xl shadow-2xl">
         {/* FUNDOS ANIMADOS */}
         <div
           className={`

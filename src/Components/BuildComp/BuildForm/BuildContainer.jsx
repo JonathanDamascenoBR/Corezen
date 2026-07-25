@@ -20,7 +20,7 @@ function BuildContainer({ selecionados, setSelecionados, consumoTotal, precoTota
     }
 
     return (
-        <div className="w-full xl:w-2/3 flex flex-col justify-center items-center mt-32">
+        <div className="w-full xl:w-2/3 flex flex-col justify-center items-center md:mt-16 mt-22">
             <h2 className="text-3xl text-white">Monte sua própria configuração</h2>
             <div className="w-full hidden md:grid grid-cols-3 mt-16 px-6">
                 <h3 className=" text-[#53EAFD] text-start text-xl ml-6">Categoria</h3>

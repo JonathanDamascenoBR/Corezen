@@ -19,7 +19,7 @@ export default function Comparacao() {
     soquete: "Soquete",
     chipset: "Chipset",
     formato: "Formato",
-    tipo_memoria:"Tipo de Memoria",
+    tipo_memoria: "Tipo de Memoria",
     slots_m2: "Slots M.2",
     pci_express: "PCI Express",
     nucleos_threads: "Núcleos / Threads",
@@ -49,7 +49,7 @@ export default function Comparacao() {
   console.log(peca2);
 
   return (
-    <main className="max-w-7xl mx-auto px-4 py-45">
+    <main className="max-w-7xl mx-auto px-4 md:py-45 py-55">
       {/* Categoria */}
       <div className="mb-10 text-center">
         <h2 className="text-white text-xl font-bold mb-4">
@@ -73,18 +73,36 @@ export default function Comparacao() {
       </div>
 
       {/* <!-- Seleção das Peças --> */}
-      <div className="grid md:grid-cols-2 gap-8 mb-8">
-        <div className="text-center flex justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+        <div className="flex flex-col items-center gap-4">
           <button
             onClick={() => setMenuAberto("peca1")}
             className="bg-cyan-400 text-black pl-8 pr-2 py-2 rounded  hover:bg-cyan-300 transition flex items-center gap-2"
           >
             {peca1.modelo} <GoChevronDown />
-            
           </button>
+
+          {/* <!-- Card 1 --> */}
+          <div className="bg-slate-900 rounded-lg p-6 w-full h-full">
+            <div className="flex justify-center">
+              <div className="flex justify-center">
+                <div className="bg-slate-800 rounded-lg p-6">
+                  <img src={peca1.imagem} alt={peca1.modelo} className="w-48" />
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-center text-white mt-4 text-lg">{peca1.nome}</h2>
+
+            <h3 className="text-center font-bold text-white mt-6">Descrição</h3>
+
+            <p className="text-center text-gray-300 text-sm mt-4 leading-relaxed">
+              {peca1.descricao}
+            </p>
+          </div>
         </div>
 
-        <div className="text-center flex justify-center">
+        <div className="flex flex-col items-center gap-4">
           <button
             onClick={() => setMenuAberto("peca2")}
             className="bg-cyan-400 text-black pl-8 pr-2 py-2 rounded  hover:bg-cyan-300 transition flex items-center gap-2"
@@ -92,8 +110,27 @@ export default function Comparacao() {
             {peca2.modelo} <GoChevronDown />
           </button>
 
-          {/* <!-- Menu de Seleção --> */}
+          {/* <!-- Card 2 --> */}
+          <div className="bg-slate-900 rounded-lg p-6 w-full h-full">
+            <div className="flex justify-center">
+              <div className="flex justify-center">
+                <div className="bg-slate-800 rounded-lg p-6">
+                  <img src={peca2.imagem} alt={peca2.modelo} className="w-48" />
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-center text-white mt-4 text-lg">{peca2.nome}</h2>
+
+            <h3 className="text-center font-bold text-white mt-6">Descrição</h3>
+
+            <p className="text-center text-gray-300 text-sm mt-4 leading-relaxed">
+              {peca2.descricao}
+            </p>
+          </div>
         </div>
+
+        {/* <!-- Menu de Seleção --> */}
         {menuAberto && (
           <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
             <div className="bg-slate-950 border border-cyan-300 rounded-lg w-80 shadow-lg shadow-cyan-500/10 overflow-hidden">
@@ -137,47 +174,6 @@ export default function Comparacao() {
             </div>
           </div>
         )}
-      </div>
-
-      {/* <!-- Cards --> */}
-      <div className="grid md:grid-cols-2 gap-8">
-        {/* <!-- Card 1 --> */}
-        <div className="bg-slate-900 rounded-lg p-6">
-          <div className="flex justify-center">
-            <div className="flex justify-center">
-              <div className="bg-slate-800 rounded-lg p-6">
-                <img src={peca1.imagem} alt={peca1.modelo} className="w-48" />
-              </div>
-            </div>
-          </div>
-
-          <h2 className="text-center text-white mt-4 text-lg">{peca1.nome}</h2>
-
-          <h3 className="text-center font-bold text-white mt-6">Descrição</h3>
-
-          <p className="text-center text-gray-300 text-sm mt-4 leading-relaxed">
-            {peca1.descricao}
-          </p>
-        </div>
-
-        {/* <!-- Card 2 --> */}
-        <div className="bg-slate-900 rounded-lg p-6">
-          <div className="flex justify-center">
-            <div className="flex justify-center">
-              <div className="bg-slate-800 rounded-lg p-6">
-                <img src={peca2.imagem} alt={peca2.modelo} className="w-48" />
-              </div>
-            </div>
-          </div>
-
-          <h2 className="text-center text-white mt-4 text-lg">{peca2.nome}</h2>
-
-          <h3 className="text-center font-bold text-white mt-6">Descrição</h3>
-
-          <p className="text-center text-gray-300 text-sm mt-4 leading-relaxed">
-            {peca2.descricao}
-          </p>
-        </div>
       </div>
 
       {/* <!-- Resultado --> */}

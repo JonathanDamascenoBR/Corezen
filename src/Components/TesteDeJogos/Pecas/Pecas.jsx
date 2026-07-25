@@ -56,9 +56,9 @@ function Pecas() {
     console.log(resultadoFps);
 
     return (
-        <section className="w-full max-w-7xl mx-auto bg-slate-950 text-white text-center justify-center mt-56">
+        <section className="w-full max-w-7xl mx-auto bg-slate-950 text-white text-center justify-center mt-46">
             <h2 className="text-5xl text-white mt-10">Testes em Jogos</h2>
-            <div className="flex justify-between mt-15 items-start w-full">
+            <div className="flex md:justify-between mt-15 md:items-start w-full flex-col md:flex-row justify-center items-center md:gap-0 gap-8">
                 <PecasItem
                     titulosjp="Processador"
                     produtosjp={processadoresJp}
@@ -89,7 +89,7 @@ function Pecas() {
 
                     animate={{ opacity: 1, y: 0 }}
 
-                    transition={{ duration: 1, ease: "easeOut" }} className="text-black flex flex-col items-center justify-center  gap-3">
+                    transition={{ duration: 1, ease: "easeOut" }} className="text-black flex flex-col items-center justify-end gap-3">
                     <GraficoFps resultadoFps={resultadoFps} />
 
                 </motion.div>

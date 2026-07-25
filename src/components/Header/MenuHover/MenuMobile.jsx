@@ -19,7 +19,7 @@ function MenuMobile() {
           onClick={toggleMenu}
           className="flex md:hidden hover:cursor-pointer hover:scale-120 duration-200 hover:text-cyan-300"
         >
-          <i className="text-5xl pr-7"><FiAlignJustify /></i>
+          <i className="text-5xl"><FiAlignJustify /></i>
         </button>
       </div>
 

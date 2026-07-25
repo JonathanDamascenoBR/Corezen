@@ -20,7 +20,7 @@ function App() {
       <Header />
 
       {/* Conteúdo Principal */}
-      <main className=" text-gray-200 flex justify-center flex-1">
+      <main className=" text-gray-200 flex justify-center">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/build" element={<Build />} />

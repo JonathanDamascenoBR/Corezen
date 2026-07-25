@@ -3,7 +3,7 @@ import { FaCamera } from "react-icons/fa";
 
 function AreaUsuarioC() {
   return (
-    <div className="w-full mx-auto flex items-center justify-center px-4 py-6 md:p-6">
+    <div className="w-full mx-auto flex items-center justify-center px-4 md:py-6 py-18 md:p-6">
       {/* Container principal */}
 
       {/* Container interno */}
