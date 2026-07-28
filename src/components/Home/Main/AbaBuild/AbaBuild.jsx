@@ -29,7 +29,7 @@ function AbaBuild() {
 
                         {/* Linha 1 */}
                         <div
-                            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-10 pb-6 w-full justify-items-center"
+                            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4 gap-6 pt-10 pb-6 w-full justify-items-center max-w-7xl mx-auto"
                         >
                             {/* Linha 1 Bloco 1 */}
                             <div
@@ -207,7 +207,7 @@ function AbaBuild() {
 
                         {/* Linha 2 */}
                         <div
-                            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-6 w-full justify-items-center"
+                            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4 gap-6 py-6 w-full justify-items-center"
                         >
                             {/* Linha 2 Bloco 1 */}
                             <div

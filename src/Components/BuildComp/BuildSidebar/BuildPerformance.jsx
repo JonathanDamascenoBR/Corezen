@@ -1,6 +1,6 @@
 function BuildPerformance({ pontuacao }) {
     return (
-        <div className="flex flex-col items-center mt-32">
+        <div className="flex flex-col items-center md:mt-32 mt-12">
             <h2 className="text-2xl text-center text-white">
                 Compatibilidade <br /> entre as peças
             </h2>

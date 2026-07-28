@@ -3,7 +3,7 @@ function BotoesFiltros({ categorias, categoriaAtiva, onSelecionar }) {
     return (
         <>
             {/* Inicio Botões */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 p-6 max-w-7xl mx-auto w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 max-w-7xl mx-auto w-full">
                 {/* Botão 1 */}
                 {categorias.map((categoria) => (
                     <div key={categoria} className={`relative overflow-hidden group transition duration-300 
@@ -12,8 +12,8 @@ function BotoesFiltros({ categorias, categoriaAtiva, onSelecionar }) {
                             : "bg-gray-900/60 hover:border hover:border-white/50 bg-radial hover:from-white/10 border-b border-slate-800 backdrop-blur-md"
                         }`}
                     >
-                        <div onClick={() => onSelecionar(categoria)} className="flex items-center justify-between px-4 py-3 cursor-pointer">
-                            <button className="font-bold text-xl flex gap-15 text-white group-hover:text-cyan-300 transition-colors duration-300 cursor-pointer">
+                        <div onClick={() => onSelecionar(categoria)} className="flex items-center justify-between p-3 cursor-pointer w-full gap-2">
+                            <button className="font-bold text-base sm:text-lg lg:text-xl text-white group-hover:text-cyan-300 transition-colors duration-300 cursor-pointer text-left truncate">
                                 {categoria}
                             </button>
                             <span
