@@ -10,6 +10,7 @@ import TesteJogos from './pages/Testes/TestesEmJogos/TesteJogos'
 import TesteDeDesempenho from './Pages/Testes/TesteDeDesempenho/TesteDeDesempenho'
 import Footer from './components/Footer/Footer'
 import ScrollToTop from './components/Home/ScrollToTop/ScrollToTop';
+import ChatBot from './components/ChatBot/ChatBot';
 
 function App() {
 
@@ -31,6 +32,8 @@ function App() {
           <Route path="/usuario" element={<AreaUsuario />} />
         </Routes>
       </main>
+
+      <ChatBot />
 
       <Footer />
     </>
