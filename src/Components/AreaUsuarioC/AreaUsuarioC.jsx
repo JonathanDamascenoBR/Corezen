@@ -7,7 +7,7 @@ function AreaUsuarioC() {
       {/* Container principal */}
 
       {/* Container interno */}
-      <div className="bg-slate-900 w-full max-w-7xl mx-auto p-8 md:p-20 rounded-3xl gap-8 md:gap-[70px] flex flex-col md:flex-row justify-center items-center border border-slate-700">
+      <div className="bg-slate-900 w-full max-w-7xl mx-auto p-8 md:p-20 rounded-3xl gap-8 md:gap-[70px] flex flex-col md:flex-row justify-center items-center border border-[#00d2ff]/30">
         {/* Lado esquerdo */}
         <div className="flex flex-col gap-6 p-5 items-center w-full md:w-1/2">
           <button className="text-black bg-cyan-400 mt hover:bg-cyan-300 transition   rounded-md py-6 px-6  text-xl ">

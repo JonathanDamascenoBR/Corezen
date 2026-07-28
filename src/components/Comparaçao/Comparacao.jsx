@@ -59,7 +59,7 @@ export default function Comparacao() {
         <select
           value={categoria}
           onChange={(e) => setCategoria(e.target.value)}
-          className="bg-slate-900 text-white border border-cyan-300 rounded px-4 py-2"
+          className="bg-slate-900 text-white border border-cyan-300 rounded px-4 py-2 "
         >
           <option>Placa Mãe</option>
           <option>Processador</option>
@@ -83,7 +83,7 @@ export default function Comparacao() {
           </button>
 
           {/* <!-- Card 1 --> */}
-          <div className="bg-slate-900 rounded-lg p-6 w-full h-full">
+          <div className="bg-slate-900 rounded-lg p-6 w-full h-full border border-[#00d2ff]/30">
             <div className="flex justify-center">
               <div className="flex justify-center">
                 <div className="bg-slate-800 rounded-lg p-6">
@@ -111,7 +111,7 @@ export default function Comparacao() {
           </button>
 
           {/* <!-- Card 2 --> */}
-          <div className="bg-slate-900 rounded-lg p-6 w-full h-full">
+          <div className="bg-slate-900 rounded-lg p-6 w-full h-full border border-[#00d2ff]/30">
             <div className="flex justify-center">
               <div className="flex justify-center">
                 <div className="bg-slate-800 rounded-lg p-6">
@@ -184,7 +184,7 @@ export default function Comparacao() {
 
         {/* Tabela */}
 
-        <div className="bg-slate-900 rounded-lg overflow-hidden">
+        <div className="bg-slate-900 rounded-lg overflow-hidden border border-[#00d2ff]/30">
           <table className="w-full table-fixed border-collapse">
             <thead>
               <tr className="border-b border-slate-600 bg-slate-800">
