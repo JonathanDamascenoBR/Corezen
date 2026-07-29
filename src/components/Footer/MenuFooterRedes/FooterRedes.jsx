@@ -21,7 +21,7 @@ function FooterRedes() {
                 {/* <!-- Redes sociais --> */}
                 <div className="flex space-x-4">
                     <a
-                        href="#"
+                        href="https://www.facebook.com"
                         className="hover:text-blue-800 text-white transition flex items-center justify-center"
                     >
                         {/* <!-- Facebook --> */}
@@ -29,7 +29,7 @@ function FooterRedes() {
                     </a>
 
                     <a
-                        href="#"
+                        href="https://x.com/"
                         className="hover:text-cyan-400 text-white transition flex items-center justify-center"
                     >
                         {/* <!-- Twitter/X --> */}
@@ -37,14 +37,14 @@ function FooterRedes() {
                     </a>
 
                     <a
-                        href="#"
+                        href="https://www.instagram.com/"
                         className="hover:text-pink-500 text-white transition flex items-center justify-center"
                     >
                         {/* <!-- Instagram --> */}
                         <i className="text-4xl"><FaInstagram /></i>
                     </a>
                     <a
-                        href="#"
+                        href="https://www.youtube.com/"
                         className="hover:text-red-500 text-white transition flex items-center justify-center"
                     >
                         {/* <!-- Youtube --> */}
