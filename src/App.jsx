@@ -1,13 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 
 import Header from './components/Header/Header'
-import Login from './pages/Login/Login'
+import Login from './pages/Login/login'
 import AreaUsuario from './pages/AreaUsuario/AreaUsuario'
 import Home from './pages/Home/Home'
 import Build from './pages/BuildPage/BuildPage'
 import Combos from './pages/Combos/Combos'
 import TesteJogos from './pages/Testes/TestesEmJogos/TesteJogos'
-import TesteDeDesempenho from './Pages/Testes/TesteDeDesempenho/TesteDeDesempenho'
+import TesteDeDesempenho from './pages/Testes/TesteDeDesempenho/TesteDeDesempenho'
 import Footer from './components/Footer/Footer'
 import ScrollToTop from './components/Home/ScrollToTop/ScrollToTop';
 import ChatBot from './components/ChatBot/ChatBot';
