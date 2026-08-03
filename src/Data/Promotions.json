@@ -6,7 +6,7 @@
     "lastPrice": "R$ 3.999,99",
     "price": "R$ 1.899,99",
     "url": "https://www.kabum.com.br/produto/426262/processador-amd-ryzen-7-7800x3d-5-0ghz-max-turbo-cache-104mb-am5-8-nucleos-video-integrado-100-100000910wof?gclsrc=aw.ds&utm_id=22429436063&gad_source=1&gad_campaignid=22429436063&gclid=CjwKCAjw6rfSBhAqEiwA_yocpjl78Vx5rTwJFmXy9J5018DJusJOhEWs5dtzZhz8WnLBLJ98mDb0_hoC2rEQAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/ryzen7800x3d.png"
+    "img": "/images/thumbsPromo/ryzen7800x3d.png"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "lastPrice": "R$ 2.249,99",
     "price": "R$ 729,99",
     "url": "https://www.kabum.com.br/produto/645181/processador-intel-core-ultra-5-245kf-5-2ghz-ate-14-nucleos-com-suporte-a-pcie-5-0-e-4-0-e-suporte-a-ddr5-bx80768245kf?gclsrc=aw.ds&utm_id=22429436063&gad_source=1&gad_campaignid=22429436063&gclid=CjwKCAjw6rfSBhAqEiwA_yocpoCPHkMLYsOtrz8cx_gUMF7_FUfwzofs3pE73wVVhWwpOE3uHAuW2xoC_CIQAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/intelCoreUltraI5.png"
+    "img": "/images/thumbsPromo/intelCoreUltraI5.png"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "lastPrice": "R$ 2.491,04",
     "price": "R$ 1.299,99",
     "url": "https://www.kabum.com.br/produto/320797/processador-amd-ryzen-7-5700x-3-4ghz-4-6ghz-max-turbo-cache-36mb-am4-sem-video-100-100000926wof?gclsrc=aw.ds&utm_id=22429436063&gad_source=1&gad_campaignid=22429436063&gclid=CjwKCAjw6rfSBhAqEiwA_yocpmeY1I4hWD-R8s5vUsoBFo3pQOs48rkdkusZ-aD70Nsx_afrMGfSRhoCjzUQAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/ryzen5700x.png"
+    "img": "/images/thumbsPromo/ryzen5700x.png"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "lastPrice": "R$ 1.105,87",
     "price": "R$ 939,99",
     "url": "https://www.pichau.com.br/processador-intel-core-i5-12400f-6-core-12-threads-2-5ghz-4-4ghz-turbo-cache-18mb-lga1700-bx8071512400f-br?gad_source=1&gad_campaignid=17416059499&gclid=CjwKCAjw6rfSBhAqEiwA_yocpgl6nRUwKhMxcW-0Z53EgzvrC33_d8LxmNXJG5E11MxP-CP1N5nJdRoCbUEQAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/intelCorei5.png"
+    "img": "/images/thumbsPromo/intelCorei5.png"
   },
 
   {
@@ -43,7 +43,7 @@
     "lastPrice": "R$ 4.705,87",
     "price": "R$ 2.299,99",
     "url": "https://www.kabum.com.br/produto/1000741/placa-de-video-msi-rtx-5060-shadow-2x-oc-nvidia-geforce-8gb-gddr7-128-bit-912-v537-038?gclsrc=aw.ds&&utm_id=22429436057&gad_source=1&gad_campaignid=22429436057&gclid=CjwKCAjw6rfSBhAqEiwA_yocpvpXhwroiYpncJsGJ_GVZqeizaZ3SMkkCSTqbmF51oJRoM4x_FcNyhoCRzUQAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/rtx5060.png"
+    "img": "/images/thumbsPromo/rtx5060.png"
   },
   {
     "id": 6,
@@ -52,7 +52,7 @@
     "lastPrice": "R$ 5.882,34",
     "price": "R$ 3.299,99",
     "url": "https://www.kabum.com.br/produto/734679/placa-de-video-gigabyte-rx-9060-xt-gaming-oc-amd-radeon-8gb-gddr6-128bits-tripe-fan-opengl-4-6-gv-r9060xtgaming-oc-8gd?gclsrc=aw.ds&utm_id=22429436057&gad_source=1&gad_campaignid=22429436057&gclid=CjwKCAjw6rfSBhAqEiwA_yocprtIBAvnZryMCv8DhzXC86dUFIGkBGnGsCa15aAkaWeXPgS1F-cIYBoCJxIQAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/rx9060xt.png"
+    "img": "/images/thumbsPromo/rx9060xt.png"
   },
   {
     "id": 7,
@@ -61,7 +61,7 @@
     "lastPrice": "R$ 2.011,65",
     "price": "R$ 1.399,99",
     "url": "https://www.kabum.com.br/produto/703109/placa-de-video-galax-geforce-rtx-3050-ex-v2-6gb-gddr6-96-bits-35nrldhp9oid?gclsrc=aw.ds&&utm_id=22429436057&gad_source=1&gad_campaignid=22429436057&gclid=CjwKCAjw6rfSBhAqEiwA_yocpnbeCEhjRlOFLaOQztYFkebGE5t6Qe6MSnywZw6oGV0kOtntlXdBmBoCuh4QAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/rtx3050.png"
+    "img": "/images/thumbsPromo/rtx3050.png"
   },
   {
     "id": 8,
@@ -70,7 +70,7 @@
     "lastPrice": "R$ 3.529,40",
     "price": "R$ 1.599,00",
     "url": "https://www.kabum.com.br/produto/920419/placa-de-video-xfx-speedster-qick308-radeon-rx-7600-white-amd-edition-8gb-gddr6-128-bit-rx-76pqickwy?gclsrc=aw.ds&&utm_id=22429436057&gad_source=1&gad_campaignid=22429436057&gclid=CjwKCAjw6rfSBhAqEiwA_yocpoHVlAfMnGd5pjU3dacMA3h57tFEwDLXdhy89znb-pMDirMAZZftMhoC03UQAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/rx7600.png"
+    "img": "/images/thumbsPromo/rx7600.png"
   },
 
   {
@@ -80,7 +80,7 @@
     "lastPrice": "R$ 1.622,22",
     "price": "R$ 1.199,99",
     "url": "https://www.kabum.com.br/produto/523145/placa-mae-asus-tuf-gaming-b650m-e-wifi-amd-am5-b650-ddr5-preto-90mb1fv0-m0eay0?gclsrc=aw.ds&&utm_id=22429436060&gad_source=1&gad_campaignid=22429436060&gclid=CjwKCAjw6rfSBhAqEiwA_yocpnnoIq4TV5x_K7UExGB7BxQnA8ZAIZiqvd4DdaKyrJ9mj1wnFouRmxoCe_MQAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/b650-m.png"
+    "img": "/images/thumbsPromo/b650-m.png"
   },
   {
     "id": 10,
@@ -89,7 +89,7 @@
     "lastPrice": "R$ 1.548,88",
     "price": "R$ 699,00",
     "url": "https://www.kabum.com.br/produto/524347/placa-mae-msi-b760m-gaming-plus-intel-lga-1700-m-atx-ddr5-wi-fi-preto-b760m-gaming-plus-wifi?gclsrc=aw.ds&&utm_id=22429436060&gad_source=1&gad_campaignid=22429436060&gclid=CjwKCAjw6rfSBhAqEiwA_yocpkji-c2RD750w8McDzrILeukiWK9uM2pe3c0uNkbVxEROnijod3hMhoCds0QAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/b760-m-gaming.png"
+    "img": "/images/thumbsPromo/b760-m-gaming.png"
   },
   {
     "id": 11,
@@ -98,7 +98,7 @@
     "lastPrice": "R$ 705,25",
     "price": "R$ 579,99",
     "url": "https://www.kabum.com.br/produto/165133/placa-mae-asus-tuf-gaming-a520m-plus-ii-amd-am4-matx-ddr4-preto-90mb17g0-m0eay0?gclsrc=aw.ds&&utm_id=22429436060&gad_source=1&gad_campaignid=22429436060&gclid=CjwKCAjw6rfSBhAqEiwA_yocpjHn3NVmoV1xP2RD6-kn_yANEonzigPizJRcXAbY2mEysEuUjIbOMBoCVKsQAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/a520m.png"
+    "img": "/images/thumbsPromo/a520m.png"
   },
   {
     "id": 12,
@@ -107,7 +107,7 @@
     "lastPrice": "R$ 898,87",
     "price": "R$ 769,99",
     "url": "https://www.kabum.com.br/produto/524349/placa-mae-msi-pro-b760m-e-intel-lga-1700-m-atx-ddr4-preto-pro-b760m-e-ddr4?gclsrc=aw.ds&&utm_id=22429436060&gad_source=1&gad_campaignid=22429436060&gclid=CjwKCAjw6rfSBhAqEiwA_yocpmYrVNiDOa6TsBSEGJyRFXWgo4161Zb-Z-2tOa4BW3WbcrFMOXFdRhoCE-UQAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/b760-m.png"
+    "img": "/images/thumbsPromo/b760-m.png"
   },
 
   {
@@ -117,7 +117,7 @@
     "lastPrice": "R$ 447,00",
     "price": "R$ 379,99",
     "url": "https://www.kabum.com.br/produto/383892/memoria-ram-rise-mode-z-8gb-3200mhz-ddr4-cl19-preto-rm-d4-8g-3200z?gclsrc=aw.ds&&utm_id=22429436051&gad_source=1&gad_campaignid=22429436051&gclid=CjwKCAjw6rfSBhAqEiwA_yocpmz8Zv_Kd5Tj-CaQKToG3X8wKkQgL8sRKrAqjD9Td7upSSj2QwSVDhoCpasQAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/risemode.png"
+    "img": "/images/thumbsPromo/risemode.png"
   },
   {
     "id": 14,
@@ -126,7 +126,7 @@
     "lastPrice": "R$ 952,74",
     "price": "R$ 549,99",
     "url": "https://www.kabum.com.br/produto/172365/memoria-ram-kingston-fury-beast-8gb-3200mhz-ddr4-cl16-preto-kf432c16bb-8?gclsrc=aw.ds&utm_id=22429436051&gad_source=1&gad_campaignid=22429436051&gclid=CjwKCAjw6rfSBhAqEiwA_yocpkRqxjQLRreYLYIZzt25lSAbpVa9xf3lBS1NhI3oT73W3A0aVZIzdRoCIHQQAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/hyperxFury.png"
+    "img": "/images/thumbsPromo/hyperxFury.png"
   },
   {
     "id": 15,
@@ -135,7 +135,7 @@
     "lastPrice": "R$ 899,00",
     "price": "R$ 810,30",
     "url": "https://www.amazon.com.br/Mem%C3%B3ria-PC3200-Vengeance-CMK16GX4M1E3200C16-CORSAIR/dp/B07W8ZDDKT/ref=asc_df_B07W8ZDDKT?mcid=c2d5e8ad75473188b7dacd8873132481&tag=googleshopp00-20&linkCode=df0&hvadid=709884378160&hvpos=&hvnetw=g&hvrand=12120574742025517484&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001778&hvtargid=pla-812692931219&hvocijid=12120574742025517484-B07W8ZDDKT-&hvexpln=0&language=pt_BR&th=1",
-    "img": "src/assets/imgs/thumbsPromo/vengenceBlackV2.png"
+    "img": "/images/thumbsPromo/vengenceBlackV2.png"
   },
   {
     "id": 16,
@@ -144,6 +144,6 @@
     "lastPrice": "R$ 2.798,81",
     "price": "R$ 1.999,99",
     "url": "https://www.kabum.com.br/produto/111005/memoria-ram-corsair-vengeance-pro-rgb-32gb-2x16gb-2666mhz-ddr4-cl16-preto-cmw32gx4m2a2666c16?gclsrc=aw.ds&&utm_id=23840852120&gad_source=1&gad_campaignid=23840852120&gclid=CjwKCAjw6rfSBhAqEiwA_yocpuP9Y7YX7fawD-o2M8Z3TtC1IZR7GDa2nKVNIEraNG_68k-fFblHMxoCPNEQAvD_BwE",
-    "img": "src/assets/imgs/thumbsPromo/vengenceRGB.png"
+    "img": "/images/thumbsPromo/vengenceRGB.png"
   }
 ]
