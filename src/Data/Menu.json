@@ -1,32 +1,34 @@
 [
-    {
-        "url": "/",
-        "label": "",
+  {
+    "url": "/",
+    "label": "",
+    "customClass": ""
+  },
+  {
+    "url": "#",
+    "label": "Testes",
+    "customClass": "",
+    "subMenu": [
+      {
+        "url": "/testeJogos",
+        "label": "Testes em Jogos",
         "customClass": ""
-    },
-    {
-        "url": "/testes",
-        "label": "Testes",
-        "customClass": ""
-    },
-    {
-        "url": "/builds",
-        "label": "Builds",
-        "customClass": ""
-    },
-    {
-        "url": "/combos",
-        "label": "Combos",
-        "customClass": ""
-    },
-    {
-        "url": "/testesGame",
-        "label": "Testes de Jogos",
-        "customClass": ""
-    },
-    {
+      },
+      {
         "url": "/testesDesemp",
         "label": "Testes de Desempenho",
         "customClass": ""
-    }
+      }
+    ]
+  },
+  {
+    "url": "/build",
+    "label": "Build",
+    "customClass": ""
+  },
+  {
+    "url": "/combos",
+    "label": "Combos",
+    "customClass": ""
+  }
 ]
