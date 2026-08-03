@@ -13,7 +13,6 @@ import ScrollToTop from './components/Home/ScrollToTop/ScrollToTop';
 import ChatBot from './components/ChatBot/ChatBot';
 
 function App() {
-
   return (
     <>
       <ScrollToTop />
