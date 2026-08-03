@@ -1,5 +1,5 @@
 import MenuItem from "./MenuItem";
-import FooterSobreData from '../../../data/FooterSobre.json';
+import FooterSobreData from '../../../Data/FooterSobre.json';
 
 function FooterSobre() {
     return (

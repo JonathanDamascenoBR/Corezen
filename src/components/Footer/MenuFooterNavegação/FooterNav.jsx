@@ -1,5 +1,5 @@
 import MenuItem from "./MenuItem";
-import FooterNavData from '../../../data/FooterNav.json';
+import FooterNavData from '../../../Data/FooterNav.json';
 
 function FooterNav() {
     return (

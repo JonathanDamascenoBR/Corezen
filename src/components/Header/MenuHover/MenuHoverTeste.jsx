@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import MenuData from '../../../data/Menu.json'
+import MenuData from '../../../Data/Menu.json'
 
 function MenuHoverTeste() {
 
