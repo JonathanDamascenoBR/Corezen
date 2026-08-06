@@ -3,7 +3,7 @@ function BotoesFiltros({ categorias, categoriaAtiva, onSelecionar }) {
     return (
         <>
             {/* Inicio Botões */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 max-w-7xl mx-auto w-full">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 max-w-[1400px] mx-auto w-full">
                 {/* Botão 1 */}
                 {categorias.map((categoria) => (
                     <div key={categoria} className={`relative overflow-hidden group transition duration-300 

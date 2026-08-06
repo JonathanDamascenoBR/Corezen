@@ -1,3 +1,5 @@
+import React, { useRef } from 'react';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { BsArrowReturnRight } from "react-icons/bs";
 import { Link } from 'react-router-dom';
 import SecaoPromocao from '../AbaProducts/SecaoPromocao'
@@ -14,9 +16,22 @@ import ImgGabinete from '../../../../assets/imgs/thumbs/gabinete.png'
 
 
 function AbaBuild() {
+    const scrollRef = useRef(null);
+
+    const handleScroll = (direction) => {
+        if (scrollRef.current) {
+            const scrollAmount = scrollRef.current.clientWidth * 0.8;
+
+            scrollRef.current.scrollBy({
+                left: direction === 'left' ? -scrollAmount : scrollAmount,
+                behavior: 'smooth',
+            });
+        }
+    };
+
     return (
         <>
-            <div id="" className="max-w-7xl mx-auto w-full px-4 md:px-8">
+            <div id="" className="max-w-[1400px] mx-auto w-full px-4 md:px-8">
                 {/* Aba Build */}
                 <section className="w-full">
                     <div className="w-full flex flex-col pt-7">
@@ -25,12 +40,15 @@ function AbaBuild() {
                             Escolha abaixo uma peça para comparar o desempenho:
                         </p>
                         {/* Linha Divisória */}
-                        <div className="bg-gray-400 max-w-7xl h-0.5 mt-10"></div>
+                        <div className="bg-gray-400 max-w-[1400px] h-0.5 mt-10"></div>
 
-                        {/* Linha 1 */}
                         <div
-                            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4 gap-6 pt-10 pb-6 w-full justify-items-center max-w-7xl mx-auto"
+                            ref={scrollRef}
+                            className="grid grid-cols-8 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 md:gap-6 gap-84
+                            overflow-x-auto pt-10 md:pb-6 snap-x snap-mandatory scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] 
+                            justify-between md:justify-items-center max-w-7xl mx-auto w-full"
                         >
+                            {/* Linha 1 */}
                             {/* Linha 1 Bloco 1 */}
                             <div
                                 className="relative w-74 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
@@ -203,12 +221,8 @@ function AbaBuild() {
                                     className="absolute bottom-0 right-0 w-6 h-6 border-b-2 border-r-2 border-white opacity-0 translate-x-2 translate-y-2 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 transition-all duration-300"
                                 ></span>
                             </div>
-                        </div>
 
-                        {/* Linha 2 */}
-                        <div
-                            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4 gap-6 py-6 w-full justify-items-center"
-                        >
+                            {/* Linha 2 */}
                             {/* Linha 2 Bloco 1 */}
                             <div
                                 className="relative w-74 bg-gray-900 overflow-hidden cursor-pointer group hover:border hover:border-white/50 bg-radial hover:from-white/10 transition duration-300"
@@ -382,7 +396,28 @@ function AbaBuild() {
                                 ></span>
                             </div>
                         </div>
-                    <div className="bg-gray-400 max-w-7xl h-0.5"></div>
+
+                        {/* Botões Direita Esquerda */}
+                        <div className="flex justify-end items-center gap-4 py-8 pr-4 md:hidden">
+                            {/* Botão Esquerdo */}
+                            <button
+                                onClick={() => handleScroll('left')}
+                                className="w-11 h-11 rounded-full bg-cyan-300 hover:bg-cyan-200 text-black flex items-center justify-center active:scale-95 transition-all shadow-md cursor-pointer"
+                                aria-label="Anterior"
+                            >
+                                <FaChevronLeft size={16} />
+                            </button>
+
+                            {/* Botão Direito */}
+                            <button
+                                onClick={() => handleScroll('right')}
+                                className="w-11 h-11 rounded-full bg-cyan-300 hover:bg-cyan-200 text-black flex items-center justify-center active:scale-95 transition-all shadow-md cursor-pointer"
+                                aria-label="Próximo"
+                            >
+                                <FaChevronRight size={16} />
+                            </button>
+                        </div>
+                        <div className="bg-gray-400 max-w-[1400px] h-0.5"></div>
                     </div>
 
                     {/* Promoções */}
