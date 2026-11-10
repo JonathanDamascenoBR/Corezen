@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
-import OpenAI from 'openai';
+import React, { useState, useEffect, useRef } from 'react';
+import Groq from "groq-sdk";
 import logo from '../../assets/imgs/LogoChatBot.png'
 
 // Inicializa a IA
-const openai = new OpenAI({
+const groq = new Groq({
     apiKey: import.meta.env.VITE_GROQ_API_KEY,
-    baseURL: 'https://api.groq.com/openai/v1', // Esse é o "truque" para desviar do CORS
     dangerouslyAllowBrowser: true
 });
 
@@ -14,6 +13,17 @@ function ChatBot() {
     const [input, setInput] = useState('');
     const [messages, setMessages] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
+    const messagesEndRef = useRef(null);
+
+    const scrollToBottom = () => {
+        messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    useEffect(() => {
+        if (isOpen) {
+            scrollToBottom();
+        }
+    }, [messages, isLoading, isOpen]);
 
     // Modos: 'ia' (padrão) ou 'human'
     const [chatMode, setChatMode] = useState('ia');
@@ -89,25 +99,32 @@ function ChatBot() {
         // Parte da resposta da IA
         setIsLoading(true);
         try {
-            const response = await openai.chat.completions.create({
-                model: "llama-3.1-8b-instant",
-                messages: [
-                    {
-                        role: "system",
-                        content: `Você é um assistente virtual focado em hardware e montagem de computadores.
+            const apiMessages = [
+                {
+                    role: "system",
+                    content: `Você é um assistente virtual focado em hardware e montagem de computadores.
             Sua função é tirar dúvidas sobre compatibilidade de peças, refrigeração e gargalos.
             O site onde você está NÃO vende peças. Sugira sites confiáveis do varejo brasileiro.
-            REGRA ABSOLUTA: Seja extremamente sucinto e direto ao ponto. Responda em no máximo 2 parágrafos curtos. Use bullet points sempre que for listar peças ou dicas. Evite introduções e saudações longas.`
-                    },
-                    ...newMessages
-                ],
+            REGRA ABSOLUTA: Seja extremamente sucinto e direto ao ponto. Responda em no máximo 2 parágrafos curtos. Use bullet points sempre que for listar peças ou dicas. Evite introduções e saudações longas. Não use palavras em negrito.`
+                },
+                ...newMessages.map((m) => ({
+                    role: m.role,
+                    content: m.content
+                }))
+            ];
+
+            const response = await groq.chat.completions.create({
+                model: "qwen/qwen3.8-27b",
+                messages: apiMessages,
                 temperature: 0.3,
-                max_tokens: 250,
+                max_tokens: 500,
             });
+
+            const reply = response.choices[0]?.message?.content || response.choices[0]?.message?.reasoning || 'Não foi possível gerar uma resposta no momento.';
 
             setMessages((prev) => [
                 ...prev,
-                { role: 'assistant', content: response.choices[0].message.content }
+                { role: 'assistant', content: reply }
             ]);
         } catch (error) {
             console.error("Erro ao chamar a IA:", error);
@@ -185,6 +202,7 @@ function ChatBot() {
                                 {chatMode === 'human' ? 'Redirecionando...' : 'Analisando...'}
                             </span>
                         )}
+                        <div ref={messagesEndRef} />
                     </div>
 
                     <form onSubmit={handleSubmit} className="flex p-3 bg-slate-950 border-t border-slate-700">
